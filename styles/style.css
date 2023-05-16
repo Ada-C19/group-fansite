@@ -1,0 +1,15 @@
+body {
+    font-family: Didot, serif;
+    background-color: #f6f5f1;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 36px;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+h2 {
+    text-decoration: underline;
+}
