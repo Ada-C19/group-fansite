@@ -1,0 +1,55 @@
+h1 {
+    color: rgba(204, 108, 255, 0.999);
+    font-weight: bold;
+}
+
+
+.flex-container {
+    display: flex;
+}
+
+.flex-item {
+    flex: 1;
+    margin: 10px;
+    text-align: center;
+}
+
+.flex-item figcaption h2,
+.flex-item figcaption p {
+    height: 40px; 
+    margin: 0; 
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f4e5ff;
+    padding: 20px;
+}
+
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    border-bottom: 1px solid #f3e2ff;
+}
+
+ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+ul li a {
+    text-decoration: none;
+}
+
+
+header h1,
+header h1:visited {
+    color: black;
+    text-decoration: underline;
+}
+
+
+
