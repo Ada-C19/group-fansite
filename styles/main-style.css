@@ -1,0 +1,25 @@
+/* Main: Flexbox */
+.container {
+    margin: 5% 15%;
+}
+
+/* Main: Navbar Styling & Positioning */
+nav {
+    float: left;
+    width: 30%;
+    height: 100%;
+    background-color: pink;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li a{
+    text-decoration: none;
+}
+
+/* Main: Content Styling & Positioning */
+
+
+/* Main: Footer  */
