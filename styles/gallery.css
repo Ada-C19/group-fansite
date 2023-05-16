@@ -33,4 +33,33 @@ header {
 .navbar a:hover {
     border-bottom: 2px solid black;
 }
+figure {
+    margin: 0;
+}
 
+.images {
+    border: 3px;
+    border-style: solid;
+    color: #e6bc40;
+    border-radius: 15px;
+    /* margin: 25px; */
+    flex-grow: 1;
+    flex-shrink: 7;
+    width: 300px;
+}
+
+.gallery {
+    display: inline flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    flex-basis: auto;
+    flex-wrap: nowrap;
+    gap: 25px;
+    width: 100%;
+}
+
+figure figcaption {
+    text-align: center;
+}
