@@ -1,0 +1,36 @@
+
+figure {
+    margin: 0; 
+    padding: 0
+  }
+
+h1 {
+    text-decoration: underline;
+    text-align: center;
+    color: red;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    margin-bottom: 0px;
+}
+
+h2{
+   text-align:center;
+   color: black; 
+   margin-bottom: 0px;
+}
+
+ul{
+    list-style-type: none;
+    text-align:center;
+}
+
+li{
+    display: inline-block;
+    padding: 1em;
+}
+
+p{
+    text-align: justify;
+}
