@@ -1,0 +1,123 @@
+header {
+  background: linear-gradient(rgba(0, 0, 0, .2), rgba(49, 36, 47)), url('../images/background.jpg');
+  height: 80vh;
+  width: 100vw;
+  background-size: cover;
+  background-position: center calc(50% - 20%);
+  top: 0;
+  left: 0;
+  font-family: 'Montserrat', sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+body {
+  background-color: rgb(49, 36, 47);
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+  padding: 0;
+  color: white;
+  font-size: 1.3rem;
+  line-height: 1.5;
+}
+
+header nav ul {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  padding: 10px;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+header nav ul li a:hover {
+  color: #cfb9b7;
+}
+
+#friends-logo {
+  width: 75vw;
+  max-width: 800px;
+  margin: 0 auto;
+  display: block;
+}
+
+#subtitle {
+  font-size: 5vw;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 1.5rem;
+  text-align: center;
+  color: white;
+  width: fit-content;
+  padding-left: 20px;
+  margin: 0 auto;
+}
+
+nav {
+    margin-bottom: auto;
+}
+
+a {
+  text-decoration: none;
+  color: #cfb9b7;
+  font-weight: bold;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+main {
+  max-width: 1200px;
+  margin: 6rem auto;
+  padding: 0 2rem;
+}
+
+.accent_img {
+  width: 30vw;
+  border-radius: 10px;
+  filter: drop-shadow(0 0 10px rgba(0, 0, 0, .5)) contrast(1.2);
+
+}
+
+.container {
+  display: flex;
+  gap: 2rem;
+}
+
+footer {
+  background: hsl(309, 15%, 10%);
+  display: flex;
+  justify-content: space-around;
+  padding: 3em 5em;
+  border-top: 1px solid rgba(255, 255, 255, .2);
+}
+
+footer div {
+  width: 40%;
+}
+
+#logo-sm {
+  width: 15rem;
+  margin: 0 auto;
+}
+
+footer h3 {
+  margin-top: 0;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+}
+
+footer nav ul {
+  list-style: none;
+  padding-left: 0;
+}
+footer a {
+  font-weight: normal;
+}
