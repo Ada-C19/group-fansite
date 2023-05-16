@@ -40,6 +40,8 @@ header {
 
 main {
     margin: 30px;
+    min-width: 600px;
+
 }
 
 .title {
@@ -72,4 +74,18 @@ main {
 
 .facts:nth-of-type(2n) {
     background-color: #fdf9fd;
+}
+
+.sources {
+    width: 40%;
+    margin: auto;
+    color: gray;
+}
+
+.sources p {
+    margin: 0;
+}
+
+.sources ul {
+    margin: 0;
 }
