@@ -1,0 +1,199 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+
+nav,
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+  opacity: 0.9;
+}
+
+a:hover {
+opacity: 1;
+}
+
+
+.container {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 50px;
+  background-color: #fff;
+}
+
+.container li.menu-item {
+  font-size: 30px; /* Adjust the font size as needed */
+}
+
+.container img {
+width: 200px;
+}
+
+.container nav,
+.container ul {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+}
+
+.container li a {
+  color: #191c03;
+}
+
+.container li {
+  margin: 0 15px;
+}
+
+.container li:first-child {
+  margin: 1;
+}
+
+.container li:last-child {
+  margin-right: 0;
+}
+
+
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 20px; 
+}
+
+
+.grid article {
+    background-color: #002800;
+    padding: 20px;
+    text-align: justify;
+}
+
+
+.home{
+  background-image: url(img/adam-smigielski-SWa6EYLCac0-unsplash.jpg);
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.home h1,
+.home h2 {
+    position: relative;
+    z-index: 1;
+    color: #fff;
+    margin-top: 50px;
+}
+
+.home h1 {
+    font-size: 7.2rem;
+    margin-bottom: 5px;
+}
+
+.home h2 {
+    font-size: 4.5rem;
+    margin-bottom: 5px;
+}
+
+.home .btn {
+    background-color: #fff;
+    border-radius: 4px;
+    color: #191c03;
+    padding: 20px 50px;
+    text-transform: uppercase;
+}
+
+.the-amazon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 100px;
+}
+
+.the-amazon h2 {
+  font-size: 2rem;
+  margin-bottom: 35px;
+  color: #191c03;
+  text-align: center;
+}
+
+.the-amazon p {
+  max-width: 800px;
+  margin-bottom: 35px;
+  color: #191c03;
+  text-align: center;
+}
+
+.the-amazon hr {
+  width: 600px;
+  height: 2px;
+  background-color: #191c03;
+  margin-bottom: 70px;
+  border: none;
+}
+
+.the-amazon .grid {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+}
+
+.the-amazon .grid li {
+  flex: 1;
+  height: 350px;
+  padding: 20px;
+  border-radius: 4px;
+  background-clip: content-box;
+  background-size: cover;
+  background-position: center;
+}
+
+.the-amazon .grid li.large {
+  flex-basis: 100%;
+}
+
+.the-amazon .grid li.small {
+  flex-basis: 100%;
+}
+
+.carac .grid h3 {
+  font-size: 2rem;
+  color: #82fa7e;
+  padding: 5%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.carac .grid p {
+  font-size: 1.2rem;
+  color: #fff;
+  text-align: center;
+  padding: 10px 1%;
+}
+
+
+.carac .grid i {
+  font-size: 3rem;
+  color: #c3c63b;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
