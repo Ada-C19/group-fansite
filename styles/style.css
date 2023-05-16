@@ -1,0 +1,27 @@
+header {
+    text-align: center;
+    background-color: whitesmoke;
+}
+
+footer {
+    text-align: center;
+    color: purple;
+    margin-top: 1em;
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:rgb(237, 4, 128);
+}
+
+#navlinks li {
+    display: inline;
+    margin: 14 px;
+}
+
+.short-summary {
+    border: 1px solid black;
+    color: black;
+    padding: 8em;
+    text-align: center;
+}
