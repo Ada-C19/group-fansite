@@ -1,11 +1,25 @@
 header {
     border: 1px; 
-    background-color: beige; 
+    background-color: bisque; 
 }
 
 
 footer {
     border: 1px; 
-    background-color: beige; 
+    background-color: bisque; 
 }
 
+nav {
+    border: 1px;
+    border-style: dotted;
+    background-color: bisque;
+    color: red;
+}
+
+h1 {
+    font-family: 'Comic Sans', sans-serif;
+}
+
+body {
+    background-color: beige;
+}
