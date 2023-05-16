@@ -1,5 +1,7 @@
 # Group Fansite
 
+Why won't this laptop cooperate?! T_T
+
 ## Introduction
 
 When first starting out, it is common for developers to create a small website to show off their web-dev skills and document their interests. 
