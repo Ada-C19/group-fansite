@@ -6,11 +6,16 @@ body {
 h1 {
     text-decoration: underline;
     text-align: center;
-    color: rgb(96, 48, 152);
+    color: black;
 }
 
 li {
-    color: rgb(96, 48, 152);
+    color: black;
+}
+
+
+a {
+    color: black;
 }
 
 /* section {
