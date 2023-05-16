@@ -1,0 +1,18 @@
+body {
+    font-family: sans-serif;
+    background-color: white;
+}
+
+h1 {
+    text-decoration: underline;
+    text-align: center;
+    color: black;
+}
+
+li {
+    color: black;
+}
+
+/* section {
+    background-color: gray;
+} */
