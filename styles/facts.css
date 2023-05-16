@@ -1,0 +1,23 @@
+body {
+    background-color: #d0ebcf;
+}
+
+h2 {
+    font-family: Arial Rounded MT Bold;
+    color: #0d6589;
+    font-size: 28px;
+}
+
+
+main {
+    margin: 10% 5% 5% 5%;
+    font-family: Didot;
+}
+
+li {
+    padding-bottom: 30px;
+}
+
+footer {
+    margin-top: 3em;
+}
