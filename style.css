@@ -1,0 +1,28 @@
+.container {
+    width: 100%;
+    position: absolute;
+    display: flex;
+    padding: 50px 50px;
+    background-color: #fff;
+}
+
+
+.container li.menu-item {
+    font-size: 30px;
+}
+
+
+.container nav,
+.container ul {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+}
+
+.container li a {
+    color: #191c03;
+}
+
+.container li {
+    margin: 0 50px;
+}
