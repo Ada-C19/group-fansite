@@ -1,0 +1,37 @@
+body {
+    background-color: #d0ebcf;
+}
+
+a {
+    color: #6a5c94;
+}
+
+a:hover {
+    color: #ab85a9;
+}
+
+main {
+    margin-left: 3em;
+    margin-right: 3em;
+}
+
+h2 {
+    font-family: Arial Rounded MT Bold;
+    color: #0d6589;
+}
+
+p {
+    font-size: 18px;
+}
+
+em {
+    font-family: Arial Rounded MT Bold;
+    color: #76bdb5;
+    font-size: 15px;
+}
+
+footer {
+    margin-top: 5em;
+    border-top: 1px solid white;
+    padding-top: 10px;
+}
