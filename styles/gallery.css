@@ -1,0 +1,21 @@
+img{
+    width: 250px;
+    border: 3px solid rgb(46, 70, 48);
+    box-shadow: 4px 4px 2px 1px rgba(190, 183, 183, .25);
+    border-radius: 5px;
+    padding-bottom: 0%;
+}
+#img-1{
+    display: inline-flexbox;
+}
+
+h3{
+    margin: 0;
+    padding: 0;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: green;
+}
+
+.gallery{
+    xdisplay: inline-flex;
+}
