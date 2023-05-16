@@ -1,0 +1,28 @@
+
+h1 {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:navy;
+}
+
+h2 {
+    text-align: center;
+    font-family: cursive;
+}
+
+nav {
+    border-bottom: 5px solid transparent;
+    border-color: black;
+    font-family: monospace;
+    font-size: 1.5rem;
+    background-color: darkcyan;
+}
+
+header {
+    background-color: darkcyan;
+}
+
+ul {
+    list-style-type: none;
+}
+
