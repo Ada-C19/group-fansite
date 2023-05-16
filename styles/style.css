@@ -1,19 +1,7 @@
-header {
-  background: linear-gradient(rgba(0, 0, 0, .2), rgba(49, 36, 47)), url('../images/background.jpg');
-  height: 80vh;
-  width: 100vw;
-  background-size: cover;
-  background-position: center calc(50% - 20%);
-  top: 0;
-  left: 0;
-  font-family: 'Montserrat', sans-serif;
-  display: flex;
-  flex-direction: column;
-}
-
+/* General Styles */
 body {
-  background-color: rgb(49, 36, 47);
   font-family: 'Inter', sans-serif;
+  background-color: rgb(10, 10, 10);
   margin: 0;
   padding: 0;
   color: white;
@@ -21,23 +9,45 @@ body {
   line-height: 1.5;
 }
 
-header nav ul {
-  display: flex;
-  justify-content: space-around;
-  list-style: none;
-  padding: 10px;
+main {
+  max-width: 1280px;
+  margin: 6rem auto;
+  padding: 0 2rem;
 }
 
-header nav ul li a {
-  text-decoration: none;
-  color: white;
-  font-size: 1.5rem;
-  font-weight: 500;
+.container {
+  display: flex;
+  gap: 2rem;
+}
+
+/* Typography */
+section h2 {
+  font-family: 'Montserrat', sans-serif;
   text-transform: uppercase;
 }
 
-header nav ul li a:hover {
-  color: #cfb9b7;
+a {
+  font-weight: bold;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Header */
+header {
+  background:
+    linear-gradient(rgba(0,0,0,.2), rgba(10,10,10,1)),
+    url('../images/background.jpg')
+    center calc(50% - 20%)/cover;
+  top: 0;
+  left: 0;
+  height: 70vh;
+  width: 100vw;
+  font-family: 'Montserrat', sans-serif;
+  display: flex;
+  flex-direction: column;
 }
 
 #friends-logo {
@@ -49,75 +59,124 @@ header nav ul li a:hover {
 
 #subtitle {
   font-size: 5vw;
-  font-weight: 500;
   text-transform: uppercase;
-  letter-spacing: 1.5rem;
+  letter-spacing: 1rem;
   text-align: center;
-  color: white;
-  width: fit-content;
-  padding-left: 20px;
-  margin: 0 auto;
+  margin: 0;
 }
 
-nav {
-    margin-bottom: auto;
-}
-
-a {
-  text-decoration: none;
-  color: #cfb9b7;
-  font-weight: bold;
-}
-
-a:hover {
-  text-decoration: underline;
-}
-
-main {
-  max-width: 1200px;
-  margin: 6rem auto;
-  padding: 0 2rem;
-}
-
-.accent_img {
-  width: 30vw;
-  border-radius: 10px;
-  filter: drop-shadow(0 0 10px rgba(0, 0, 0, .5)) contrast(1.2);
-
-}
-
-.container {
+/* Header Navigation */
+header nav ul {
   display: flex;
-  gap: 2rem;
+  list-style: none;
+  justify-content: space-around;
+  padding: 10px;
+  font-size: 1.5rem;
 }
+
+#header-links a {
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+  font-weight: normal;
+}
+
+@media screen and (max-width: 768px) {
+  header nav ul {
+    font-size: 1.2rem;
+  }
+}
+
+header nav {
+  margin-bottom: auto;
+}
+
+/* Alternating Link Colors  */
+a:nth-of-type(3n+1),
+#footer-nav ul li:nth-child(1) a {
+  color: rgba(233, 30, 35, .6);
+}
+
+a:nth-of-type(3n+2),
+#footer-nav ul li:nth-child(2) a {
+  color: rgba(2, 178, 231, .6);
+}
+a:nth-of-type(3n+3),
+#footer-nav ul li:nth-child(3) a {
+  color: rgba(250, 188, 22, .6);
+}
+
+span:nth-child(3n+1),
+#header-links li:nth-child(1) a:hover {
+  color: rgb(233, 30, 35);
+}
+
+span:nth-child(3n+2),
+#header-links li:nth-child(2) a:hover {
+  color: rgb(2, 178, 231);
+}
+
+span:nth-child(3n),
+#header-links li:nth-child(3) a:hover {
+  color: rgb(250, 188, 22);
+}
+
+/* Images */
+.accent_img {
+width: 30vw;
+min-width: 380px;
+border-radius: 10px;
+filter: contrast(1.2);
+margin-bottom: auto;
+}
+
+.mobile_accent_img {
+  display: none;
+  filter: contrast(1.2);
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 1024px) {
+  .mobile_accent_img {
+    display: block;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  .accent_img {
+    display: none;
+  }
+}
+
+/* Footer */
 
 footer {
-  background: hsl(309, 15%, 10%);
-  display: flex;
-  justify-content: space-around;
-  padding: 3em 5em;
-  border-top: 1px solid rgba(255, 255, 255, .2);
-}
-
-footer div {
-  width: 40%;
+  display: grid;
+  grid-template-columns: 60% 40%;
+  background:
+  linear-gradient(rgba(10,10,10,1), rgba(0,0,0,.2)),
+  url('../images/background.jpeg')
+  center calc(50% - 20%)/cover;
+  gap: 2rem;
+  padding: 1em 8em;
 }
 
 #logo-sm {
   width: 15rem;
-  margin: 0 auto;
 }
 
-footer h3 {
-  margin-top: 0;
-  font-family: "Montserrat", sans-serif;
-  text-transform: uppercase;
+#copyright {
+  grid-column: span 2;
+  text-align: center;
+  font-size: 1.1rem;
 }
 
 footer nav ul {
   list-style: none;
-  padding-left: 0;
+padding-left: 0;
 }
-footer a {
-  font-weight: normal;
+
+@media screen and (max-width: 1024px) {
+  footer div {
+    grid-column: span 2;
+  }
 }
