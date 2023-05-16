@@ -1,0 +1,33 @@
+header {
+    text-align: center;
+}
+
+h1 {
+    font-family: Monaco;
+    color: #6a5c94;
+}
+
+
+#navlinks {
+    padding: 0;
+}
+
+#navlinks ul {
+    padding-left: 0;
+}
+
+#navlinks li {
+    font-family: Monaco;
+    font-size: 15px;
+    display: inline;
+    margin: 14px;
+}
+
+footer {
+    margin-top: 3em;
+    text-align: center;
+    font-family: Monaco;
+    font-size: 12px;
+    color: #ab85a9;
+}
+
