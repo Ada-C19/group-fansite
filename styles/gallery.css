@@ -1,0 +1,36 @@
+body {
+    font-family: 'Cormorant', serif;
+}
+
+/* header navbar css */
+
+header {
+    margin: 0 30px;
+}
+
+.navbar h1 {
+    display: inline-block;
+    margin-right: 40px;
+    font-weight: medium;
+}
+
+.navbar nav {
+    display: inline-block;
+}
+
+.navbar li {
+    display: inline-block;
+    list-style-type: none;
+    margin: 10px;
+    font-size: 20px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: black;
+}
+
+.navbar a:hover {
+    border-bottom: 2px solid black;
+}
+
