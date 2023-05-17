@@ -1,0 +1,49 @@
+body {
+    margin: 0 120px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.site-menu {
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px
+}
+
+
+.site-menu button {
+    background-color: transparent;
+    border: 0;
+    padding: 5px;
+    font-family: "Nunito Sans", sans serif;
+    font-weight: bolder;
+    border-radius: 2px;
+}
+
+button:hover {
+    background-color: rgba(169, 106, 106, 0.891);
+    color: white;
+    transition: 0.7s;
+}
+
+h1 {
+    margin-bottom: 40px;
+}
+
+#img-coffee-beans {
+    margin: auto;
+    display: block;
+    height: auto; 
+    width: 400px;
+}
+
+#description {
+    margin-top: 50px;
+}
+
+.copyright {
+    margin-top: auto;
+    border-top: 1px solid black;
+}
