@@ -1,0 +1,26 @@
+.nav-links {
+    font-size: 30px;
+    text-align: center;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    text-decoration: none;
+}
+
+a:visited {
+    color:blue
+}
+
+a:hover {
+    color:aqua;
+    text-decoration:underline;
+    color: cornflowerblue;
+}
+
+h1 {
+    font-family: 'Knewave', cursive;
+    font-size: 3rem;
+    background: linear-gradient(0deg, rgba(53,123,224,1) 0%, rgba(59,220,246,1) 100%);
+}
+
+footer {
+    color: cornflowerblue
+}
