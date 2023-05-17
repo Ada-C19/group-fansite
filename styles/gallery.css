@@ -6,6 +6,10 @@ h1 {
 
 .flex-container {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 0px;
 }
 
 .flex-item {
@@ -25,7 +29,7 @@ footer {
     justify-content: center;
     align-items: center;
     background-color: #f4e5ff;
-    padding: 20px;
+    padding: 10px;
 }
 
 
@@ -53,3 +57,8 @@ header h1:visited {
 
 
 
+
+.flex-item img {
+    width: 350px;
+    height: 300px;
+}
