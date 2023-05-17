@@ -1,6 +1,7 @@
 body {
     font-family: 'Cormorant', serif;
     margin: 0;
+    background-color: #f7f2e6;
 }
 
 /* header navbar css */
@@ -48,9 +49,7 @@ body {
     /* font-size: 45px; */
 }
 
-body {
-    background-color: #f7f2e6;
-}
+
 figure {
     margin: 0;
     display: table;
@@ -78,9 +77,11 @@ figure {
     align-content: stretch;
     flex-basis: auto;
     flex-wrap: wrap;
-    gap: 25px;
+    /* gap: 25px; */
+    gap: 2vw;
     width: 100%;
     margin-top: 150px;
+    margin-bottom: 300px;
 
 }
 
