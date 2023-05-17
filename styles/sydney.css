@@ -38,10 +38,12 @@ footer {
 }
 
 a:hover {
-    color:#6CD1AF;
+    color:#B8E7CA;
 }
-a:visited {
-    color: #83A394;
+
+a {
+    color: #6CD1AF;
+    text-decoration: none;
 }
 
 
@@ -66,19 +68,17 @@ li {
 }
 
 .food-photos {
-    display: grid inline-block;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    /* background-color: chartreuse; */
 }
 
 .food-photos img {
+    display: flex;
     height: 200px;
     width: 200px;
+    border: #cccccc 2px groove;
     border-radius: 10px;
-    border-style: groove;
-    justify-content: space-evenly;
-}
-
-.center {
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
+    padding: 2px;
 }
