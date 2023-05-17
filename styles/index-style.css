@@ -1,0 +1,58 @@
+h1 {
+    color:#6A040F;
+    padding:1em;
+    font-size:2.5rem;
+    font-family: marker felt;
+}
+
+h2{
+    color:rgb(128, 0, 0);
+}
+
+nav {
+    width:100;
+    text-align: center;
+}
+
+/* li {
+    display:inline-block;
+    text-align: center;
+} */
+
+.short-bio {
+    color:rgb(128, 0, 0);
+    border: 8px solid orangered;
+    text-align: center;
+    padding:5em;
+    width: 500px;
+    height: 101.812px;
+    font-family: fantasy;
+    font-weight: bolder;
+}
+
+/* .home{
+    /* padding:50px; */
+    font-family: marker felt;
+    font-weight: bolder;
+    
+    /* display: inline;
+    padding: 2em;
+    color:rgb(85, 17, 85); */
+} */
+
+footer {
+    color:purple;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    width: 100;
+}
+
+/* *{
+    border: red 2px solid;
+} */
+
+*{
+background-color:#F2CC8F;
+}
+
