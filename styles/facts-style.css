@@ -16,7 +16,10 @@ main{
 main h1{
     grid-column: 1 / span 4;
     text-align: center;
-    /* background-image: ; */
+    background-image: url(../images/pig-pig-pig.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
 }
 
 #origin{
