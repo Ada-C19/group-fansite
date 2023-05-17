@@ -1,35 +1,62 @@
-nav ul li a:link,
-nav ul li a:visited {
-    color: #645c9f;
+.flex-container {
+  display: flex;
 }
 
-nav ul li a:hover,
-nav ul li a:active {
-    color: #fff;
+.flex-item {
+  padding: 1em;
 }
 
-nav ul li a.visit {
-    background-color: #2911db;
-    color: #fff;
-}
-h1 {
-    font-size: 2em;
-    color: #341948;
-    text-align: center;
-    margin: 0;
-    padding: 0;
-}
-    
-h2 {
-    font-size: 1.5em;
-    color: #645c9f;
-    text-align: center;
-}
-    
-    footer {
-    text-align: center;
+.flex-item.header {
+  background-color: #f9e4e8;
 }
 
-    main p {
-    text-align: center;
-} 
+.flex-item.main {
+  flex: 1;
+  background-color: #fffde0;
+  overflow-y: auto;
+}
+
+.flex-item.footer {
+  background-color: #f9e4e8;
+}
+
+/* Navigation Styling */
+.navigation {
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 200px;
+  background-color: #f9e4e8;
+  padding: 1em;
+}
+
+.navigation ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.navigation li {
+  margin-bottom: 0.5em;
+}
+
+.navigation a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 0.5em 1em;
+  color: #722467;
+  background-color: #fff;
+  border: 2px solid #645c9f;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  margin-bottom: 2em; 
+}
+
+.navigation a:hover {
+  color: #fff;
+  background-color: #645c9f;
+}
+
+.philanthropy-container {
+    margin-bottom: 1em;
+  }
