@@ -12,12 +12,12 @@ ul {
     list-style-type: none;
     padding-inline-start: 0px;
 }
-
-li {
+/* Imporove this later using display flex */
+/* li {
     display: inline-block;
     padding: .5em;
-    font-size: medium;
-}
+    font-size: medium; */
+/* }  */
 
 nav {
     text-align: center;
@@ -34,5 +34,5 @@ p {
 footer {
     font-family: American Typewriter;
     font-size: 12px;
-    text-align: center;
+    text-align: left;
 }
