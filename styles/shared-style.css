@@ -25,7 +25,7 @@ nav {
     padding-top: 20px;
 }
 
-.navbar a {
+.navbar a, .navbar li{
     color: rgb(247, 93, 118);
     line-height:2.5em;
     font-size: medium;

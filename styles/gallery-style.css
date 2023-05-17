@@ -1,13 +1,11 @@
-* {
-    box-sizing: border-box;
-}
 
 .navbar {
-    background-color: rgb(252, 226, 217);
+    background-color: rgb(226, 203, 201);
     padding-top: 30px;
+    background-size: cover;
 }
 
-.navbar a {
+.navbar li, .navbar a {
     color: rgb(189, 30, 2);
     font-size: medium;
     font-weight: bold;
@@ -18,49 +16,56 @@
     color: 	rgb(92, 64, 51);
 }
 
-nav li {
-    list-style-type: none;
+.continer {
+    display:flex;
+    background-image: url("https://images.unsplash.com/photo-1495195129352-aeb325a55b65?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2676&q=80");
+    background-size: cover;
+    flex-wrap: wrap;
+    margin-left: 152px;
+    align-items: center;
+    justify-content: space-around;
 }
 
 header{
     display: flex;
-    margin-left: 160px;
-    position:fixed;
-    top:0;
-    align-items: center;
-    justify-content: center;
-    color:rgb(102, 2, 2);
-    font-weight: bold;
+    align-items:center;
+    padding: 17px;
     width: 100%;
+    margin-left:140px;
 }
 h1{
+    color:rgb(133, 3, 3);
     font-size: 3.3em;
     border-bottom: 0;
-    margin-bottom:1%
-
+    margin-bottom: 1%;
+    font-weight: bold;
 }
 
 h2 {
     font-size: 1em;
+    font-family: fantasy;
+    color:rgb(189, 24, 2);
 }
 
 
 p {
-    margin-top: 100px;
+    margin-top: 105px;
     margin-left: 70px;
     color:rgb(244, 236, 236);
     font-size: large;
     font-weight: bold;
     writing-mode:vertical-lr;
     text-orientation: upright;
-    white-space: nowrap; 
-    font-size: large;
-    font-family: cursive;
-    border: 1px solid rgb(161, 1, 1);
-    height: 330px;
     text-align: center;
+    white-space: nowrap; 
+    font-family: cursive;
+    border: 2px solid rgb(120, 1, 1);
+    height: 330px;
     background-color:rgb(165, 42, 42);
-
+}
+#kobab-title{
+    margin-top: 130px;
+    height: 200px;
 }
 
 #kobab-line{
@@ -75,13 +80,6 @@ p {
     display: flex;
 }
 
-main {
-    margin-left: 160px;
-    margin-top: 150px;
-    font-size: 30px;
-    padding: 0px 10px;
-}
-
 img {
     max-width: 22%;
     height: auto;
@@ -93,5 +91,6 @@ img {
 
 footer{
     color: rgb(166, 4, 4);
-    position:relative
+    position:relative;
+    font-size: large;
 }
