@@ -1,0 +1,17 @@
+body {
+    font-family: 'Courier New';
+    background-color: darkolivegreen;
+    text-align: center
+
+}
+
+header ul{
+    list-style-type: none;
+}
+
+h2 li {
+    list-style-type: none;
+    border-radius: 35px;
+}
+
+
