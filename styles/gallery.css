@@ -1,0 +1,12 @@
+.gallery-post {
+    border: 1px solid black;
+    text-align: center;
+    padding: 2em;
+    background-color: red;
+    margin: 20px;
+    padding: auto;
+}
+
+.gallery {
+    display: inline;
+}
