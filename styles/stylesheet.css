@@ -1,8 +1,16 @@
+*{
+    background-color: powderblue;
+}
+
+
 h1 {
-    font-family: fantasy;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
     text-align: center;
-    color: purple
+    color: rgba(0, 123, 255, 0.981);
 
 }
 
 
+a:hover{
+    color:aqua;
+}
