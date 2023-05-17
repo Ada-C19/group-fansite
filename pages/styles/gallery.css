@@ -7,3 +7,11 @@ img {
 .locations {
     text-align: center;
 }
+
+main {
+    background-color: beige;
+    width: 800px;
+    margin: auto;
+    padding: 15px 0px;
+    text-align: center;
+}

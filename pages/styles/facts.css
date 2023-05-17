@@ -9,3 +9,11 @@ h2 {
 p {
     font-family: 'Lato', sans-serif;
 }
+
+.places {
+    columns: 3;
+    -webkit-columns: 3;
+    -moz-columns: 3;
+    display: inline-block;
+}
+
