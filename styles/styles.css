@@ -2,3 +2,19 @@ body {
     background-color: #fffde0;
     font-family: georgia;
 }
+
+header {
+    text-align: center;
+    border-style: dotted;
+}
+
+img {
+    width: 30%;
+    height: auto;
+    display: inline-block;
+}
+
+#navlinks li {
+    display: inline;
+    padding: 2.5em;
+} 

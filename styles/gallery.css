@@ -1,0 +1,12 @@
+main {
+    text-align: center;
+}
+
+img {
+    width: 30%;
+    height: auto;
+}
+
+.images li {
+    display: inline;
+} 
