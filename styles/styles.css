@@ -1,17 +1,9 @@
 body {
     background-color: #fffde0;
     font-family: georgia;
+    color: #433c5e;
 }
 
-<<<<<<< HEAD
-a:link {
-    color:#a16db7;
-}
-
-a:visited {
-    color:#b98eb1;
-}
-=======
 footer {
     text-align: center;
 }
@@ -46,4 +38,3 @@ nav ul li a.visit {
     display: inline;
     padding: 2.5em;
 } 
->>>>>>> c3214805d05f98a24388d023ce69cc7ec9d66174
