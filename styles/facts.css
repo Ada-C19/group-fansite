@@ -21,3 +21,12 @@ a {
 /* section {
     background-color: gray;
 } */
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    text-align: justify;
+    justify-content: center;
+    border: 2px lightslategrey solid; 
+  }
