@@ -1,8 +1,13 @@
 * {
     border: 1px solid black;
-    font-size: 20 px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     /* margin: 0 auto; */
+    text-align: center;
+}
+
+h1 {
+    font-size: 30px;
+    /* text-align: center; */
 }
 
 nav {
@@ -30,3 +35,23 @@ footer {
     font-size: 16px;
 }
 
+
+.fun-facts-container {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    justify-content: space-evenly;
+}
+
+
+/* .fun-facts-container li {
+
+} */
+
+h4 {
+    font-size: 20px;
+}
+
+p {
+    font-size: 16px;
+}
