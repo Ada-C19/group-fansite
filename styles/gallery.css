@@ -1,8 +1,24 @@
+header, footer {
+    background-color: #5C2680;
+    color: beige;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+
+.navigation a{
+    color:beige;
+}
+
 h1 {
     font-family: Josefin Sans;
 }
 
 img{
     width: 200px;
-    height: auto;
+    height: 150px;
+}
+
+p{
+    text-align: center;
 }
