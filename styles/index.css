@@ -25,3 +25,24 @@
     display: none;
   }
 }
+
+#tv-container {
+  position: relative;
+  margin: 4rem auto;
+  width: 90vw;
+  height: calc(90vw * 0.622666666666667);
+  max-height: 478px;
+  max-width: 768px;
+}
+
+#tv-container img {
+  width: 100%;
+}
+
+#tv-container iframe {
+  width: 99%;
+  height: 90%;
+  position: absolute;
+  top: .6%;
+  left: .6%;
+}
