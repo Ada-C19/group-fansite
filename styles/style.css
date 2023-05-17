@@ -35,7 +35,7 @@ h1 {
     margin: 0 auto; */
     /* position: relative; */
     /* align-items: flex center; */
-    
+    /* grid-row: auto/2; */
 }
 
 .nav-bar ul {

@@ -1,0 +1,88 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+    text-align: center;
+    background-color: #C6E0E4;
+    width: auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+#title {
+    color: #505980;
+    text-align: center;
+    background-color: #C6E0E4;
+}
+/* footer {
+    position: absolute;
+    bottom: 0;
+    border: 2px black solid;
+} */
+header img {
+    text-align: center;
+    width: 1000px;
+    height: 300px;
+}
+
+main {
+    /* display: grid inline block; */
+    display: grid;
+    grid-template-columns: repeat(3,20rem);  /* 3 columns */
+    grid-template-rows: repeat(2,28rem); /* 3 rows  */
+    grid-gap:50px 30px;
+    justify-content: center;
+}
+
+main section {
+    /* text-align: center; */
+    border: #B0C6D7 2px solid;
+    /* padding: 40px white solid; */
+	height: 28rem;
+	width: 20rem;
+    background-color: #C6E0E4;
+    justify-content: space-around;
+
+}
+
+h3:hover {
+    color:pink;
+}
+
+h3 {
+    text-align: center;
+    color: #b8b8b8;
+}
+
+.location-section{
+    color:blue;
+    text-align: left;
+    justify-content: center;
+}
+.attactions-section {
+    color: white;
+}
+
+.food-section {
+    list-style-type: none;
+    /* text-align: center;
+    justify-content: center; */
+    color: blue;
+    font-size: x-large;
+}
+
+.food-section ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: right;
+    width: 10em;
+}
+
+.food-section li {
+    padding-right: .6em;
+    margin: 1em 0;
+}
