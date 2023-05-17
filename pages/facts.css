@@ -3,7 +3,7 @@
 
 header h1 {
     font-family: "Asap", sans-serif;
-    background-color: #fdfdfe;
+    background-color: #1b080b;
     font-size: 70px;
     font-weight: 600;
     background-image: linear-gradient(to left, #553c9a, #b393d3);
@@ -15,7 +15,6 @@ header h1 {
 
   img {
     width:100%;
-    /* height: auto; */
 }
 
 
@@ -23,17 +22,22 @@ header h1 {
     width:100%;
     display: flex;
     /* background: #ffc728; */
+    background-image: white;
     padding: 50px;
     box-sizing: border-box;
     flex-direction:row;
 }
 
+p {
+    text-align: center;
+}
+
 .internalcontainerleft {
     flex: 1;
-    /* background: red; */
+    background: white;
     padding: 30px;
     font-size: 20px;
-    font-family: 'Roboto', sans-serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     margin: 3px;
     align-items: center;
 }
@@ -41,10 +45,10 @@ header h1 {
 
 .internalcontainerright {
     flex: 1;
-    /* background: cyan; */
+    background: lightslategray;
     padding: 30px;
     font-size: 20px;
-    font-family: 'Roboto', sans-serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     margin:3px;
     align-items: center;
 
