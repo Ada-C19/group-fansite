@@ -1,0 +1,12 @@
+.image-desc {
+    font-family: 'Times New Roman';
+}
+
+a:hover {
+    color: forestgreen;
+}
+
+#pano {
+    max-width: 95%;
+    height: auto;
+}

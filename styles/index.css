@@ -1,0 +1,12 @@
+html {
+    background-color: thistle;
+}
+
+img {
+    border: 5px solid;
+    border-radius: 40px;
+}
+
+section p {
+    border: 5px dotted solid;
+} 
