@@ -10,3 +10,9 @@
     --taupe0: #bfb7b7;
 }
 
+a:link{
+    color: #4e6647;
+}
+a:hover{
+    color:#bfb7b7;
+}
