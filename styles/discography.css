@@ -1,0 +1,54 @@
+body {
+    background-color: #fffde0;
+    font-family: georgia;
+    color: #433c5e;
+}
+
+footer {
+    background-color: #ebc1d2;
+    border: solid;
+    border-color: #b98eb1;
+}
+
+h1 {
+    text-align: center;
+}
+
+ol img {
+    width: 300px;
+    height: 300px;
+    
+    width: 400px;
+    height: 400px;
+    background-color: #fefa99;
+    border: 2px solid #433c5e;;
+    padding: 7px;
+}
+.id {
+    float: left;
+}
+#Jolene {
+    float: right;
+    /* width: 400px;
+    height: 400px;
+    align-items: center;
+    justify-content: center;
+    background-color: #fefa99;
+    border: 2px solid #433c5e; */
+}
+
+ol img{
+    background-color: #ebc1d2;
+    border: 2px solid #b98eb1;
+}
+ol img[style] {
+    background-color: #ebc1d2;
+    border: 2px solid #b98eb1;
+}
+
+.paragraph {
+    text-align: center;
+    background-color: #ebc1d2;
+    border: solid;
+    border-color: #b98eb1;
+}

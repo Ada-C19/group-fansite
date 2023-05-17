@@ -3,3 +3,11 @@ body {
     font-family: georgia;
     color: #433c5e;
 }
+
+a:link {
+    color:#a16db7;
+}
+
+a:visited {
+    color:#b98eb1;
+}
