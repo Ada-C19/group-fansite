@@ -1,14 +1,8 @@
-/* /* header {
+h1 {
     text-align: center;
-} */
-/* h1 { */
-    /* display: block; */
-    /* text-align: center; */
-    /* margin: 0;
-    padding: 0; */
-    /* font-size:4rem; */
-/* } */
-/* 
+}
+
+nav {
 nav {
     width: 100%;
     text-align: center;
@@ -20,33 +14,11 @@ ul {
     font-family: marker felt;
     list-style-type: none;
     padding-inline-start: 0px;
-} */
-/* 
+}
+
 li {
     display: inline;
-    padding: 2em; */
-    /* text-align: center; */
-    
-/* } */ 
-
-/* body {
-    cursor: url("../assets/burger_cursor.png"), auto!important;
-} */
-
-
-.container {
-    grid-template-columns: repeat(9, 1fr);
-    display: grid;
-    /* flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center; */
-    /* width: 1500px; */
-    /* height: 200px; */
-    background-color: green;
-    /* gap: 10px; */
-    height: 100%;
-    grid-auto-rows: max-content;
+    padding: 2em;
 }
 
 body {
