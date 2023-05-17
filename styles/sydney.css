@@ -1,0 +1,50 @@
+* {
+    margin: 0.1cm;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header, footer, #hawaii-beach img {
+    border-color: #83A394;
+    border-radius: 10px;
+}
+
+#hawaii-beach img {
+    background-color: #cccccc;
+    height: 100%;
+    width: 98.5%;
+    object-fit: contain;
+    border-style: dashed;
+}
+
+#fun-fact {
+    font-size: smaller;
+}
+
+header {
+    background-size: cover;
+    background-color: #01989F; 
+    border-style: dashed;
+    text-align: center;
+    font-size: larger;
+    font-weight: 200;
+}
+
+footer {
+    background-color: #6EC4B7;
+    border-style:ridge;
+}
+
+main {
+    background-color: #B8E7CA;
+    border-color: #6CD1AF;
+    border-style: dashed;
+}
+
+h2 {
+    color:#07607B;
+}
+
+h1, #fun-fact {
+    color: #F6F1D2;
+    font-style: oblique;
+}
