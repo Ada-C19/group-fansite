@@ -1,14 +1,28 @@
+.nav-container {
+    display: flex;
+    justify-content: center;
+}
+
+nav {
+    justify-content: center;
+}
+
 h1 {
-    padding: 0 400px;
-    margin: 50px 0 50px 0;
+    justify-content: center;
+    margin: auto;
+    width: 50%;
     font-family: 'Permanent Marker', cursive;
     font-size: 50px;
     color: deeppink;
+    text-align: center;
 }
 
 .nav-list {
     list-style-type: none;
-    padding: 20px 0 20 0px;
+    /* padding: 15px 0 20px 0;
+    margin: auto;
+    width: 50%;
+    text-align: center; */
  } 
 
 .nav-items {
@@ -22,3 +36,51 @@ h1 {
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
 }
+
+.nav-links:hover {
+    color: deeppink;
+}
+
+.main-taco-photo {
+    display: flex;
+    justify-content: center;
+}
+
+.tacos-tacos-tacos {
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    border-radius: 35px;
+} 
+
+/* .taco-image-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: baseline;
+} */
+
+.taco-image-list {
+    display: flex;
+    flex-direction: co;
+    list-style-type: none;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.taco-images {
+    object-fit: cover;
+    height: 300px;
+    max-width: auto;
+    align-self: auto;
+    margin: 0 20px 0px 0px;
+}
+
+
+
+/* .taco-image-list li {
+    display: inline;
+    list-style-type: none;
+    align-self: auto;
+    flex-basis: 350px
+} */
