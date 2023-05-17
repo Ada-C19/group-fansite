@@ -27,7 +27,9 @@ header nav li {
 
 .heading {
     display: flex;
-    text-align: center;
+    align-items: center;
+    margin-left: 100px;
+    
 }
 
 li {
@@ -57,10 +59,14 @@ p{
     color: transparent;
 }
 
+section {
+    align-items: center;
+}
 #smiley-face {
     width: 80px;
     margin: 20px;
     border-radius: 95px;
+    align-items: center;
 }
 
 
