@@ -1,10 +1,8 @@
-.header {
+.nav {
     color: pink;
-    padding: 20px;
-    margin: 20px;
     text-align: left;
     background-color: aquamarine;
-    border: red;
+    display: inline-block;
 }
 
 p {
