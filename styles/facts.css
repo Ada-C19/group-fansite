@@ -1,13 +1,10 @@
 .body-image {
     width: 900px;
-    height: 500px;
+    max-width: 70vw;
+    /* height: 500px; */
     border-radius: 25px;
 }
 
-#copyright{
-    text-align: center;
-    margin-left: 150px;
-}
 
 footer {
     display: flex;
@@ -15,41 +12,39 @@ footer {
     text-align: center;
 }
 
-h2{  
-    display: flex;
-    text-align: center;
-} 
-
 header nav li {
-    
+
     font-size: 1.5rem;
 }
 
 .heading {
     display: flex;
     align-items: center;
-    margin-left: 100px;
-    
+    margin: 0 auto;
+    width: fit-content;
+    max-width: 90vw;
+
 }
 
 li {
     font-size: 35px;
 }
 
-#logo-sm {
-    margin-left: 500px;
+li p:nth-child(2) {
+    font-size: 1.5rem;
 }
 
-ol {
-    padding-left: 80px;
+
+.list-wrapper {
     border: 10px;
     border-color: whitesmoke;
     border-style:groove;
+    padding-left: 5vw;
+    padding-right: 5vw;
     padding-bottom: 50px;
 }
 
 p{
-    max-width:72%;
     text-align: justify;
 }
 

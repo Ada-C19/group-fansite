@@ -127,22 +127,24 @@ span:nth-child(3n),
 
 /* Footer */
 footer {
-  display: grid;
-  grid-template-columns: 60% 40%;
   background:
     linear-gradient(rgba(10,10,10,1), rgba(0,0,0,.8)),
     url('../images/background.jpeg')
     center calc(50% - 20%)/cover;
   gap: 2rem;
   padding: 1em 8em;
+  display: flex;
+  flex-direction: column;
 }
 
 #logo-sm {
   width: 15rem;
+  left: 50%;
+  margin-bottom: 20px;
 }
 
 #copyright {
-  grid-column: span 2;
+  /* grid-column: span 2; */
   text-align: center;
   font-size: 1.1rem;
 }
@@ -156,6 +158,12 @@ footer h3 {
   margin-top: 0;
   font-family: "Montserrat", sans-serif;
   text-transform: uppercase;
+}
+
+footer * {
+  width: fit-content;
+  text-align: center;
+  margin: 0 auto;
 }
 
 @media screen and (max-width: 1024px) {

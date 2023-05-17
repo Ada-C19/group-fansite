@@ -1,14 +1,25 @@
 /* Images */
 
 .row {
-    display:flex;
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr 1fr;
     text-align: center;
     padding: 5px;
 }
 
-.column {
-    flex: 33.33%;
-    padding: 5px;
+@media screen and (max-width: 1024px) {
+    .row {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .row {
+        grid-template-rows: repeat(6, 1fr);
+        grid-template-columns: 1fr;
+    }
 }
 
 .casting_image {
@@ -17,41 +28,72 @@
 
 
 .moment_image {
-    width: 45vw;
-    min-width: 380px;
+    width: 90vw;
 }
 
 .slideshow {
     text-align: center;
     overflow: hidden;
     height: 510px;
-    width: 728px;
+    width: 90vw;
     margin: 0 auto;
 }
 
 .slide-wrapper {
-    width: 3640px;
+    width: 450vw;
     animation: slide 18s ease infinite;
 }
 
 .slide {
     float: left;
     height: 510px;
-    width: 728px;
+    width: 90vw;
+}
+
+@media screen and (min-width: 1024px) {
+
+    .moment_image {
+        width: 728px;
+    }
+
+    .slideshow {
+        width: 728px;
+    }
+
+    .slide-wrapper {
+        width: calc(728px * 5);
+    }
+
+    .slide {
+        width: 728px;
+    }
+
+    @keyframes slide {
+        0% {margin-left: 0px;}
+        18% {margin-left: 0px;}
+        20% {margin-left: -728px;}
+        38% {margin-left: -728px;}
+        40% {margin-left: -1456px;}
+        58% {margin-left: -1456px;}
+        60% {margin-left: -2184px;}
+        78% {margin-left: -2184px;}
+        80% {margin-left: -2912px;}
+        100% {margin-left: -2912px;}
+    }
 }
 
 @keyframes slide {
     0% {margin-left: 0px;}
     18% {margin-left: 0px;}
-    20% {margin-left: -728px;}
-    38% {margin-left: -728px;}
-    40% {margin-left: -1456px;}
-    58% {margin-left: -1456px;}
-    60% {margin-left: -2184px;}
-    78% {margin-left: -2184px;}
-    80% {margin-left: -2912px;}
-    100% {margin-left: -2912px;}
-  }
+    20% {margin-left: -90vw;}
+    38% {margin-left: -90vw;}
+    40% {margin-left: -180vw;}
+    58% {margin-left: -180vw;}
+    60% {margin-left: -270vw;}
+    78% {margin-left: -270vw;}
+    80% {margin-left: -360vw;}
+    100% {margin-left: -360vw;}
+}
 
 /* Typography */
 .headings {
