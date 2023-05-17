@@ -1,10 +1,10 @@
 body {
-    background-color: #fffde0;
+    background-image: url("../images/Dolly2_Feature.jpg");
+    background-position-x: right;
     margin-left: 200px; /* Same as the width of the left sidebar */
-    margin-right: 140px; /* Same as the width of the right sidebar */
     padding: 0px 10px;
 }
-
+    
 .sidenav {
     height: 100%; /* Full-height: remove this if you want "auto" height */
     width: 200px; /* Set the width of the sidebar */
@@ -18,24 +18,24 @@ body {
 }
 
   /* The navigation menu links */
-  .sidenav a {
-    padding: 6px 8px 6px 16px;
-    text-decoration: none;
-    font-size: 25px;
-    color: #433c5e;
-    display: block;
-  }
-  
+.sidenav a {
+padding: 6px 8px 6px 16px;
+text-decoration: none;
+font-size: 25px;
+color: #433c5e;
+display: block;
+}
+
   /* When you mouse over the navigation links, change their color */
-  .sidenav a:hover {
-    color: #f1f1f1;
-  }
+.sidenav a:hover {
+color: #f1f1f1;
+}
 
   /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
 @media screen and (max-height: 450px) {
     .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 18px;}
-  }
+}
 
 .highlight-top {
     width: 600px;
