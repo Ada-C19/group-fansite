@@ -53,7 +53,7 @@
     100% {margin-left: -2912px;}
   }
 
-/* Headers */
+/* Typography */
 .headings {
     text-align: center;
     font-family: 'Montserrat', sans-serif;
@@ -63,4 +63,9 @@
 
 #sources {
     text-align: center;
+}
+
+em {
+   display: block;
+   font-size: 1rem;
 }
