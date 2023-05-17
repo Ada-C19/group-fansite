@@ -2,6 +2,9 @@
     margin: 0.1cm;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+html {
+    background-color: #F6F1D2;
+}
 
 header, footer, #hawaii-beach img {
     border-color: #83A394;
@@ -13,7 +16,7 @@ header, footer, #hawaii-beach img {
     height: 100%;
     width: 98.5%;
     object-fit: contain;
-    border-style: dashed;
+    border-style:groove;
 }
 
 #fun-fact {
@@ -34,6 +37,14 @@ footer {
     border-style:ridge;
 }
 
+a:hover {
+    color:#6CD1AF;
+}
+a:visited {
+    color: #83A394;
+}
+
+
 main {
     background-color: #B8E7CA;
     border-color: #6CD1AF;
@@ -42,9 +53,32 @@ main {
 
 h2 {
     color:#07607B;
+    text-align: center;
 }
 
 h1, #fun-fact {
     color: #F6F1D2;
     font-style: oblique;
+}
+
+li {
+    list-style: none;
+}
+
+.food-photos {
+    display: grid inline-block;
+}
+
+.food-photos img {
+    height: 200px;
+    width: 200px;
+    border-radius: 10px;
+    border-style: groove;
+    justify-content: space-evenly;
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
