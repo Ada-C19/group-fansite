@@ -1,19 +1,20 @@
-h1 {
-    font-family: cursive;
-    color: crimson;
-}
 
 .navigation {
     font-family: Cambria;
-    font-size: 15px;
+    font-size: 25px;
     font-weight: 500;
+    display: block;
+    color: #f9c5bd;
 }
 
-.navigation:hover{
+body {
+    background-color:#a28089;
+}
+nav:hover {
     color: chocolate;
 }
 
-#home {
+/* #home {
     color: powderblue;
 }
 
@@ -27,4 +28,4 @@ h1 {
 
 h2 {
 
-}
+} */
