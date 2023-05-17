@@ -1,3 +1,12 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+    color: darkslategrey;
+}
+
+.navbar{
+    background-color:sienna;
+}
+
 main{
     display: grid;
     grid-template: repeat(4, 25%) / repeat(4, 25%);
@@ -7,6 +16,7 @@ main{
 main h1{
     grid-column: 1 / span 4;
     text-align: center;
+    /* background-image: ; */
 }
 
 #origin{
