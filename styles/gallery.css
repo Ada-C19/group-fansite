@@ -1,10 +1,8 @@
 
 figure {
-    border: thin #433c5e dotted;
-    padding: 0.5em;
-    background-color: rgba(255, 255, 255, 0.479);
+    padding: 1em;
+    background-color:#eaced9;
     width: 25%;
-    margin: 15px;
     border-radius: 5px;
 } 
 
@@ -67,7 +65,7 @@ section {
 }
 
 #title {
-    color: rgba(255, 255, 255, 0.479);
+    color: #eaced9;
     font-size: 60pt;
     font-weight: lighter;
     position: absolute;
