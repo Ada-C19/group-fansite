@@ -11,3 +11,12 @@ h4 {
     text-align: center;
 }
 
+nav {
+    background-color: rgb(137, 209, 137);
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+    margin-right: 50px;
+}
