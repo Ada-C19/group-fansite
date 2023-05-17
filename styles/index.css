@@ -4,3 +4,16 @@
     margin-right: auto;
     width: 100%;
 }
+
+h4 {
+    font-style: italic;
+}
+
+header {
+    border: 5px purple solid;
+}
+
+.page-title {
+    background-color: thistle;
+    color: white;
+}
