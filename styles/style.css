@@ -1,0 +1,35 @@
+/* #4ABDAC: Background FRESH
+#F7B733: Button SUNSHINE Yellow
+#FC4A1A: Accents vermillion orange
+#DFDCE3: Buttons CLEAN white  */
+
+a {
+    background-color: #4ABDAC;
+    color: #DFDCE3;
+    border: 7px solid #4ABDAC;
+    border-radius: 100px;
+}
+
+body {
+    background-color: #DFDCE3;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 3em  ;
+}
+
+footer {
+
+}
+
+h1 { 
+    color: #FC4A1A;
+}
+
+h2 {
+    color: #f79833dc;
+    font-size: 1.3rem;
+}
+
+img { 
+    width: 400px;
+    padding: 50px; 
+}
