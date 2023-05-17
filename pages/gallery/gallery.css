@@ -17,8 +17,8 @@ div{
 
 img{
     object-fit: cover;
-    width: fill;
-    height: 700px;
+    width: fit-content;
+    height: 900px;
 }
 
 /* Naviagation Panel */
@@ -111,6 +111,7 @@ ul {
 }
 
 .contact h1 {
+    display: flex;
     font-size: 90px;
     justify-content: center;
     text-align: center;
@@ -128,4 +129,11 @@ ul {
     font-size: 50px;
     justify-content: center;
     text-align: center;
+}
+
+footer {
+    display: flex;
+    padding: 12px;
+    font-size: 30px;
+    background-color: lightyellow;
 }
