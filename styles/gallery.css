@@ -6,3 +6,7 @@ main > ul > li > img {
     width: 300px;
     text-align: center
 }
+
+main > ul > li {
+    list-style-type: none
+}
