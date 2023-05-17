@@ -1,3 +1,7 @@
+* {
+    background-color: lavenderblush
+}
+
 main > ul > li > img {
     display: block;
     margin-left: auto;
