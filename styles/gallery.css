@@ -1,12 +1,20 @@
-.gallery-post {
-    border: 1px solid black;
-    text-align: center;
-    padding: 2em;
-    background-color: red;
-    margin: 20px;
-    padding: auto;
+.container {
+    display: flex;
+    width: 100%;
+    height: 1000px;
+    border: 1px black solid;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
 }
 
-.gallery {
-    display: inline;
+.gallery-post {
+    background-color: red;
+    width: 450px;
+    height: 400px;
+    text-align: center;
+}
+
+img {
+    width: 350px;
 }
