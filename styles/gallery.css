@@ -1,0 +1,22 @@
+img {
+    width: 100%;
+    height: auto;
+}
+
+main {
+    text-align: center;
+}
+
+section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+figure {
+    border: thin #433c5e dotted;
+    padding: 0.5em;
+    background-color: #eaced9;
+    width: 25%;
+}

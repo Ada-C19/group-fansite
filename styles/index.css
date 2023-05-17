@@ -26,10 +26,14 @@ h2 {
     text-align: center;
 }
     
-    footer {
+footer {
     text-align: center;
 }
 
-    main p {
+main p {
     text-align: center;
 } 
+
+main {
+    text-align: center;
+}
