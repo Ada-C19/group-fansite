@@ -1,19 +1,9 @@
 * {
     color: #ff901b;
-    background-color: #220070;
     font-family: 'Lato', sans-serif;
     font-family: 'Oswald', sans-serif;
-    /* color: rgb(80, 79, 76);
-    background-color: whitesmoke; */
-}
-
-.page-header {
-    color: #e200f7;
-    /* color: darkcyan; */
-    font-size: 100px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    padding: 50px;
-    
+    color: rgb(80, 79, 76);
+    background-color: whitesmoke;
 }
 
 .menu a {
