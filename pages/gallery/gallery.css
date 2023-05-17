@@ -15,14 +15,14 @@ div{
 }
 
 img{
-    object-fit: cover;
-    width: grid;
-    height: 400px;
+    object-fit: contain;
+    width: auto;
+    height: 700px;
 }
 
 .grid-container {
     display: grid;
-    width: fit-content;
+    width: auto;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
     grid-column-start: 1;
