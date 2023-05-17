@@ -1,3 +1,16 @@
 img {
-    border: 5px;
+    border: 1px;
+    border-style: dashed;
+    align-items: flex-end;
+    flex-direction: row;
+}
+
+.image-gallery {
+    font-family: courier, 'Courier New', monospace;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Brush Script MT', 'Apple Chancery', Garamond, serif;
+    font-size: 4em; 
 }
