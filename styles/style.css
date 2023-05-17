@@ -1,0 +1,33 @@
+header {
+    color: purple;
+    background-color: beige;
+    font-family: 'Montserrat-bold', sans-serif;
+    /* text-align: center; */
+}
+
+header h1 {
+    text-align: center;
+}
+nav li {
+    display: inline;
+    margin: 20px
+
+}
+
+ul {
+    list-style-type: none;
+    text-align: center;
+    padding-right: 2em;
+}
+
+main {
+    color: RGB(140, 3, 252);
+    background-color: beige;
+}
+
+footer {
+    text-align: center;
+    color: purple;
+    background-color: beige;
+    margin-top: 1em;
+}
