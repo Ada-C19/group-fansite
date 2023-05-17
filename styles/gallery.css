@@ -51,14 +51,14 @@ li{
 }
 .img-box{
     width: 100px;
-    height: 500px;
+    height: 65vh;
     margin: 10px;
     border-radius: 50px;
     background-image: url(../assets/alain-bonnardeaux-UohOKIDlLDI-unsplash.jpg);
     background-size: cover;
     background-position: center;
     position: relative;
-    transition: width 0.75s;
+    transition: width 900ms;
 }
 
 .img-box:nth-child(2){
@@ -77,7 +77,7 @@ li{
     background-position: center;
 }
 .img-box:hover{
-    width: 500px;
+    width: 40vw;
     cursor: pointer;
 
 }
