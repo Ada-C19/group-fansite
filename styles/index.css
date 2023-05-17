@@ -3,11 +3,40 @@ body {
     text-align: center;
 }
 
-/* header navbar css */
-
-header {
-    margin: 0 30px;
+main {
+    background-color: #f7f2e6;
+    font-size: x-large;
+    
 }
+
+
+/* header navbar css */
+header {
+    margin: 0 3px;
+    background-color: #f7f2e6;
+}
+
+.paragraph {
+    opacity: .75;
+    background-color: #e6bc40;
+    display: table;
+    margin: 0px auto 0px auto;
+    padding: 5px; 
+    font-size: 10 px;
+
+
+}
+.photo {
+    font-size: 20px;
+    margin-top: 0;
+    margin-bottom: 70px;
+    background-color: #e6bc40;
+    opacity: .75;
+    border-radius: 100px;
+    border: 2px dotted greenyellow;
+}
+
+
 
 .navbar h1 {
     display: inline-block;
