@@ -1,0 +1,22 @@
+h1, h2 {
+    text-align: center;
+    font-family: "Bradley Hand";
+    color: rgb(93, 46, 29);
+
+}
+
+p {
+    font-family: "Bradley Hand";
+    text-align: center;
+    color: white;
+    border: 3px;
+    border-color: rgb(93, 46, 29);
+}
+
+nav {
+    border: 1px;
+    border-style: dotted;
+    background-color: bisque;
+    color: black;
+    text-align: center;
+}
