@@ -8,10 +8,12 @@
 }
 
 h1{
+    font-family: 'Archivo Black', sans-serif;
     color: var(--brown1);
     font-size: 50px;
     max-width: 25%;
 }
+
 
 .img-box h3{
     font-family: 'Archivo Black', sans-serif;
@@ -21,7 +23,6 @@ h1{
     left: 30px;
     opacity: 0;
     transition: bottom 0.5s, opacity 0.5s ;
-
 }
 
 .gallery{
