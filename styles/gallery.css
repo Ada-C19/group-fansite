@@ -6,6 +6,7 @@
 }
 body{
     background-color: #fff;
+    margin: 0px;
 }
 h1{
     font-family: Norwester, sans-serif;
@@ -13,6 +14,7 @@ h1{
     font-size: 3rem;
     margin-top: 1.5em;
     margin-right: 0.5em;
+    margin-left: .2em;
     
 }
 .side-bar{
@@ -26,10 +28,15 @@ ul{
     position: absolute;
     font-weight: bold;
     font-size: 1.1rem;
+    padding: 0px;
+}
+li{
+    font-family: "Barlow", sans-serif;
+    padding: 10px;
 }
 
-li{
-    padding: 10px 10px 10px 0px;
+.side-bar a{
+    padding: 0;
 }
 
 .img-box h3{
@@ -49,17 +56,20 @@ li{
     display: flex;
     align-items: center;
     justify-content: center;
+    border-left: 1px solid var(--brown1);
+
 }
 .img-box{
-    width: 100px;
-    height: 65vh;
+    width: 150px;
+    height: 80vh;
     margin: 10px;
-    border-radius: 50px;
-    background-image: url(../assets/alain-bonnardeaux-UohOKIDlLDI-unsplash.jpg);
+    border-radius: 60px;
+    background-image: url(../assets/ellis-dieperink-DZQV8a063dM-unsplash.jpg);
     background-size: cover;
     background-position: center;
     position: relative;
     transition: width 900ms;
+    box-shadow: 10px 10px 10px gray;
 }
 
 .img-box:nth-child(2){
@@ -68,7 +78,7 @@ li{
     background-position: center;
 }
 .img-box:nth-child(3){
-    background: url(../assets/laminda-nickla-JKTkNHZiJ8Y-unsplash.jpg);
+    background: url(../assets/jason-hawke-Zdl_ocTX07E-unsplash.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -78,12 +88,12 @@ li{
     background-position: center;
 }
 .img-box:nth-child(5){
-    background: url(../assets/shenandoah-valley-g1568bb9ae_1280.jpg);
+    background: url(../assets/lorimcm-5rodOJCglvI-unsplash.jpg);
     background-size: cover;
     background-position: center;
 }
 .img-box:hover{
-    width: 40vw;
+    width: 70vw;
     cursor: pointer;
 
 }

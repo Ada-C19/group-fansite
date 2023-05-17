@@ -23,10 +23,12 @@ a:visited{
     color: #ba8559;
 }
 
-body{
-    background: var(--brown0);
-}
-
 a{
     font-family: "Barlow", sans-serif;
+    padding: 20px;
+    font-size: large;
+}
+
+body{
+    background: var(--brown0);
 }
