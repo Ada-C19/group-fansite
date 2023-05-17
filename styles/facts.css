@@ -110,3 +110,7 @@ main {
 .facts:nth-of-type(2n) {
     background-color: #eace7840;
 }
+
+footer {
+    text-align: center;
+}
