@@ -1,0 +1,62 @@
+.flex-container {
+  display: flex;
+}
+
+.flex-item {
+  padding: 1em;
+}
+
+.flex-item.header {
+  background-color: #f9e4e8;
+}
+
+.flex-item.main {
+  flex: 1;
+  background-color: #fffde0;
+  overflow-y: auto;
+}
+
+.flex-item.footer {
+  background-color: #f9e4e8;
+}
+
+/* Navigation Styling */
+.navigation {
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 200px;
+  background-color: #f9e4e8;
+  padding: 1em;
+}
+
+.navigation ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.navigation li {
+  margin-bottom: 0.5em;
+}
+
+.navigation a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 0.5em 1em;
+  color: #722467;
+  background-color: #fff;
+  border: 2px solid #645c9f;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  margin-bottom: 2em; 
+}
+
+.navigation a:hover {
+  color: #fff;
+  background-color: #645c9f;
+}
+
+.philanthropy-container {
+    margin-bottom: 1em;
+  }

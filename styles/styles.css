@@ -1,9 +1,9 @@
 body {
     background-color: #fffde0;
     font-family: georgia;
-    color: #433c5e;
 }
 
+<<<<<<< HEAD
 a:link {
     color:#a16db7;
 }
@@ -11,3 +11,39 @@ a:link {
 a:visited {
     color:#b98eb1;
 }
+=======
+footer {
+    text-align: center;
+}
+
+header {
+    text-align: center;
+    border-style: dotted;
+}
+
+img {
+    width: 30%;
+    height: auto;
+    display: inline-block;
+}
+
+nav ul li a:link,
+nav ul li a:visited {
+    color: #645c9f;
+}
+
+nav ul li a:hover,
+nav ul li a:active {
+    color: #fff;
+}
+
+nav ul li a.visit {
+    background-color: #2911db;
+    color: #fff;
+}
+
+#navlinks li {
+    display: inline;
+    padding: 2.5em;
+} 
+>>>>>>> c3214805d05f98a24388d023ce69cc7ec9d66174

@@ -1,0 +1,37 @@
+
+h1 {
+    font-size: 2em;
+    color: #341948;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+    
+h2 {
+    font-size: 1.5em;
+    color: #645c9f;
+    text-align: center;
+}
+    
+footer {
+    text-align: center;
+}
+
+main p {
+    text-align: center;
+} 
+
+main {
+    text-align: center;
+}
+
+img {
+    width: 30%;
+    height: auto;
+    display: inline-block;
+}
+
+#navlinks li {
+    display: inline;
+    padding: 2.5em;
+} 
