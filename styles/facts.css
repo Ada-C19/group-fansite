@@ -1,3 +1,9 @@
-* {
-    
+details {
+    background-color:#537188 ;
+    color: #EEEEEE ;
+    cursor: pointer;
+}
+
+details p {
+    background-color: white;
 }
