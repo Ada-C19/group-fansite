@@ -39,6 +39,15 @@ li {
 #logo-sm {
     margin-left: 500px;
 }
+
+ol {
+    padding-left: 80px;
+    border: 10px;
+    border-color: whitesmoke;
+    border-style:groove;
+    padding-bottom: 50px;
+}
+
 p{
     max-width:72%;
     text-align: justify;
@@ -53,7 +62,7 @@ p{
 #smiley-face {
     width: 80px;
     margin: 20px;
-    border-radius: 25px;
+    border-radius: 95px;
 }
 
 
