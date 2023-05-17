@@ -1,12 +1,14 @@
+img {
+    width: 100%;
+    height: auto;
+}
+
 main {
     text-align: center;
 }
 
-img {
-    width: 30%;
-    height: auto;
+section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
-
-.images li {
-    display: inline;
-} 
