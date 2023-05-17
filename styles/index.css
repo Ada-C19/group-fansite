@@ -1,6 +1,15 @@
 body {
+    background-color: #FFEEB3;
+}
+
+ul {
+    list-style-type: none;
+}
+
+main {
     background-image: url("/assets/espresso-background.jpg");
     background-size: 100%;
+    background-color: #FFEEB3;
 }
 
 /* Photo by <a href="https://unsplash.com/@nate_dumlao?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Nathan Dumlao</a> on <a href="https://unsplash.com/s/photos/cafe?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a> */
@@ -23,5 +32,3 @@ body {
     background: #B8E7E1;
     text-decoration: none;
   }
-
-  
