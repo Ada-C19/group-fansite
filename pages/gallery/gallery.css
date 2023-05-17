@@ -8,16 +8,77 @@
 
 div{
     width: auto;
+    height: stretch;
     text-align: center;
     padding: 5px;
-    border: 3px solid lightgreen;
-    background-color: aliceblue;
+    border: 10px solid darkseagreen;
+    background-color: mintcream;
 }
 
 img{
-    object-fit: contain;
-    width: auto;
+    object-fit: cover;
+    width: fill;
     height: 700px;
+}
+
+/* Naviagation Panel */
+nav,
+ul {
+    list-style: none;
+}
+
+.container {
+    width: auto;
+    padding: 50px 50px;
+    background-color: lightyellow;
+}
+
+.container li.menu-item {
+    font-size: 70px;
+    box-sizing: border-box;
+
+}
+
+.container nav,
+.container ul {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    text-align:center;
+    list-style: none;
+}
+
+.container li a {
+    display: flex;
+    justify-content: center;
+    width: 500px;
+    height: fit-content;
+    color: forestgreen;
+    background-color: burlywood;
+    text-shadow: 5px 5px lavenderblush;
+    text-decoration: none;
+
+}
+
+.container li {
+    margin: 0 200px;
+}
+
+
+/* Gallery Panel */
+.home {
+    font-display: auto;
+    font-size: 200px;
+    text-align: stretch;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.home h1 {
+    text-align: center;
+    color: white;
+    background-color: darkseagreen;
+    text-shadow: 10px 5px forestgreen;
 }
 
 .grid-container {
@@ -27,5 +88,44 @@ img{
     grid-template-rows: repeat(3, 1fr);
     grid-column-start: 1;
     grid-column-end: 2;
-    grid-gap: 5px; 
+    grid-gap: 20px; 
+    background-color:lightyellow;
+    color: black;
+    font-size: 30px;
+}
+
+.contact {
+    color: forestgreen;
+    background-color: lightyellow;
+    font-display: auto;
+    font-size: 40px;
+    text-align: stretch;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.contact ul, li {
+    font-display: auto;
+    text-align: stretch;
+    justify-content: center;
+}
+
+.contact h1 {
+    font-size: 90px;
+    justify-content: center;
+    text-align: center;
+    text-shadow: 5px 5px hotpink;
+    background-color: burlywood;
+}
+
+.contact h2 {
+    font-size: 65px;
+    justify-content: center;
+    text-align: center;
+}
+
+.content li, p {
+    font-size: 50px;
+    justify-content: center;
+    text-align: center;
 }
