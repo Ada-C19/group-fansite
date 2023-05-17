@@ -34,3 +34,9 @@ li{
 p{
     text-align: justify;
 }
+
+.flex-container {
+    display: flex;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: red 1px dotted;
+}
