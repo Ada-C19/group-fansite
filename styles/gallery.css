@@ -6,7 +6,7 @@ body {
 /* header navbar css */
 
 /* header { */
-    /* margin: 0 30px; */
+/* margin: 0 30px; */
 /* } */
 
 .navbar h1 {
@@ -45,12 +45,13 @@ body {
     height: 100px;
     z-index: 100;
     filter: drop-shadow(8px 8px 4px #c7c3bb);
-    /* font-size: 45px; */
+    font-size: 25px;
 }
 
 body {
     background-color: #f7f2e6;
 }
+
 figure {
     margin: 0;
     display: table;
