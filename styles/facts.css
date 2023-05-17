@@ -1,0 +1,49 @@
+/* facts.css */
+
+/* Center the content in the body */
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    text-align: center;
+  }
+  
+  /* Center the h1 element */
+  h1 {
+    margin-top: 2rem;
+    font-size: 3rem;
+  }
+  
+  /* Center the ul elements */
+  ul {
+    margin-top: 2rem;
+    font-size: 1.5rem;
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  /* Center the img element */
+  img {
+    margin-top: 2rem;
+  }
+  
+  /* Center the p element */
+  p {
+    margin-top: 2rem;
+    font-size: 1.7rem;
+  }
+  
+  /* Center the facts section */
+  ul:last-child li {
+    display: block;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+  }
+  
+  ul.facts-section{
+    border: 10px solid #bb3e03;
+    padding: 30px;
+  }
