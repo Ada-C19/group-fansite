@@ -44,9 +44,21 @@ footer {
 }
 
 
-/* .fun-facts-container li {
+.fun-facts-container li {
+    max-width: 18%;
+}
+.fun-facts-container li p {
+    text-align: left;
+    line-height: 120%;
 
-} */
+}
+
+.fun-facts-container li img {
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    object-position: 10% 1%;
+}
 
 h4 {
     font-size: 20px;
