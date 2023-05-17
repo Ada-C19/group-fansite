@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@200&display=swap');
-
+@font-face {
+    font-family: Norwester;
+    src: url(../assets/norwester.woff);
+}
 
 :root{
     --green0: #2e4530;

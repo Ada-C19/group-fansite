@@ -2,10 +2,11 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    overflow: hidden;
 }
 
 h1{
-    font-family: 'Archivo Black', sans-serif;
+    font-family: Norwester, sans-serif;
     color: var(--brown1);
     font-size: 3rem;
     margin-top: 1.5em;
@@ -16,7 +17,6 @@ h1{
     display: flex;
     width: 25%;
     list-style: none;
-    left:0;
 }
 
 ul{
