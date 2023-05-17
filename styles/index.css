@@ -66,21 +66,20 @@ main {
 
 }
 
-.paragraph {
+main p {
     opacity: .75;
-    background-color: #e6bc40;
     display: table;
-    margin: 0px auto 0px auto;
+    margin: 30px auto 70px;
     padding: 5px;
-    font-size: 10 px;
+    font-size: 30px;
 }
 
-.photo {
+main img {
     font-size: 20px;
     margin-top: 0;
-    margin-bottom: 70px;
     background-color: #e6bc40;
     opacity: .75;
     border-radius: 100px;
     border: 2px dotted greenyellow;
+    padding: 10px;
 }
