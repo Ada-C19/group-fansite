@@ -22,3 +22,7 @@ a:hover{
 a:visited{
     color: #ba8559;
 }
+
+body{
+    background: var(--brown0);
+}
