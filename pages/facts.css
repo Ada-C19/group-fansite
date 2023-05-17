@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Asap&family=Roboto:ital,wght@0,500;0,900;1,500&display=swap");
+
+
+header h1 {
+    font-family: "Asap", sans-serif;
+    background-color: #fdfdfe;
+    font-size: 70px;
+    font-weight: 600;
+    background-image: linear-gradient(to left, #553c9a, #b393d3);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    text-align: center;
+  }
+
+  img {
+    width:100%;
+    /* height: auto; */
+}
+
+
+.holdingcontainer {
+    width:100%;
+    display: flex;
+    /* background: #ffc728; */
+    padding: 50px;
+    box-sizing: border-box;
+    flex-direction:row;
+}
+
+.internalcontainerleft {
+    flex: 1;
+    /* background: red; */
+    padding: 30px;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    margin: 3px;
+    align-items: center;
+}
+
+
+.internalcontainerright {
+    flex: 1;
+    /* background: cyan; */
+    padding: 30px;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    margin:3px;
+    align-items: center;
+
+}
+
+@media screen and (max-width:760px){
+    .holdingcontainer{
+        flex-direction:column;
+    }
+}
+
+
+    
+
+/* @import url("https://fonts.googleapis.com/css2?family=Asap&family=Roboto:ital,wght@0,500;0,900;1,500&display=swap");
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Asap", sans-serif;
+    background-color: #fdfdfe;
+  }
+
+header h1 {
+    font-size: 70px;
+    font-weight: 600;
+    background-image: linear-gradient(to left, #553c9a, #b393d3);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+  }
+
+img {
+    width:100%;
+    height: auto;
+}
+
+.wrap {
+    max-width: 600px;
+    margin: 0 auto;
+    display: grid;
+    gap:2rem;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    align-items: center;
+
+} */
