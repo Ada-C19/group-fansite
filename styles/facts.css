@@ -1,0 +1,16 @@
+h2 {
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#tag-line{
+    font-weight: bold;
+}
+
+.fun-facts :hover{
+    color:burlywood;
+}
+
+nav :hover:not(.active){
+    color:darkcyan;
+}
