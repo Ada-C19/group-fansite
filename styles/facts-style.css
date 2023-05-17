@@ -1,17 +1,20 @@
-.container{
-    display: flex;
-    /* width: 80vw;
-    height: 80vw; */
-    flex-direction: row;
-    flex-wrap: wrap;
-    background-color: darksalmon;
+main{
+    display: grid;
+    grid-template: repeat(4, 25%) / repeat(4, 25%);
+    padding: 1%
+}
+
+main h1{
+    grid-column: 1 / span 4;
+    text-align: center;
 }
 
 #origin{
-    width: 100vw;
-    background-color: burlywood;
+    grid-column: 1 / span 4;
 }
 
-.container section{
-    width: 50vw;
+main section{
+    display: grid;
+    background-color: cornflowerblue;
+    grid-column: span 2;
 }
