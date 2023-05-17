@@ -10,3 +10,7 @@ h3 {
 .links > li {
     background: #FFEEB3
 }
+
+ul {
+    list-style-type: none;
+}
