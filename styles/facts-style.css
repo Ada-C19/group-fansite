@@ -10,10 +10,11 @@
 main{
     display: grid;
     grid-template: repeat(4, 25%) / repeat(4, 25%);
-    padding: 1%
+    padding: 50px
 }
 
 main h1{
+    font-size: 48px;
     grid-column: 1 / span 4;
     text-align: center;
     background-image: url(../images/pig-pig-pig.png);
@@ -28,6 +29,6 @@ main h1{
 
 main section{
     display: grid;
-    background-color: cornflowerblue;
+    background-color:burlywood;
     grid-column: span 2;
 }
