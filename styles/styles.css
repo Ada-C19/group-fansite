@@ -1,5 +1,10 @@
 .header {
-    background-color: pink;
+    color: pink;
+    padding: 20px;
+    margin: 20px;
+    text-align: left;
+    background-color: aquamarine;
+    border: red;
 }
 
 p {
