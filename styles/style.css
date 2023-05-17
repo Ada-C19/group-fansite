@@ -5,13 +5,28 @@ fonts,
 footer, 
 colors: #60c7c9, #3a3a3a, #eb5a68, #f0cf48
 */
+body, .container {
+    margin: 6% 12%;
+    background-color: #3a3a3a;
+}
 
 .fancyfont {
     justify-content: center;
     margin: auto;
-    width: 50%;
+    width: 100%;
     font-family: 'Permanent Marker', cursive;
     font-size: 50px;
-    color: deeppink;
+    color: #ff1493;
     text-align: center;
+}
+
+footer {
+    position: relative;
+    margin-bottom: 0;
+    bottom: -50px;
+    left: 0px;
+    text-align: center;
+    padding: 15px;
+    color: #f0cf48;
+    border-top: 2px solid #5f9ea0;
 }
