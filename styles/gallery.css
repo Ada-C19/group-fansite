@@ -1,17 +1,20 @@
 body {
     font-family: 'Cormorant', serif;
+    margin: 0;
 }
 
 /* header navbar css */
 
-header {
-    margin: 0 30px;
-}
+/* header { */
+    /* margin: 0 30px; */
+/* } */
 
 .navbar h1 {
     display: inline-block;
-    margin-right: 40px;
+    /* margin-right: 50px; */
+    margin-left: 50px;
     font-weight: medium;
+    background-color: #e6bc40;
 }
 
 .navbar nav {
@@ -33,8 +36,24 @@ header {
 .navbar a:hover {
     border-bottom: 2px solid black;
 }
+
+.navbar {
+    top: 0;
+    position: fixed;
+    width: 100%;
+    background-color: #e6bc40;
+    height: 100px;
+    z-index: 100;
+    filter: drop-shadow(8px 8px 4px #c7c3bb);
+    /* font-size: 45px; */
+}
+
+body {
+    background-color: #f7f2e6;
+}
 figure {
     margin: 0;
+    display: table;
 }
 
 .images {
@@ -42,24 +61,41 @@ figure {
     border-style: solid;
     color: #e6bc40;
     border-radius: 15px;
-    /* margin: 25px; */
     flex-grow: 1;
     flex-shrink: 7;
-    width: 300px;
+    width: 30vw;
+    display: inline-block;
+    max-width: 100%;
+    align-self: auto;
+    filter: drop-shadow(8px 8px 4px #c7c3bb)
 }
 
 .gallery {
-    display: inline flex;
-    flex-direction: row;
-    justify-content: space-between;
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: center;
     align-items: center;
-    align-content: center;
+    align-content: stretch;
     flex-basis: auto;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     gap: 25px;
     width: 100%;
+    margin-top: 150px;
+
 }
 
 figure figcaption {
     text-align: center;
+    display: table-caption;
+    caption-side: bottom;
+    padding: 5px;
+    font: 20px;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+.badge {
+    border-style: none;
 }
