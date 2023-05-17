@@ -9,6 +9,7 @@ header, footer {
 
 .navigation a{
     color:beige;
+    text-decoration: none;
 }
 
 .navigation a:hover{
