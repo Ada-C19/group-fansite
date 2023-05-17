@@ -3,21 +3,6 @@ body {
     font-family: georgia;
 }
 
-footer {
-    text-align: center;
-}
-
-header {
-    text-align: center;
-    border-style: dotted;
-}
-
-img {
-    width: 30%;
-    height: auto;
-    display: inline-block;
-}
-
 nav ul li a:link,
 nav ul li a:visited {
     color: #645c9f;
@@ -29,11 +14,6 @@ nav ul li a:active {
 }
 
 nav ul li a.visit {
-    background-color: #2911db;
+    background-color: #645c9f;
     color: #fff;
 }
-
-#navlinks li {
-    display: inline;
-    padding: 2.5em;
-} 
