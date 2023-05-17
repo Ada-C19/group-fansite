@@ -4,15 +4,19 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./assets/css/style.css">
-  <link rel="stylesheet" href="./assets/css/index.css">
-
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/index.css">
   <title> ANIMATION!!</title>
 </head>
 <body>
   <header>
   <h1>ANIMATION!!</h1>
-  <nav>
+  <section class="tab"> 
+    <button class="tablinks" onclick="openCity(event, 'Fun-Facts')">Fun Facts</button>
+    <button class="tablinks" href="pages/Gallery.html" onclick="openCity(event, 'Gallery')">Gallery</button>
+    <button class="tablinks" onclick="openCity(event, 'More')">More</button>
+    <button class="tablinks" onclick="openCity(event, 'About')">About</button></section>
+  <!-- <nav>
     <ul>
       <li>
         <a href="pages/Gallery.html">Gallery</a>
@@ -20,8 +24,13 @@
       <li>
         <a href="pages/Fun-Facts.html">Fun Facts</a></li>
     </ul>
-  </nav>
+  </nav> -->
 </header>
+<section class="leading-photo">
+  <p>
+    some cool enticing landing page photo or perhaps a carousel still gauging my motivation sans bootstrap sigh
+  </p>
+</section>
   <footer>&copy;2023 Hannah, Jay, Raina</footer>
 </body>
 </html>
