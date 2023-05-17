@@ -1,0 +1,19 @@
+
+h2 {
+    color: rgb(42, 162, 124);
+}
+
+body > header > h1, body > footer > h4 {
+    color: rgb(163, 64, 107);
+}
+
+* {
+    color: darkolivegreen;
+    background-color: antiquewhite; 
+
+}
+
+#abv-mystery:hover {
+    color: red;
+}
+
