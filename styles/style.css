@@ -1,25 +1,31 @@
 header {
     border: 1px; 
-    background-color: bisque; 
+    background-color: bisque;
 }
 
 
-footer {
+footer{
+    font-size: 14px;
+    text-align: right;
     border: 1px; 
     background-color: bisque; 
 }
 
 nav {
-    border: 1px;
-    border-style: dotted;
-    background-color: bisque;
-    color: red;
-}
+    display : grid;
+    justify-content: center;
+} 
 
 h1 {
-    font-family: "Comic Sans MS", "Comic Sans" sans-serif;
+    font-family: "Bradley Hand";
 }
 
 body {
     background-color: #aa856b;
+}
+
+
+/* Add spacing between the navigation links */
+#navlinks a{
+    margin-right: 1rem;
 }

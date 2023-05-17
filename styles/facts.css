@@ -1,4 +1,4 @@
-h1, h2 {
+h1 {
     text-align: center;
     font-family: "Bradley Hand";
     color: rgb(93, 46, 29);
@@ -13,10 +13,26 @@ p {
     border-color: rgb(93, 46, 29);
 }
 
-nav {
-    border: 1px;
-    border-style: dotted;
-    background-color: bisque;
-    color: black;
-    text-align: center;
+
+
+/* flex-container */
+.flex-container {
+    display : flex;
+    padding: 40px;
+    border: transparent;
+    justify-content: center;
+
+}
+
+.latte-facts {
+    display : flex;
+    flex-wrap : wrap ;
+    justify-content : space-around;
+}
+
+.footer-container {
+    display : flex;
+    padding: 20px;
+    border: transparent;
+    justify-content: right;
 }

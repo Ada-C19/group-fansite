@@ -15,8 +15,18 @@ li {
     list-style: none;
 }
 
-/* Footer Font Size */
-footer{
-    font-size: 14px;
-    text-align: right;
+#kunzite-members {
+    display : grid;
+    flex-direction : column; 
+    flex-wrap : wrap ;
+    justify-content : space-around;
 }
+
+/* grid-container */
+.grid-container {
+    display : grid;
+    padding: 20px;
+    border: transparent; 
+
+}
+
