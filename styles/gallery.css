@@ -76,6 +76,11 @@ li{
     background-size: cover;
     background-position: center;
 }
+.img-box:nth-child(5){
+    background: url(../assets/shenandoah-valley-g1568bb9ae_1280.jpg);
+    background-size: cover;
+    background-position: center;
+}
 .img-box:hover{
     width: 40vw;
     cursor: pointer;
