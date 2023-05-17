@@ -1,56 +1,63 @@
-
 * {
-    color: burlywood;
-    background-color: ivory;
+  color: burlywood;
+  background-color: ivory;
 }
 
-#title {
-    color: burlywood;
-    font-size: 40px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    padding: 50px;
-    text-align: center;
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
 }
+
+html {
+  height: 100%;
+}
+
+ul {
+  margin: 2em 2.5em 2em 2.5em;
+  display: block;
+}
+
 .topnav {
-    position: relative;
-    overflow: hidden;
-    padding: 30px;
+  position: relative;
+  overflow: hidden;
+  padding: 30px;
 }
 
-  /* Style the links inside the navigation bar */
-  .topnav a {
-    float: left;
-    color: burlywood;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  }
-  
-  /* Change the color of links on hover */
-  .topnav a:hover {
-    background-color: rgba(232, 213, 166, 0.57);
-    color: black;
-  }
-  
-  /* Add a color to the active/current link */
-  .topnav a.active {
-    background-color: burlywood;
-    color: darkgoldenrod;
-  }
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: burlywood;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
 
-  .topnav-centered a {
-    float: none;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: rgba(232, 213, 166, 0.57);
+  color: black;
+}
 
-  .topnav-right {
-    float: right;
-  }
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: burlywood;
+  color: darkgoldenrod;
+}
+
+.topnav-centered a {
+  float: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.topnav-right {
+  float: right;
+}
 
 /* Dropdown Button */
 .dropbtn {
@@ -96,22 +103,22 @@
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {background-color: rgba(232, 213, 166, 0.57)} 
 
-  #popular {
-    /* Add shadows to create the "card" effect */
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    transition: 0.3s;
-  }
-  
-  /* On mouse-over, add a deeper shadow */
-  #popular:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-  }
-  
-  /* Add some padding inside the card container */
-  #popular  {
-    padding: 2px 16px;
-  }
+.container {
+  align-items: center; 
+  float: left;
+}
 
+.image{
+    float: left;
+    /* padding: 5px; */
+    width: 300px;
+}
+
+.mt-auto py-1 bg-light fixed-bottom {
+  background-color: #e3f2fd;
+  flex: 1;
+  padding: 20px;
+}
   .container {
     align-items: center; 
     float: left;
@@ -139,12 +146,13 @@
     text-align: center;
   }
   
-
-  .book-covers li{
-    padding-right: 10px;
-    list-style-type: none;
-    display: inline-block;
-    text-align: center;
+.book-covers li {
+  /* padding-right: 10px; */
+  list-style-type: none;
+  display: inline-block;
+  text-align: center;
+  padding-right: 1em;
+  padding-top: 2em;
 }
 
 .book-covers li img {
@@ -157,3 +165,26 @@
   height: 400px;
 }
 
+#title {
+  color: burlywood;
+  font-size: 40px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  padding: 50px;
+  text-align: center;
+}
+
+#popular {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+}
+
+/* On mouse-over, add a deeper shadow */
+#popular:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+/* Add some padding inside the card container */
+#popular  {
+  padding: 2px 16px;
+}
