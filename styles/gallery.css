@@ -1,9 +1,10 @@
+
 figure {
     border: thin #433c5e dotted;
     padding: 0.5em;
-    background-color: #eaced9;
-    width: 28%;
-    margin: 0px;
+    background-color: rgba(255, 255, 255, 0.479);
+    width: 25%;
+    margin: 15px;
     border-radius: 5px;
 } 
 
@@ -22,7 +23,7 @@ section {
 .grid-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 38% 8% 1fr 3%;
+    grid-template-rows: 20% 5% 1fr 3%;
     justify-content: space-evenly;
     margin: 0;
 }
@@ -30,7 +31,7 @@ section {
 #footer {
     grid-column: 1 / 4;
     grid-row: 4;
-    text-align: center;
+    text-align: right;
 }
 
 #header {
@@ -46,6 +47,8 @@ section {
 #main {
     grid-column: 1 / span 3;
     text-align: center;
+    margin: 8px;
+    margin-top: 10px;
 }
 
 #navmenu {
@@ -54,11 +57,23 @@ section {
     background-color: #eaced9;
     margin: 0px;
     display: flex;
+    flex-wrap: wrap;
     text-transform: uppercase;
     font-weight: bold;
     font-size: 125%;
     justify-content: space-around;
     align-items: center;
+    border: thin #433c5e solid;
+}
+
+#title {
+    color: rgba(255, 255, 255, 0.479);
+    font-size: 60pt;
+    font-weight: lighter;
+    position: absolute;
+    text-transform: uppercase;
+    top: 20px;
+    right: 160px;
 }
 
 a:link {
