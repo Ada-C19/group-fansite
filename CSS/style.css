@@ -1,0 +1,43 @@
+body{
+    background-image: url(https://slack-imgs.com/?c=1&o1=ro&url=https%3A%2F%2Fimg.freepik.com%2Ffree-photo%2Fdelicious-ice-cream-cones_23-2149460312.jpg%3Fw%3D2000);
+    background-repeat: no-repeat;
+    background-size:cover;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #292F36;
+    margin: 20px 50px;
+    text-align: initial;
+    
+}
+
+#site-title{
+    font-size: 80px;
+    color: #6F73D2;
+}
+
+footer{
+    position:fixed;
+    bottom: 5px;
+    
+
+}
+
+header,h1{
+    color:#83C9F4;
+}
+
+.container {
+    display: flex;
+    margin: 50px;
+
+}
+
+.container p {
+    margin: 10px 50px;
+    padding: 20px;
+    max-width: 500px;
+}
+
+
+
+
+
