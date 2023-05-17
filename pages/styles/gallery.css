@@ -1,0 +1,18 @@
+#gallery-container{ 
+    /* background-color: rgb(100, 45, 45); */
+    background-color: pink;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: center;
+    height: 500px;
+    width: 500px;
+
+}
+
+#image-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items:center;
+}
