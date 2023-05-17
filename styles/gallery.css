@@ -1,0 +1,24 @@
+h1 {
+    padding: 0 400px;
+    margin: 50px 0 50px 0;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 50px;
+    color: deeppink;
+}
+
+.nav-list {
+    list-style-type: none;
+    padding: 20px 0 20 0px;
+ } 
+
+.nav-items {
+    display: inline;
+    padding: 0px 15px 0 0;
+}
+
+.nav-links {
+    text-decoration: none;
+    color: cadetblue;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
