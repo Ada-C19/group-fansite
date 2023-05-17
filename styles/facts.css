@@ -1,0 +1,27 @@
+main{
+    border-style: solid;
+    border-color: purple;
+}
+
+ol li {
+    list-style-type: none;
+    padding-left: 2rem;
+    background-image: url(../images/bunny-rabbit-silhouette-farm-animal-free-svg-file-SvgHeart.Com.png);
+    background-position: 0 0;
+    background-size: 1.6rem 1.6rem;
+    background-repeat: no-repeat;
+    font-style: italic;
+    font-weight: bold;
+    color: purple;
+    font-size: large;
+  }
+
+ol p{
+    font-style: normal;
+    font-weight: 100;
+    color: RGB(140, 3, 252);
+}
+
+#title-facts{
+    text-align: center;
+}
