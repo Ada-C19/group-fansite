@@ -27,6 +27,9 @@ nav {
 
 .navbar a {
     color: rgb(247, 93, 118);
+    line-height:2.5em;
+    font-size: medium;
+    font-weight: bold;
 }
 
 .navbar a:hover {
