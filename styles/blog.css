@@ -1,0 +1,26 @@
+
+body{
+    background-color: #fff;
+    display: grid;
+    margin: 0 auto;
+
+}
+
+header{
+    background-image: url(../assets/lukasz-szmigiel-2ShvY8Lf6l0-unsplash.jpg);
+    text-align: center;
+    list-style-type: none;
+}
+h1{
+    color: #fff;
+    font-family: Norwester, sans-serif;
+}
+
+li{
+    list-style-type: none;
+    display: inline-flex;
+}
+ul{
+    padding: 0;
+    background-color: #b;
+}

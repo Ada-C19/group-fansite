@@ -4,7 +4,9 @@
     justify-content: center;
     overflow: hidden;
 }
-
+body{
+    background-color: #fff;
+}
 h1{
     font-family: Norwester, sans-serif;
     color: var(--brown1);
@@ -22,7 +24,6 @@ h1{
 ul{
     list-style: none;
     position: absolute;
-    font-family: "Barlow", sans-serif;
     font-weight: bold;
     font-size: 1.1rem;
 }
