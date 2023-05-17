@@ -1,3 +1,31 @@
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    /* background-color: rgb(241, 186, 161); */
+    background-image: linear-gradient(#ffc2d1, #ffb3c6, #ff8fab)
+}
+
+main {
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+}
+
+section#contact {
+    display: flex;
+    flex-flow: column;
+    align-self: center;
+    /* align-items: center; */
+}
+section#contact ul {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-evenly;
+}
+
 div.about {
     display: flex;
     flex-direction: row;
