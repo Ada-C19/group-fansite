@@ -17,6 +17,7 @@ footer {
 
 h2{  
     display: flex;
+    text-align: center;
 } 
 
 header nav li {
@@ -26,10 +27,7 @@ header nav li {
 
 .heading {
     display: flex;
-    border: 5px;
-    margin: auto;
-    width: 50%;
-    padding: 10px;
+    text-align: center;
 }
 
 li {
