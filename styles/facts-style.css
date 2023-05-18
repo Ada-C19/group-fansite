@@ -9,13 +9,13 @@
 
 main{
     display: grid;
-    grid-template: repeat(4, 25%) / repeat(4, 25%);
-    padding: 50px
+    grid-template: repeat(4, 25%) / repeat(5, 20%);
+    padding: 15px;
 }
 
 main h1{
     font-size: 48px;
-    grid-column: 1 / span 4;
+    grid-column: 1 / span 5;
     text-align: center;
     background-image: url(../images/pig-pig-pig.png);
     background-repeat: no-repeat;
@@ -24,14 +24,25 @@ main h1{
 }
 
 #origin{
-    grid-column: 1 / span 4;
+    grid-column: 1 / span 3;
 }
+
+#stone{
+    grid-column: 1 / span 3;
+}
+
+#stone_image{
+    grid-column: span 2;
+}
+
 
 main section{
     display: grid;
     background-color:burlywood;
     grid-column: span 2;
+    padding: 15px;
 }
+
 
 p:first-of-type::first-letter{
     font-size: 2em;
@@ -39,4 +50,15 @@ p:first-of-type::first-letter{
 
 h2 {
     font-size: larger;
+}
+
+img {
+    object-fit: contain;
+    background-color:burlywood;
+    width: 75%;
+    height: 75%;
+}
+
+p, h2 {
+    margin-left: 50px;
 }
