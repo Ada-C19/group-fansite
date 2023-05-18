@@ -45,6 +45,8 @@ section a img {
 }
 
 .deals {
+    padding-top: 10px;
+    padding-bottom: 10px;
     font-stretch:ultra-expanded;
     font-size: medium;
     font-style: oblique;
@@ -53,6 +55,8 @@ section a img {
     text-align: center;
     letter-spacing: .1em;
     border-radius: 8px;
-    border-bottom: 1rem ridge sienna;
-    border
+    border-bottom: .5rem ridge sienna;
+}
+nav ul{
+    gap: 0px;
 }

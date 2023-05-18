@@ -19,18 +19,19 @@ h1 {
 }
 
 nav {
-    inline-size: auto;
     font-family: Cambria;
     letter-spacing: .1em;
-    text-align: center;
     font-size: 2em;
     font-style: bold;
+    font-weight: bolder;
+    inline-size: auto;
+    text-align: center;
     border-top: .25em dotted rgb(196, 149, 149);
     border-bottom: .25em dotted rgb(196, 149, 149);
     height: 5rem;
     padding-block-start: 0px;
     vertical-align: middle;
-    background-color: white;
+    background-color: rgb(249, 246, 238);
 }
 
 nav ul, footer ul {
@@ -48,7 +49,8 @@ nav ul, footer ul {
 
 nav ul li a, footer ul li a {
     text-decoration: none;
-    color: rgb(92, 3, 40);
+    color: rgb(184,144,148);
+    /* color: rgb(92, 3, 40); */
 }
 
 nav ul li:hover {
