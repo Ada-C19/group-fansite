@@ -4,7 +4,6 @@ body {
     background-position-x: right;
     background-repeat: no-repeat;
     font-family: organetto-cndthin;
-    opacity: 0.825;
     margin-left: 200px; /* Same as the width of the left sidebar */
     margin-right: 0px;
     padding: 0px 0px;
@@ -61,18 +60,18 @@ color: #f1f1f1;
     width: 375px;
 }
 
-nav ul li a:link,
-nav ul li a:visited {
-    color: #645c9f;
+nav highlight ul li a:link,
+nav highlight ul li a:visited {
+    color:#f9e5f9;
 }
 
-nav ul li a:hover,
-nav ul li a:active {
+nav highlight ul li a:hover,
+nav highlight ul li a:active {
     color: #fff;
 }
 
-nav ul li a.visit {
-    background-color: #2911db;
+nav highlight ul li a.visit {
+    background-color:#f9e5f9;
     color: #fff;
 }
 
@@ -83,9 +82,10 @@ footer {
 /* Style The Dropdown Button */
 .dropbtn {
     background-color: #b98eb1;
-    color: #433c5e;
+    color: #f9e5f9;
     padding: 16px;
     font-size: 16px;
+    font-family: organetto-cndthin;
     border: none;
     cursor: pointer;
 }
