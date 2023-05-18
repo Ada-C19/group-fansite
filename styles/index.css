@@ -1,0 +1,86 @@
+
+
+body{
+    background: var(--green1);
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+    grid-template-areas: "header" "main" "main" "main" "footer";
+}
+
+.container {
+    background: white;
+    justify-content: center;
+    height: 43rem;
+    display: grid;
+}
+
+h1 {
+    display: inline;
+    font-family: Norwester, sans-serif;
+    margin-bottom: 7px;
+    text-align: center;
+    color: var(--brown1);
+    font-size: 70px;
+}
+
+header {
+    display: inline;
+    margin-top: 2rem;
+}
+
+.main-links li{
+
+    display: inline;
+    font-size: x-large;
+    margin-left: 16px;
+
+
+}
+
+
+li {
+    list-style-type: none;
+    display: inline-flex; 
+    padding: 22px;
+    margin-right:60px;
+    justify-content: space-evenly;
+} 
+
+footer {
+    background-image: url(../assets/USA_Parks_Mountains_Lake_Glacier_National_Park_535804_2560x1440.jpg);
+    background-repeat: no-repeat;
+    max-width: 100%;
+    grid-area: footer;
+    align-self: flex-end;
+}
+
+
+.footer-links {
+    background-color: white;
+    height: 4rem;
+    border-radius: 10px;
+    margin-top: 100px;
+    
+}
+
+.names {
+    color: white;
+    text-align: center;
+    font-family: "Barlow", sans-serif;
+}
+
+nav {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+}
+
+p {
+    font-family: "Archivo Black";
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
