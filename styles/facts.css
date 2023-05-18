@@ -238,3 +238,8 @@ padding: 50px;
   padding: 14px 16px;
   font-size: 18px;
 }
+.footer {
+  flex: 1;
+  padding: 20px;
+  text-align: center;
+}
