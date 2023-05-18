@@ -1,0 +1,57 @@
+body{
+    background-color: beige;
+}
+
+header, footer {
+    background-color: #5C2680;
+    color: beige;
+}
+
+.navigation a{
+    color:beige;
+    text-decoration: none;
+}
+
+.navigation a:hover{
+    color:#88b2c2;
+    transition: 0.2s;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    text-align: center;
+}
+
+main div{
+    margin: 3em;
+}
+.card {
+    background-color: #ad9eb5;
+}
+
+.card{
+    border-style:solid;
+    border-color:#4c1e63; 
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-family: Josefin Sans;
+}
+
+.card img{
+
+  max-width:100%;
+  height: auto;
+
+}
+
+.card p{
+    text-align:center;
+    color: #4c1e63;
+}
+
