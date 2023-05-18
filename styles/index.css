@@ -9,13 +9,24 @@ h4 {
     font-style: italic;
 }
 
+p {
+    color: cornflowerblue;
+    text-align: center;
+}
+
 header {
     display: flex;
+    flex-direction: row;
+    flex-direction: column;
+    flex-wrap: wrap;
     border: 5px purple solid;
+    justify-content: space-evenly;
+
 }
 
 .page-title {
     background-color: thistle;
     color: white;
+
 }
 
