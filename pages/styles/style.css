@@ -1,3 +1,7 @@
+.nav-links {
+    display: flex;
+    justify-content: space-evenly;
+}
 
 h1 {
     text-align: center;
@@ -10,11 +14,16 @@ h2 {
     font-family: cursive;
 }
 
-nav > ul > li {
-    display:inline;
-    border: 5px solid lightblue;
-    padding: 10px 20px;
-    margin: 25px;
+header {
+    background-color: darkcyan;
+}
+
+footer {
+    text-align: right;
+}
+
+footer:hover {
+    color:green;
 }
 
 nav {
@@ -23,20 +32,16 @@ nav {
     font-family: monospace;
     font-size: 1.5rem;
     background-color: darkcyan;
-    display: block;
     text-align: center;
-    margin: 0px 25px;
     
 }
 
-header {
-    background-color: darkcyan;
+nav > ul > li {
+    border: 5px solid lightblue;
+    padding: 10px 20px;
 }
 
 ul {
     list-style-type: none;
 }
 
-footer {
-    text-align: right;
-}

@@ -1,14 +1,22 @@
-#team {
-    color: royalblue;
-}
-
 #names {
     font-family: cursive;
     text-align: center;
+    display: flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    justify-content: center;
+    margin: 50px;
+}
+
+#team {
+    color: royalblue;
 }
 
 img {
     width: 400px;
     height: 400px;
     text-align: center;
+    border-radius: 50%;
+    margin: 25px;
 }
+
