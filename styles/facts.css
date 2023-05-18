@@ -6,23 +6,25 @@ a:link, a:visited {
     text-align: center;
     text-decoration: none;
     display: inline-block;
-  }
-  
-  a:hover, a:active {
+}
+
+a:hover, a:active {
     background-color: #fcd7dd;
-  }
+}
 
 body {
     margin: 0px;
-}
+} 
+
 
 footer {
     background-color: black;
-    padding: 10px;
+    padding: 4em;
     margin-top: 10px;
     font-size: small;
     height: 50px;
-    
+    color: #FFC0CB;
+    text-align: center;   
 }
 
 h1 {
@@ -40,7 +42,10 @@ h1 {
 
 h2 {
     text-align: center;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
 }
+
 
 header {
     text-align: center;
@@ -61,6 +66,7 @@ li {
     padding: 0px;
 
 }
+
 
 ul {
     padding: 0px;
@@ -108,7 +114,6 @@ ul {
     background-color: black;   
 }
 
-
 #rose {
 
     border-style: solid;
@@ -119,7 +124,10 @@ ul {
     background-color: #FFC0CB;
     color: black
 }
-
+.align {
+    display: flex;
+    justify-content: center;
+}
 
 .members {
     display: grid;
@@ -132,4 +140,3 @@ ul {
     margin: 0 auto;
 
 }
-
