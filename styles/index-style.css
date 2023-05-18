@@ -2,6 +2,11 @@
   color: burlywood;
   background-color: ivory;
 }
+.backgroung-image {
+background-position: top center;
+background-blend-mode: overlay;
+background-image: url(https://drinkthriveremedies.com/wp-content/uploads/2021/05/bubble-tea.jpg) !important;
+}
 
 body {
   display: flex;
