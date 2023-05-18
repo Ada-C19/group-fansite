@@ -4,14 +4,15 @@
     font-size: 25px;
     font-weight: 500;
     display: block;
-    color: #f9c5bd;
+    /* color: #f9c5bd; */
+    color: #bd8c7d
 }
 
 body {
     background-color:#a28089;
 }
 nav:hover {
-    color: chocolate;
+    color: brown;
 }
 
 /* #home {
