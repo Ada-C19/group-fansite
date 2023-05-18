@@ -60,7 +60,10 @@ img {
     background-color: #4ABDAC;
     overflow: hidden;
     position: fixed;
+    top: 0;
     left: 0;
+    right: 0;
+    right: 0;
     bottom: top;
     height: 15%;
     width: 100%;
