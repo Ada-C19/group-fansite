@@ -30,6 +30,7 @@ nav {
     height: 5rem;
     padding-block-start: 0px;
     vertical-align: middle;
+    background-color: white;
 }
 
 nav ul, footer ul {
