@@ -1,8 +1,11 @@
-h1 {
-    color: rgba(204, 108, 255, 0.999);
-    font-weight: bold;
+body {
+    background: radial-gradient( rgba(100, 2, 170, 0.5) , rgba(115, 0, 255, 0.5));
 }
 
+h1 {
+    color: rgba(33, 1, 51, 0.999);
+    font-weight: bold;
+}
 
 .flex-container {
     display: flex;
@@ -28,15 +31,15 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #f4e5ff;
-    padding: 10px;
+    background-color: #dbb2f6;
+    border: 0.5px #f3e2ff;
+    padding: 1px;
+    box-shadow: 6px 4px 8px 4px;
 }
-
 
 ul {
     list-style-type: none;
     padding: 0;
-    border-bottom: 1px solid #f3e2ff;
 }
 
 ul li {
@@ -47,16 +50,6 @@ ul li {
 ul li a {
     text-decoration: none;
 }
-
-
-header h1,
-header h1:visited {
-    color: black;
-    text-decoration: underline;
-}
-
-
-
 
 .flex-item img {
     width: 350px;
