@@ -8,5 +8,26 @@ h3 {
 div {
     padding: 2em;
     display: grid;
-    grid-template-columns: 5% 30% 30% 30% 5%;
+    grid-template-columns: 33% 33% 33% ;
+}
+
+.Container1 {
+    grid-column: 1 / 2;
+    padding-top: 1em;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+.Container2 {
+    grid-column: 2 / 3;
+    padding-top: 1em;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+.Container3 {
+    grid-column: 3 / 4;
+    padding-top: 1em;
+    padding-left: 2em;
+    padding-right: 2em;
 }
