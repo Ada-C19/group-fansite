@@ -13,10 +13,18 @@ nav {
     background-color: rgb(188, 71, 73);
   }
 
-images {width: 100px;
+#chilaquiles {width: 300px;
     height: auto;}
 
- 
+#huarache {width: 300px;
+    height: auto;}
+
+#pozole {width: 300px;
+    height: auto;}
+
+#mole {width: 300px;
+    height: auto;}
+
   /* BELOW CAROUSEL CODE */
 
   @keyframes tonext {
