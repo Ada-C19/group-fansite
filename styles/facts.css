@@ -1,17 +1,3 @@
-
-a:link, a:visited {
-    background-color: #FFC0CB;
-    color: black;
-    padding: 14px 25px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-}
-
-a:hover, a:active {
-    background-color: #fcd7dd;
-}
-
 body {
     margin: 0px;
 } 
@@ -85,7 +71,7 @@ ul {
 #jisoo {
 
     border-style: solid;
-    border-color: white;
+    border-color:rgb(240, 230, 230);
     border-width: 3px;
     width: 300px;
     height: 300px;
@@ -96,7 +82,7 @@ ul {
 #jennie {
 
     border-style: solid;
-    border-color: white;
+    border-color:rgb(240, 230, 230);
     border-width: 3px;
     width: 300px;
     height: 300px;
@@ -107,7 +93,7 @@ ul {
 #lisa {
 
     border-style: solid;
-    border-color: white;
+    border-color:rgb(240, 230, 230);
     border-width: 3px;
     width: 300px;
     height: 300px;
@@ -117,7 +103,7 @@ ul {
 #rose {
 
     border-style: solid;
-    border-color: white;
+    border-color:rgb(240, 230, 230);
     border-width: 3px;
     width: 300px;
     height: 300px;
