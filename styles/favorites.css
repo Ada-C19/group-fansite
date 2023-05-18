@@ -196,3 +196,8 @@ background-image: url(https://drinkthriveremedies.com/wp-content/uploads/2021/05
 #popular  {
 padding: 2px 16px;
 }
+.footer {
+  flex: 1;
+  padding: 20px;
+  text-align: center;
+}
