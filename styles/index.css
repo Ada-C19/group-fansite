@@ -2,14 +2,45 @@ body {
     background-color: #FFEEB3;
 }
 
-ul {
-    list-style-type: none;
+p {
+    line-height: 1.5rem;
+    border-radius: 10px;
+}
+
+.center-img {
+    text-align: center;
+    background-color:#FFEEB3;
+    margin: 100px 23% 100px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.content p:first-child {
+    background-color: #FFEEB3;
+    margin: 50px 60% 50px 5%;
+    padding: 10px;
+}
+
+.content p:nth-child(2) {
+    background-color: #FFEEB3;
+    margin: 50px 5% 50px 60%;
+    padding: 10px;
+}
+
+.content p:nth-child(3) {
+    background-color: #FFEEB3;
+    margin: 50px 60% 50px 5%;
+    padding: 10px;
+}
+.content p:nth-child(4) {
+    background-color: #FFEEB3;
+    margin: 50px 25% 50px;
+    padding: 10px;
 }
 
 main {
     background-image: url("/assets/espresso-background.jpg");
     background-size: 100%;
-    background-color: #FFEEB3;
 }
 
 /* Photo by <a href="https://unsplash.com/@nate_dumlao?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Nathan Dumlao</a> on <a href="https://unsplash.com/s/photos/cafe?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a> */
@@ -19,9 +50,8 @@ main {
     -moz-border-radius: 14;
     border-radius: 14px;
     text-shadow: 1px 1px 3px #666666;
-    font-family: Courier New;
     color: #FFEEB3;
-    font-size: 20px;
+    font-size: 16px;
     background: #9E6F21;
     padding: 10px 20px 10px 20px;
     border: solid #1f628d 0px;
