@@ -1,26 +1,72 @@
 .nav-links {
-    font-size: 30px;
-    text-align: center;
-    font-family: "Comic Sans MS", "Comic Sans", cursive;
-    text-decoration: none;
+  font-size: 30px;
+  text-align: center;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  text-decoration: none;
+  margin: 1rem;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
 }
 
 a:visited {
-    color:blue
+  color: blue;
 }
 
 a:hover {
-    color:aqua;
-    text-decoration:underline;
-    color: cornflowerblue;
+  color: aqua;
+  text-decoration: underline;
+  color: cornflowerblue;
 }
 
 h1 {
-    font-family: 'Knewave', cursive;
-    font-size: 3rem;
-    background: linear-gradient(0deg, rgba(53,123,224,1) 0%, rgba(59,220,246,1) 100%);
+  font-family: "Knewave", cursive;
+  font-size: 4rem;
+  margin: 0.25rem;
+  padding: 1rem;
+}
+
+header {
+  border-bottom: dotted white 10px;
+  display: flex;
+  justify-content: center;
 }
 
 footer {
-    color: cornflowerblue
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: cornflowerblue;
+}
+
+.main-body-container {
+  height: 95vh;
+}
+
+.main-body {
+  display: flex;
+  flex-direction: column;
+}
+
+.shark-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#shark-movie {
+  flex-grow: 2;
+}
+
+.shark-experience {
+  flex-grow: 1;
+}
+
+#Logo {
+  width: 60%;
+  margin: 1rem;
 }
