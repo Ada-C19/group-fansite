@@ -4,7 +4,6 @@
 } */
 
 section h1 {
-    text-decoration: underline;
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
 }
@@ -54,5 +53,6 @@ footer {
 }
 
 body {
-    background-image: linear-gradient(to right, rgb(22, 128, 164) , rgb(3, 36, 137));
+    background-image: linear-gradient(to right, rgb(50, 177, 219) , rgb(14, 91, 207));
 }
+
