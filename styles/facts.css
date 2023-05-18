@@ -1,0 +1,38 @@
+h1 {
+    text-align: center;
+    font-family: "Bradley Hand";
+    color: rgb(93, 46, 29);
+
+}
+
+p {
+    font-family: "Bradley Hand";
+    text-align: center;
+    color: white;
+    border: 3px;
+    border-color: rgb(93, 46, 29);
+}
+
+
+
+/* flex-container */
+.flex-container {
+    display : flex;
+    padding: 40px;
+    border: transparent;
+    justify-content: center;
+
+}
+
+.latte-facts {
+    display : flex;
+    flex-wrap : wrap ;
+    justify-content : space-around;
+}
+
+.footer-container {
+    display : flex;
+    padding: 20px;
+    border: transparent;
+    justify-content: right;
+}

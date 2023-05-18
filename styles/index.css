@@ -1,0 +1,32 @@
+/* Center header and section titles */
+h1, h2 {
+    text-align: center;
+    font-family: "Bradley Hand";
+}
+
+/* Center lists */
+ul {
+    text-align: center;
+    list-style-position: inside;
+}
+
+/* Remove Bullets*/
+li {
+    list-style: none;
+}
+
+#kunzite-members {
+    display : grid;
+    flex-direction : column; 
+    flex-wrap : wrap ;
+    justify-content : space-around;
+}
+
+/* grid-container */
+.grid-container {
+    display : grid;
+    padding: 20px;
+    border: transparent; 
+
+}
+
