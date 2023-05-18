@@ -8,13 +8,14 @@ h1 {
     text-align: center;
 }
 
-li {
-    color: black;
+
+li:hover {
+    color: blue;
 }
 
 
-a {
-    color: black;
+a:hover {
+    color: blue;
 }
 
 /* section {
