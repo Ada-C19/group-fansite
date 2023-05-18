@@ -16,7 +16,7 @@
 }
 
 #about-me {
-margin-top: -40px;
+margin-top: -75px;
 text-align: center;
 background: -webkit-linear-gradient( #ffffcc, #FFB6C1);
 -webkit-background-clip: text;
@@ -42,7 +42,7 @@ text-align: center;
 
 .smack-bee-gif {
 margin-top: -79px;
-margin-bottom: px;
+margin-bottom: -9kittpx;
 background:  #f2e6ff;
 display: block;
 margin-left: auto;
@@ -51,9 +51,9 @@ width: 100px;
 text-align: center;
 }
 
-.taros-gif {
-margin-top: -123px;
-margin-bottom: px;
+.kitty-gif {
+margin-top: -80px;
+/* margin-bottom: px; */
 background:  #f2e6ff;
 display: block;
 margin-left: auto;
@@ -64,7 +64,30 @@ text-align: center;
 
 .taro-gif {
   margin-top: -65px;
-  margin-bottom: px;
+  margin-bottom: -5px;
+  background:  #f2e6ff;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100px;
+  text-align: center;
+}
+
+.matcha-gif {
+  margin-top: -65px;
+  margin-bottom: -5px;
+  background:  #f2e6ff;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100px;
+  text-align: center;
+}
+
+
+.dancy-gif {
+  margin-top: -75px;
+  margin-bottom: -7px;
   background:  #f2e6ff;
   display: block;
   margin-left: auto;
@@ -74,7 +97,7 @@ text-align: center;
 }
 
 .milk-tea-gif {
-margin-top: -65px;
+margin-top: -55px;
 margin-bottom: -20px;
 background:  #f2e6ff;
 display: block;
