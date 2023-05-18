@@ -10,6 +10,13 @@ ul {
     padding-inline-start: 0px;
 }
 
+h2 {
+    text-align: center;
+}
+
+h3{
+    text-align: center;
+}
 /* ul.facts-section{
     border: 10px solid #bb3e03;
     padding: 30px;
@@ -50,15 +57,14 @@ footer{
 main {
     grid-row: 2;
     grid-column: 2/10;
-    height: 500px;
-    background-color:rgb(122, 99, 40)
-    
+    height: 600px;
+    background-color:rgb(122, 99, 40)  
 }
 
 nav {
     grid-row:2/4;
     grid-column: 1;
-    background-color:#bb3e03 ;
+    background-color:orangered;
     width: 100%;
     text-align: center;
 }
@@ -70,11 +76,18 @@ nav {
     /* height: auto; */
 }
 
-/* #gif2 {
+#gif2 {
     max-width: 440px;
     width: 100%; 
-    height: auto; 
-} */
+    height: 500px; 
+}
+
+
+#gif3 {
+    max-width: 440px;
+    width: 100%;
+    height: 100;
+}
 
 
 
