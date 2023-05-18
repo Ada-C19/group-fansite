@@ -1,7 +1,7 @@
 
 * {
     /* font-style: linear-gradient(pink, purple); */
-    background-color: ivory;
+    background-color: transparent;
 }
 
 #title {
@@ -23,15 +23,82 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   text-shadow: -1px 1px 2px #FFB6C1,
-				  1px 1px 2px #ffffcc,
-				  1px -1px 0 #ffffcc,
-				  -1px -1px 0 #ffffcc;
+        1px 1px 2px #ffffcc,
+        1px -1px 0 #ffffcc,
+        -1px -1px 0 #ffffcc;
   /* padding: 50px; */
 }
 
 .bear-gif {
   margin-top: -25px;
   margin-bottom: -35px;
+  background:  #f2e6ff;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100px;
+  text-align: center;
+}
+
+
+.smack-bee-gif {
+  margin-top: -79px;
+  margin-bottom: px;
+  background:  #f2e6ff;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100px;
+  text-align: center;
+}
+
+.taros-gif {
+  margin-top: -123px;
+  margin-bottom: px;
+  background:  #f2e6ff;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100px;
+  text-align: center;
+}
+
+.taro-gif {
+    margin-top: -65px;
+    margin-bottom: px;
+    background:  #f2e6ff;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+    text-align: center;
+}
+
+.milk-tea-gif {
+  margin-top: -65px;
+  margin-bottom: -20px;
+  background:  #f2e6ff;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100px;
+  text-align: center;
+}
+
+.spit-tea-gif {
+  margin-bottom: -50px;
+  background:  #f2e6ff;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100px;
+  text-align: center;
+}
+
+
+.sleep-gif {
+  margin-top: -15px;
+  margin-bottom: -50px;
   background:  #f2e6ff;
   display: block;
   margin-left: auto;
