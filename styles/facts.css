@@ -28,5 +28,5 @@ a {
     grid-template-rows: 1fr;
     text-align: justify;
     justify-content: center;
-    border: 2px lightslategrey solid; 
-  }
+    border: 2px black solid; 
+}
