@@ -1,0 +1,7 @@
+.facts-container {
+    display: flex;
+}
+
+#text-1 {
+    background-color: blue;
+}

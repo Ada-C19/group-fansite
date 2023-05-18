@@ -14,12 +14,11 @@ body{
     color: #6F73D2;
 }
 
-footer{
+/* footer{
     position:fixed;
     bottom: 5px;
-    
 
-}
+} */
 
 header,h1{
     color:#83C9F4;
@@ -37,6 +36,9 @@ header,h1{
     max-width: 500px;
 }
 
+ul{
+    list-style: none;
+}
 
 
 
