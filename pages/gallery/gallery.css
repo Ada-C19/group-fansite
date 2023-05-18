@@ -55,9 +55,15 @@ ul {
     height: fit-content;
     color: forestgreen;
     background-color: burlywood;
+    border: 10px mintcream dotted;
     text-shadow: 5px 5px lavenderblush;
     text-decoration: none;
+    
 
+}
+
+.container li a:hover {
+    background-color: hotpink;
 }
 
 .container li {
@@ -78,7 +84,11 @@ ul {
     text-align: center;
     color: white;
     background-color: darkseagreen;
-    text-shadow: 10px 5px forestgreen;
+    border: 20px darkgreen groove;
+    text-shadow: -10px 5px forestgreen,
+                -20px 10px darkgreen,
+                -30px 15px black;
+
 }
 
 .grid-container {
@@ -92,6 +102,12 @@ ul {
     background-color:lightyellow;
     color: black;
     font-size: 30px;
+}
+
+.grid-item:hover {
+    border-color: lime;
+    color: yellowgreen;
+    box-shadow: -10px 5px forestgreen;
 }
 
 .contact {
@@ -125,10 +141,19 @@ ul {
     text-align: center;
 }
 
-.content li, p {
+.contact li, p {
     font-size: 50px;
     justify-content: center;
     text-align: center;
+}
+
+.contact p1{
+    text-decoration: 5px forestgreen underline;
+}
+
+.contact p1:hover {
+    color: hotpink;
+    text-decoration: 5px hotpink underline;
 }
 
 footer {
