@@ -100,8 +100,27 @@ ul {
 .navigation a:hover span {
   color: #fff;
 }
+#home:hover::after {
+  content: "Page";
+  color: black;
+}
+#facts:hover::after {
+  content: "Page";
+  color: black;
+}
+    
+#discography:hover::after {
+  content: "Page";
+  color: black;
+}
 
-/* Flex item */
+#gallery:hover::after {
+  content: "Page";
+  color: black;
+
+}
+
+
 .flex-item {
   flex: 1;
   padding: 1em;
