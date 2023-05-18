@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Felt+Marker&display=swap');
 
 
-body {
+#fact-container {
   margin: 0;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -23,6 +23,9 @@ body {
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
   margin-left: 10rem;
   margin-bottom: 1rem;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
 }
 
 .fact-item img {
@@ -31,6 +34,16 @@ body {
   object-fit: contain;
 }
 
+.fact-item img:first-child{
+  width: 300px; 
+  height: 200px; 
+}
+
+.fact-item:nth-child(n+2) img {
+  width: 300px; 
+  height: 200px;
+  object-fit: cover;
+}
 
 #facts-h1 {
   font-family: 'Marker Felt', cursive;
@@ -68,11 +81,6 @@ body {
     background-color: #FF0000; 
   }
 
-.facts-section {
-  border: 10px solid #bb3e03;
-  padding: 30px;
-  text-align: left;
-}
 
 body em {
   margin-top: 9rem;
@@ -99,19 +107,10 @@ body em {
     border: 2px solid #bb3e03;
   }
   
-footer {
-  opacity: 0;
-  transition: opacity 0.3s ease;
-}
 
-body:after {
-  content: '';
-  display: block;
-  height: 100px; 
-}
-
-  footer {
+  #facts-footer {
     position: fixed;
+    /* display: block; */
     left: 0;
     bottom: 0;
     width: 100%;
@@ -121,8 +120,8 @@ body:after {
     opacity: .85;
   }
   
-  footer p { 
-     margin: 5px 0; 
+  #facts-footer p { 
+     margin: auto; 
   }
 
   #nav-buttons{
