@@ -1,14 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Felt+Marker&display=swap');
 
 
-#fact-container {
+#fact-body {
   margin: 0;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(2, .2fr);
+  grid-template-rows: repeat(1, .2fr);
   grid-gap: 10px;
   background-image: url("../assets/AwesomeFieriPic.png");
   background-repeat: repeat;
+}
+.fact-container {
+  width: 800px;
+  height: 600 px;
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 30px;
 }
 
 .fact-item {
@@ -25,7 +33,7 @@
   margin-bottom: 1rem;
   width: 100%;
   height: auto;
-  object-fit: cover;
+  /* object-fit: cover; */
 }
 
 .fact-item img {
@@ -94,23 +102,25 @@ body em {
   padding-right: 9.65rem;
 }
 
-.fact-container {
+/* .fact-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: flex-start;
     margin-top: 1rem;
-  }
+  } */
+
+
    
-  .fact-item p {
-    margin-top: 0.5rem;
-    border: 2px solid #bb3e03;
-  }
+.fact-item p {
+  margin-top: 0.5rem;
+  border: 2px solid #bb3e03;
+}
   
 
-  #facts-footer {
-    position: fixed;
-    /* display: block; */
+  /* #facts-footer {
+    position: fixed; 
+    display: block;
     left: 0;
     bottom: 0;
     width: 100%;
@@ -118,11 +128,22 @@ body em {
     padding: 10px;
     color: white;
     opacity: .85;
+  } */
+
+  #facts-footer {
+    padding: 1em;
+    grid-row: 10;
+    grid-column: 1;
+    width: 350%;
+    background-color: #bb3e03;
+    padding: 10px;
+    color: white;
+    opacity: .85;
   }
-  
-  #facts-footer p { 
+
+#facts-footer p { 
      margin: auto; 
-  }
+  } 
 
   #nav-buttons{
     position: fixed;
