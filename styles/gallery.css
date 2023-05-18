@@ -26,14 +26,12 @@ body {
     display: inline-block;
     margin: 20px 70px;
     font-weight: medium;
-    /* background-color: #e6bc40; */
     white-space: nowrap;
     overflow: hidden;
     width: 100%;
 }
 
 .navbar nav {
-    /* display: inline-block; */
     grid-column-start: 3;
     grid-column-end: 4;
     text-align: right;
