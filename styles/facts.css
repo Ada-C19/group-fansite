@@ -10,7 +10,7 @@ main{
     grid-template: 1fr 1fr 1fr 1fr / 1fr 1fr 1fr 1fr;
 }
 
-.image{ background-image: url(/Users/genesis/ada/projects/group-fansite/images/bunnies.jpg);
+.image{ background-image: url(../images/bunnies.jpg);
         height: 150px;
 
 }
