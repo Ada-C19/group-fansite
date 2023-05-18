@@ -4,6 +4,17 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Permanent Mark Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">    
+
+    <!-- Nav Links & Headers Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap" rel="stylesheet">    
+    
+    <link rel="stylesheet" href="../styles/style.css">
     <link rel="stylesheet" href="../styles/index.css" />
     <title>Home</title>
   </head>
@@ -11,13 +22,15 @@
   <body class="container">
     <header>
       <img
-        src="../assets/tacos-everyday.png"
-        alt=""
+        src="../assets/taco-tuesday.png"
+        alt="Taco Tuesday logo, pink and teal, with Tuesday crossed out and is replaced by 'everyday'"
       />
-      <nav>
+      <nav class="stroke">
         <ul>
           <li id="current-nav">
+            <a href="index.html" target="_blank">
             Home
+            </a>
           </li>
           <li>
             <a href="facts.html" target="_blank">
@@ -35,36 +48,20 @@
       </nav>
     </header>
     <main>
-      <section class="left menu">
-        <h2>
-          Choose Your Taco:
-        </h2>
-        <section class="menu-content">
-          <ul>
-            <li>Vegetarian .......................</li>
-            <li>Vegan ..................................</li>
-            <li>Seafood .........................</li>
-            <li>Old Fashioned ...........................</li>
-            <li>Tex Mex ................................</li>
-          </ul>
-          <p>Add Cheese .................................... $1.00</p>
+      <section class="content">
+        <section id="taco-img">
+          <img src="../assets/throw-taco.png" alt="cartoon taco with ingredients mid-air">
         </section>
-      </section>
-      <section class="right menu">
-        <h2>
-          Open All Day
-        </h2>
-        <section class="menu-content">
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates,
-            non? Odio, veniam. Voluptas, distinctio harum corrupti aspernatur
-            dolore delectus? Optio blanditiis excepturi similique eveniet, sint
-            error fugiat sapiente nemo at dolorem. Corrupti aspernatur officiis
-            mollitia est reiciendis corporis facilis quos.
+        <section class="text fancyfont">
+          <h1>
+            A Taco Fansite!
+          </h1>
+          <p class="subtitle">
+            Sharing and coming together for the love of tacos
           </p>
         </section>
       </section>
     </main>
-    <footer>&copy;2023</footer>
+    <footer>&copy; Copyright 2023 Angela, Elaine, Meagan</footer>
   </body>
 </html>
