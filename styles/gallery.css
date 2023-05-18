@@ -1,3 +1,14 @@
+a:link,
+a:visited {
+    text-decoration: none;
+    color: #fffde0;
+}
+
+a:hover,
+a:active {
+    text-decoration: underline;
+    color: #fffde0;
+}
 
 figure {
     padding: 1em;
@@ -58,7 +69,7 @@ section {
     display: flex;
     flex-wrap: wrap;
     text-transform: uppercase;
-    font-size: 140%;
+    font-size: 1.4rem;
     justify-content: space-around;
     align-items: center;
     border: thin #433c5e solid;
@@ -67,32 +78,11 @@ section {
 
 #title {
     color: #eaced9;
-    font-size: 60pt;
-    font-weight: lighter;
+    font-size: 4.5rem;
     position: absolute;
     text-transform: uppercase;
     top: 30px;
     right: 160px;
-    letter-spacing: .2rem;
+    letter-spacing: .4rem;
+    font-family: 'Alfa Slab One', cursive;
 }
-
-a:link {
-    text-decoration: none;
-    color: #fffde0;
-}
-
-a:visited {
-    text-decoration: none;
-    color: #fffde0;
-}
-
-a:hover {
-    text-decoration: underline;
-    color: #fffde0;
-}
-
-a:active {
-    text-decoration: underline;
-    color: #fffde0;
-}
-
