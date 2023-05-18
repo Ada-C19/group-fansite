@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+div{
+    width: auto;
+    height: stretch;
+    text-align: center;
+    padding: 5px;
+    border: 10px solid darkseagreen;
+    background-color: mintcream;
+}
+
+img{
+    object-fit: cover;
+    width: fit-content;
+    height: 900px;
+}
+
+/* Naviagation Panel */
+nav,
+ul {
+    list-style: none;
+}
+
+.container {
+    width: auto;
+    padding: 50px 50px;
+    background-color: lightyellow;
+}
+
+.container li.menu-item {
+    font-size: 70px;
+    box-sizing: border-box;
+
+}
+
+.container nav,
+.container ul {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    text-align:center;
+    list-style: none;
+}
+
+.container li a {
+    display: flex;
+    justify-content: center;
+    width: 500px;
+    height: fit-content;
+    color: forestgreen;
+    background-color: burlywood;
+    border: 10px mintcream dotted;
+    text-shadow: 5px 5px lavenderblush;
+    text-decoration: none;
+    
+
+}
+
+.container li a:hover {
+    background-color: hotpink;
+}
+
+.container li {
+    margin: 0 200px;
+}
+
+
+/* Gallery Panel */
+.home {
+    font-display: auto;
+    font-size: 200px;
+    text-align: stretch;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.home h1 {
+    text-align: center;
+    color: white;
+    background-color: darkseagreen;
+    border: 20px darkgreen groove;
+    text-shadow: -10px 5px forestgreen,
+                -20px 10px darkgreen,
+                -30px 15px black;
+
+}
+
+.grid-container {
+    display: grid;
+    width: auto;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-gap: 20px; 
+    background-color:lightyellow;
+    color: black;
+    font-size: 30px;
+}
+
+.grid-item:hover {
+    border-color: lime;
+    color: yellowgreen;
+    box-shadow: -10px 5px forestgreen;
+}
+
+.contact {
+    color: forestgreen;
+    background-color: lightyellow;
+    font-display: auto;
+    font-size: 40px;
+    text-align: stretch;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.contact ul, li {
+    font-display: auto;
+    text-align: stretch;
+    justify-content: center;
+}
+
+.contact h1 {
+    display: flex;
+    font-size: 90px;
+    justify-content: center;
+    text-align: center;
+    text-shadow: 5px 5px hotpink;
+    background-color: burlywood;
+}
+
+.contact h2 {
+    font-size: 65px;
+    justify-content: center;
+    text-align: center;
+}
+
+.contact li, p {
+    font-size: 50px;
+    justify-content: center;
+    text-align: center;
+}
+
+.contact p1{
+    text-decoration: 5px forestgreen underline;
+}
+
+.contact p1:hover {
+    color: hotpink;
+    text-decoration: 5px hotpink underline;
+}
+
+footer {
+    display: flex;
+    padding: 12px;
+    font-size: 30px;
+    background-color: lightyellow;
+}
