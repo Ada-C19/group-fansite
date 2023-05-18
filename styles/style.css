@@ -2,8 +2,6 @@ h1 {
     text-align: center;
 }
 
-
-
 ul {
     display: inline;
     font-weight: bolder;
@@ -16,7 +14,6 @@ ul {
     border: 10px solid #bb3e03;
     padding: 30px;
   } */
-
 
 li {
     display: inline;
@@ -58,7 +55,6 @@ main {
     
 }
 
-
 nav {
     grid-row:2/4;
     grid-column: 1;
@@ -73,6 +69,12 @@ nav {
     width: 100%;
     /* height: auto; */
 }
+
+/* #gif2 {
+    max-width: 440px;
+    width: 100%; 
+    height: auto; 
+} */
 
 
 
