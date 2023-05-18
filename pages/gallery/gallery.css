@@ -7,8 +7,8 @@
 }
 
 div{
-    width: auto;
-    height: stretch;
+    width: 100%;
+    height: 100%;
     text-align: center;
     padding: 5px;
     border: 10px solid darkseagreen;
@@ -17,24 +17,26 @@ div{
 
 img{
     object-fit: cover;
-    width: fit-content;
-    height: 900px;
+    width: 100%;
+    height: 95%;
 }
 
 /* Naviagation Panel */
 nav,
 ul {
     list-style: none;
+    width: 100%;
 }
 
 .container {
-    width: auto;
-    padding: 50px 50px;
+    width: 100%;
+    height: 100%;
+    padding: 10px 10px;
     background-color: lightyellow;
 }
 
 .container li.menu-item {
-    font-size: 70px;
+    font-size: 30px;
     box-sizing: border-box;
 
 }
@@ -42,21 +44,23 @@ ul {
 .container nav,
 .container ul {
     display: flex;
-    flex: 1;
     justify-content: center;
-    text-align:center;
+    text-align: center;
+    flex: 1;
+    width: 100%;
     list-style: none;
 }
 
 .container li a {
     display: flex;
     justify-content: center;
-    width: 500px;
+    text-align: center;
+    width: 150%;
     height: fit-content;
     color: forestgreen;
     background-color: burlywood;
     border: 10px mintcream dotted;
-    text-shadow: 5px 5px lavenderblush;
+    text-shadow: 2px 2px lavenderblush;
     text-decoration: none;
     
 
@@ -67,14 +71,16 @@ ul {
 }
 
 .container li {
-    margin: 0 200px;
+    margin: 50px;
 }
 
 
 /* Gallery Panel */
 .home {
-    font-display: auto;
-    font-size: 200px;
+    width: 100%;
+    height: 300%;
+    /* font-display: auto; */
+    font-size: 50px;
     text-align: stretch;
     box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
@@ -82,9 +88,10 @@ ul {
 
 .home h1 {
     text-align: center;
+    font-size: 75px;
     color: white;
     background-color: darkseagreen;
-    border: 20px darkgreen groove;
+    border: 15px darkgreen groove;
     text-shadow: -10px 5px forestgreen,
                 -20px 10px darkgreen,
                 -30px 15px black;
@@ -93,7 +100,8 @@ ul {
 
 .grid-container {
     display: grid;
-    width: auto;
+    width: 100%;
+    height: 70%;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
     grid-column-start: 1;
@@ -101,8 +109,18 @@ ul {
     grid-gap: 20px; 
     background-color:lightyellow;
     color: black;
-    font-size: 30px;
+    font-size: 5px;
 }
+
+.grid-item {
+    height: 75%;
+}
+.grid-item, em {
+    font-size: 10px;
+}
+/* .grid-item {
+     
+} */
 
 .grid-item:hover {
     border-color: lime;
@@ -110,11 +128,17 @@ ul {
     box-shadow: -10px 5px forestgreen;
 }
 
+.grid-item, em {
+    margin: 0px 0px;
+}
+
 .contact {
     color: forestgreen;
     background-color: lightyellow;
     font-display: auto;
-    font-size: 40px;
+    width: 100%;
+    height: 300%;
+    font-size: 20px;
     text-align: stretch;
     box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
@@ -128,37 +152,37 @@ ul {
 
 .contact h1 {
     display: flex;
-    font-size: 90px;
+    font-size: 25px;
     justify-content: center;
     text-align: center;
-    text-shadow: 5px 5px hotpink;
+    text-shadow: 2px 2px hotpink;
     background-color: burlywood;
 }
 
 .contact h2 {
-    font-size: 65px;
+    font-size: 15px;
     justify-content: center;
     text-align: center;
 }
 
 .contact li, p {
-    font-size: 50px;
+    font-size: 10px;
     justify-content: center;
     text-align: center;
 }
 
 .contact p1{
-    text-decoration: 5px forestgreen underline;
+    text-decoration: 1px forestgreen underline;
 }
 
 .contact p1:hover {
     color: hotpink;
-    text-decoration: 5px hotpink underline;
+    text-decoration: 1px hotpink underline;
 }
 
 footer {
     display: flex;
     padding: 12px;
-    font-size: 30px;
+    font-size: 5px;
     background-color: lightyellow;
 }
