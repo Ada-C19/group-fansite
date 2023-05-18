@@ -3,10 +3,19 @@ img {
     border-style: dashed;
     align-items: flex-end;
     flex-direction: row;
+    flex-wrap: wrap;
 }
 
-.image-gallery {
+#image-grid {
+    display: flex;
+}
+
+.images {
     font-family: courier, 'Courier New', monospace;
+}
+
+.images img {
+    width: 200px;
 }
 
 /* h1 {
