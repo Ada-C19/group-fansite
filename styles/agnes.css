@@ -1,11 +1,11 @@
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     /* background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab); */
-    background: linear-gradient(-45deg, white, #F8CE99, #FEC8D8, #CAC198); */
-	background-size: 600% 600%;
+    background: linear-gradient(-45deg, white, #F8CE99, #FEC8D8, #CAC198); 
+	background-size: 900% 900%;
 	animation: gradient 15s ease infinite;
 	height: 100vh;
-    /* background: pink; */
+    /* background-color: pink; */
 }
 
 @keyframes gradient {
@@ -69,8 +69,8 @@ a {
 .references {
     display: flex;
     align-items: flex end;
-    margin: 30px
-    padding: 20px
+    margin: 30px;
+    padding: 20px;
 }
 
 .copyright {
@@ -161,7 +161,8 @@ header img {
     list-style-type: none;
     font-size: 25px;
     align-items: center;
-    border: pink 2px solid;
+    /* border: pink 2px solid; */
+    margin: 20px;
 
 }
 
@@ -171,11 +172,14 @@ header img {
     /* border: black 2px solid; */
     padding: 5px;
     gap: 5px;
+    margin: 10px;
 }
 
 .attractions-section li {
     text-align: center;
     margin: 20px;
+    width: 80%;
+    height: 100%;
 }
 
 
@@ -202,7 +206,7 @@ header img {
         font-size: 25px;
         align-items: center;
         justify-content: center;
-        border: pink 2px solid;
+        /* border: pink 2px solid; */
 }
 
 .food-section li {
