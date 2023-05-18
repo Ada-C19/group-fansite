@@ -1,6 +1,6 @@
 /* Images */
 
-.row {
+.container {
     display:grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 1fr 1fr;
@@ -9,14 +9,14 @@
 }
 
 @media screen and (max-width: 1024px) {
-    .row {
+    .container {
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: 1fr 1fr 1fr;
     }
 }
 
 @media screen and (max-width: 600px) {
-    .row {
+    .container {
         grid-template-rows: repeat(6, 1fr);
         grid-template-columns: 1fr;
     }
@@ -108,7 +108,7 @@
 }
 
 /* Typography */
-.headings {
+h2 {
     text-align: center;
     font-family: 'Montserrat', sans-serif;
     font-size: 2rem;
