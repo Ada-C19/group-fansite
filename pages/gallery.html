@@ -5,63 +5,123 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Taco Gallery</title>
-    <link href="../styles/style.css" rel="stylesheet">
-    <link href="../styles/gallery.css" rel="stylesheet">
+    <link rel="stylesheet" href="../styles/style.css" >
+    <link rel="stylesheet" href="../styles/gallery.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet"> 
 </head>
 <body>
-    <header>
-        <h1>Taco Gallery</h1>
-    </header>
-    <div class ="nav-container">
+    <div class="sticky-header">
+        <header>
+            <h1>Taco Gallery</h1>
+        </header>
         <nav>
-            <ul class="nav-list">
-                <li class="nav-items">
-                    <a class= "nav-links" href="index.html">Home Page</a>
+            <ul>
+                <li>
+                    <a href="index.html">Home Page</a>
                 </li>
-                <li class="nav-items">
-                    <a class = "nav-links" href ="facts.html">Taco Facts</a>
+                <li>
+                    <a href ="facts.html">Taco Facts</a>
                 </li>
             </ul>
         </nav>
     </div>
    <main>
-    <div class="main-taco-photo">
-        <img class="tacos-tacos-tacos" src="../assets/small-tacos-tacos-tacos.jpg" alt="Image says 'Taco Taco Taco'">
-    </div>
-        <section class="taco-image-gallery">
-            <ul class="taco-image-list">
-                <li class="taco-image-items">
-                    <a class="quick-test"href="https://unsplash.com/photos/-uRrJLRk3uA">
-                        <img class="taco-images" src="../assets/small-green-purple-tacos.jpg" alt="Tacos with toppings ">
-                    </a>
-                    <p>More tacos with various toppings</p>
-                <li class="taco-image-items">
-                    <a href="https://unsplash.com/photos/dzn37nOmki4">
-                        <img class="taco-images"src="../assets/small-blue-tacos.jpg" alt="Tacos with blue background" >
-                    </a>
-                    <p>Tacos with various toppings</p>
-                </li>
-                </li>
-                <li class="taco-image-items">
-                    <a href="https://unsplash.com/photos/lP5MCM6nZ5A">
-                        <img class="taco-images" src="../assets/small-tacos-lime.jpg" alt="Tacos with lime being squeezed on them">
-                    </a>
-                    <p>Lime squeezed on top of tacos</p>
-                </li>
-                <li class="taco-image-items">
-                    <a href="https://unsplash.com/photos/0LWng8jz6U8">
-                        <img class="taco-images" src="../assets/small-feed-me-tacos.jpg" alt="Feed me tacos and tell me I'm pretty">
-                    </a>
-                    <p>Feed me tacos</p>
-                </li>
-            </ul>
-        </section>
+        <ul>
+            <li>
+                <div class="container">
+                    <img class="taco-images test" src="../assets/small-tacos-tacos-tacos.jpg" alt="Image says 'Taco Taco Taco'">
+                        <div class="overlay">
+                            <div class="text">
+                                <a href="https://unsplash.com/photos/lGbmn4cUsY8">Tacos all day. Every day.
+                                </a>
+                            </div>
+                        </div>
+                </div>
+            </li>
+            <li>
+                <div class="container">
+                    <img class="taco-images" src="../assets/small-green-purple-tacos.jpg" alt="Tacos with toppings ">
+                        <div class="overlay">
+                            <div class="text">
+                                <a href="https://unsplash.com/photos/-uRrJLRk3uA">Tacos with various toppings and crema
+                                </a>
+                            </div>
+                        </div>
+                </div>
+            </li>
+            <li >
+                <div class="container">
+                    <img class="taco-images" src="../assets/small-blue-tacos.jpg" alt="Tacos with blue background" >
+                        <div class="overlay">
+                            <div class="text">
+                                <a href="https://unsplash.com/photos/dzn37nOmki4">More tacos with various toppings</a>
+                            </div>
+                        </div>
+                </div>
+            </li>
+            <li>
+                <div class="container">
+                    <img class="taco-images" src="../assets/small-tacos-lime.jpg" alt="Tacos with lime being squeezed on them">
+                        <div class="overlay">
+                            <div class="text">
+                                <a href="https://unsplash.com/photos/lP5MCM6nZ5A">Lime squeezed over tacos
+                                </a>
+                            </div>
+                        </div>
+                </div>
+            </li>
+            <li>
+                <div class="container">
+                    <img class="taco-images" src="../assets/small-tacos-vs-burritos.jpg" alt="Tacos vs Burritos sign">
+                        <div class="overlay">
+                            <div class="text">
+                                <a href="https://unsplash.com/photos/cTyVIvzQslE">
+                                Tacos vs. Burritos. What's your pick?
+                                </a>
+                            </div>
+                        </div>
+                </div>
+            </li>
+            <li>
+                <div class="container">
+                    <img class="taco-images" src="../assets/small-steak-tacos.jpg" alt="Steak tacos with lime">
+                        <div class="overlay">
+                            <div class="text">
+                                <a href="https://unsplash.com/photos/vzX2rgUbQXM">
+                                Flank steak tacos with lime
+                                </a>
+                            </div>
+                        </div>
+                </div>
+            </li>
+            <li>
+                <div class="container">
+                    <img class="taco-images" src="../assets/small-tacos-green-sauce.jpg" alt="Tacos with green sauce">
+                        <div class="overlay">
+                            <div class="text">
+                                <a href="https://unsplash.com/photos/v-UlAEJTSVw">
+                                Colorful shrimp tacos with crema
+                                </a>
+                            </div>
+                        </div>
+                </div>
+            </li>
+            <li>
+                <div class="container">
+                    <img class="taco-images" src="../assets/small-feed-me-tacos.jpg" alt="Feed me tacos and tell me I'm pretty">
+                        <div class="overlay">
+                            <div class="text">
+                                <a href="https://unsplash.com/photos/0LWng8jz6U8">Feed me tacos please</a>
+                            </div>
+                        </div>
+                </div>
+            </li>
+        </ul>
     </main>
     <footer>
-        <p>&copy; 2023</p>
+        &copy; 2023
     </footer>
   
 </body>
