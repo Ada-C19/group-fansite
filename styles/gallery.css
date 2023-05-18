@@ -13,8 +13,14 @@
     width: 450px;
     height: 400px;
     text-align: center;
+    border-radius: 20%;
 }
 
 img {
     width: 350px;
+    border-radius: 10%;
+}
+
+a {
+    cursor: url("../assets/burger_pointer.png"), auto;
 }

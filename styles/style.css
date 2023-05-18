@@ -95,6 +95,7 @@ nav {
 
 body {
     height: 100%;
+    cursor: url("../assets/burger_cursor.png"), auto!important;
 }
 
 
