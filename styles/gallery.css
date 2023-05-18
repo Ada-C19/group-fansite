@@ -2,11 +2,10 @@ body {
     font-family: 'Cormorant', serif;
     margin: 0;
     padding: 0;
-    background-color: #f7f2e6;
 }
 
 /* header navbar css */
-header img {
+.navbar img {
     width: 70px;
     margin: 5px auto;
 }
@@ -19,14 +18,12 @@ header img {
     height: 80px;
     z-index: 100;
     filter: drop-shadow(8px 8px 4px #c7c3bb);
-    font-size: 20px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
 
 .navbar h1 {
     display: inline-block;
-    /* margin-right: 50px; */
     margin: 20px 70px;
     font-weight: medium;
     /* background-color: #e6bc40; */
@@ -48,7 +45,7 @@ header img {
     display: inline-block;
     list-style-type: none;
     margin: 10px;
-    font-size: 20px;
+    font-size: 1.5rem;
 }
 
 .navbar a {
@@ -104,12 +101,14 @@ figure figcaption {
 }
 
 footer {
-    background-color:#e6bc40;
+    background-color: #e6bc40;
     text-align: center;
     margin-bottom: 0;
     height: 60px;
     padding-top: 20px;
-    filter: drop-shadow(8px -8px 4px #c7c3bb)
+    filter: drop-shadow(8px -8px 4px #c7c3bb);
+    font-size: 20px;
+
 }
 
 
