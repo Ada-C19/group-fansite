@@ -12,6 +12,13 @@ body {
     background-color:#a28089;
 }
 
-nav:hover {
-    color: brown;
+.slogan {
+    text-align: center;
+    align-content: center;
+}
+
+section a img {
+    height: 150x;
+    width: 200px;
+    border-radius: 20%;
 }
