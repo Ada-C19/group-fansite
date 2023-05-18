@@ -32,3 +32,11 @@ main section{
     background-color:burlywood;
     grid-column: span 2;
 }
+
+p:first-of-type::first-letter{
+    font-size: 2em;
+}
+
+h2 {
+    font-size: larger;
+}
