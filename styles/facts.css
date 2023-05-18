@@ -1,0 +1,115 @@
+body {
+    font-family: 'Cormorant', serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* header navbar css */
+.navbar img {
+    width: 70px;
+    margin: 5px auto;
+}
+
+.navbar {
+    top: 0;
+    position: fixed;
+    width: 100%;
+    background-color: #e6bc40;
+    height: 80px;
+    z-index: 100;
+    filter: drop-shadow(8px 8px 4px #c7c3bb);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.navbar h1 {
+    display: inline-block;
+    margin: 20px 70px;
+    font-weight: medium;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 100%;
+}
+
+.navbar nav {
+    /* display: inline-block; */
+    grid-column-start: 3;
+    grid-column-end: 4;
+    text-align: right;
+    padding-right: 70px;
+
+}
+
+.navbar li {
+    display: inline-block;
+    list-style-type: none;
+    margin: 10px;
+    font-size: 1.5rem;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: black;
+}
+
+.navbar a:hover {
+    border-bottom: 2px solid black;
+}
+
+
+/* main body css */
+
+main {
+    margin-top: 120px;
+    min-width: 600px;
+    letter-spacing: 0.3px;
+}
+
+.profile {
+    width: 300px;
+    border-radius: 50%;
+}
+
+.title {
+    width: 60%;
+    margin: auto;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+}
+
+.title h1 {
+    font-size: 50px;
+}
+
+.title h3 {
+    font-size: 20px;
+}
+
+.facts {
+    width: 60%;
+    margin: 10px auto;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.facts p {
+    font-size: 18px;
+}
+
+.facts:nth-of-type(2n) {
+    background-color: #eace7840;
+}
+
+footer {
+    background-color: #e6bc40;
+    text-align: center;
+    margin-bottom: 0;
+    height: 60px;
+    padding-top: 20px;
+    filter: drop-shadow(8px -8px 4px #c7c3bb);
+    font-size: 20px;
+}

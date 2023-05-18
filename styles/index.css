@@ -1,0 +1,129 @@
+body {
+    font-family: 'Cormorant', serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* header navbar css */
+.navbar img {
+    width: 70px;
+    margin: 5px auto;
+}
+
+.navbar {
+    top: 0;
+    position: fixed;
+    width: 100%;
+    background-color: #e6bc40;
+    height: 80px;
+    z-index: 100;
+    filter: drop-shadow(8px 8px 4px #c7c3bb);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.navbar h1 {
+    display: inline-block;
+    margin: 20px 70px;
+    font-weight: medium;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 100%;
+}
+
+.navbar nav {
+    /* display: inline-block; */
+    grid-column-start: 3;
+    grid-column-end: 4;
+    text-align: right;
+    padding-right: 70px;
+
+}
+
+.navbar li {
+    display: inline-block;
+    list-style-type: none;
+    margin: 10px;
+    font-size: 1.5rem;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: black;
+}
+
+.navbar a:hover {
+    border-bottom: 2px solid black;
+}
+
+
+main {
+    margin-top: 80px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+    height: 100vh;
+}
+
+.image-content {
+    width: 70%;
+}
+
+.image-content img {
+    width: 100%;
+}
+
+.title-content {
+    position: absolute;
+    right: 18%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+}
+
+.title-content h1 {
+    font-size: 88px;
+    font-weight: bold;
+    margin: 0
+}
+
+.title-content h2 {
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 32px;
+    ;
+}
+
+
+.title-content a {
+    display: inline-block;
+    width: 150px;
+    padding: 10px;
+    border-radius: 4px;
+    background-color: #e6bc40;
+    border: none;
+    box-sizing: border-box;
+    color: #fff;
+    text-align: center;
+    font-size: 25px;
+    cursor: pointer;
+    margin: 0 30px;
+    box-shadow: 0 10px 20px -8px rgba(0, 0, 0, .7);
+    text-decoration: none;
+}
+
+.title-content a:hover {
+    opacity: 0.8;
+}
+
+footer {
+    background-color: #e6bc40;
+    text-align: center;
+    margin-bottom: 0;
+    height: 60px;
+    padding-top: 20px;
+    filter: drop-shadow(8px -8px 4px #c7c3bb);
+    font-size: 20px;
+}
