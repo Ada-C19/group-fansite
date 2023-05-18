@@ -1,0 +1,98 @@
+a:link, a:visited {
+    background-color: #FFC0CB;
+    color: black;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  a:hover, a:active {
+    background-color: #fcd7dd;
+  }
+
+body {
+    margin: 0px;
+}
+
+footer {
+    background-color: black;
+    padding: 4em;
+    margin-top: 10px;
+    font-size: small;
+    height: 50px;
+    color: #FFC0CB;
+    font-family: Helvetica, sans-serif
+    
+}
+
+h1 {
+    text-align: center;
+    border-style: solid;
+    border-color: #FFC0CB;
+    border-width: 4.5px;
+    padding: 30px;
+    width: 300px;
+    height: 100px;
+    box-sizing: border-box;
+    margin: 0 auto;
+    color: #FFC0CB;
+    font-family: Helvetica, sans-serif
+    
+}
+
+h2 {
+    text-align: center;
+}
+
+header {
+    text-align: center;
+    background-color: black;
+    padding: 2px;
+    width: 100%;
+    margin-bottom: 1em;
+}
+
+html {
+    color: #FFC0CB;
+    font-family: Helvetica, sans-serif;
+}
+
+#navlinks {
+    padding: 0px;
+    color: black;
+}
+
+#navlinks li {
+    display: inline;
+    margin: 1px;
+}
+
+.social-media {
+    font-size: 2em;
+    background-color: transparent !important;
+}
+
+/* Above is footer and header classes and settings */
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #FFC0CB;
+}
+
+img {
+    height: 500px;
+    width: auto;
+    border: 1px solid black;
+  }
+
+.content {
+    color: black;
+    max-width: min-content;
+    text-align: center;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+}
