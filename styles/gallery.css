@@ -1,0 +1,57 @@
+body {
+    background: radial-gradient( rgba(100, 2, 170, 0.5) , rgba(115, 0, 255, 0.5));
+}
+
+h1 {
+    color: rgba(33, 1, 51, 0.999);
+    font-weight: bold;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 0px;
+}
+
+.flex-item {
+    flex: 1;
+    margin: 10px;
+    text-align: center;
+}
+
+.flex-item figcaption h2,
+.flex-item figcaption p {
+    height: 40px; 
+    margin: 0; 
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #dbb2f6;
+    border: 0.5px #f3e2ff;
+    padding: 1px;
+    box-shadow: 6px 4px 8px 4px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+ul li a {
+    text-decoration: none;
+}
+
+.flex-item img {
+    width: 350px;
+    height: 300px;
+}
