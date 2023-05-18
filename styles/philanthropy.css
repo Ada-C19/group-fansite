@@ -94,7 +94,7 @@ ul {
 
 .navigation a:hover {
   background-color: #ffd700;
-  color: black !important;
+  color: black;
 }
 
 .navigation a:hover span {
