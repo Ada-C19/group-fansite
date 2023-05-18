@@ -1,5 +1,41 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Pacifico&display=swap');
 
+.container {
+    display: grid;
+    margin: auto;
+    width: 80vw;
+    height: 80vh;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: 4fr 1fr;
+}
+main {
+    border: dashed black;
+}
+nav {
+    border: dashed black;
+}
+
+footer {
+    border: dashed black;
+    grid-column: 1 / span 2;
+}
+
+#inner-container > a{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 5px;
+    grid-area: ;
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column; */
+    background-color: rgb(247, 216, 226);
+}
+
+a {
+    border: black dashed;
+}
 
 .page-header {
     color: #e200f7;
