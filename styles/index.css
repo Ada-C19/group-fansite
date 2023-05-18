@@ -30,19 +30,18 @@
   position: relative;
   margin: 4rem auto;
   width: 90vw;
-  height: calc(90vw * 0.622666666666667);
-  max-height: 478px;
-  max-width: 768px;
-}
-
-#tv-container img {
-  width: 100%;
+  height: calc(90vw * 0.62267);
+  max-height: 467px;
+  max-width: 750px;
+  background-image: url('../images/tv_mockup.png');
+  padding-left: .3%;
+  padding-right: .3%;
+  padding-top: .3%;
+  background-size: cover;
 }
 
 #tv-container iframe {
-  width: 99%;
-  height: 90%;
-  position: absolute;
-  top: .3%;
-  left: .3%;
+  width: 100%;
+  height: 90.5%;
+  border: none;
 }

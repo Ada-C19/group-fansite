@@ -128,7 +128,7 @@ span:nth-child(3n),
 /* Footer */
 footer {
   background:
-    linear-gradient(rgba(10,10,10,1), rgba(0,0,0,.8)),
+    linear-gradient(rgba(10,10,10,1), rgba(0,0,0,.6)),
     url('../images/background.jpeg')
     center calc(50% - 20%)/cover;
   gap: 2rem;
@@ -144,7 +144,6 @@ footer {
 }
 
 #copyright {
-  /* grid-column: span 2; */
   text-align: center;
   font-size: 1.1rem;
 }
