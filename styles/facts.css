@@ -1,21 +1,26 @@
 
 * {
+<<<<<<< HEAD
     /* font-style: linear-gradient(pink, purple); */
     background-color: transparent;
+=======
+    color: burlywood;
+    background-color: ivory;
+>>>>>>> 40442deb533b306356dcb57bab6b4eb3192f085b
 }
 
 #title {
-  margin-top: -20px;
-  word-spacing: -10px;
-    font-size: 70px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background: -webkit-linear-gradient(#FFB6C1, #ffffcc);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: burlywood;
+    font-size: 40px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 50px;
     text-align: center;
 }
 
+#aboutus{
+    text-align: center;
 
+<<<<<<< HEAD
 #about-me {
   margin-top: -40px;
   text-align: center;
@@ -121,6 +126,9 @@ body {
   padding: 50px;
 }
 
+=======
+}
+>>>>>>> 40442deb533b306356dcb57bab6b4eb3192f085b
 .topnav {
     position: relative;
     overflow: hidden;
@@ -139,8 +147,8 @@ body {
   
   /* Change the color of links on hover */
   .topnav a:hover {
-    background-color: linear-gradient(pink);
-    color: #cc99ff;
+    background-color: #ddd;
+    color: black;
   }
   
   /* Add a color to the active/current link */
@@ -161,17 +169,22 @@ body {
     float: right;
   }
 
-  .footer {
-    flex: 1;
-    padding: 20px;
+  #about-me {
     text-align: center;
   }
 
-  /* #authors  { color: burlywood;
-            text-align: center;
-} */
+  .puppies-photo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+  }
 
-/* #freeform {
+  #authors  { color: burlywood;
+            text-align: center;
+}
+
+#freeform {
     background-color: white;
     color: burlywood;
     border: 1cm;
@@ -190,6 +203,4 @@ body {
     padding: 14px 16px;
     font-size: 18px;
 }
- */
 
- 
