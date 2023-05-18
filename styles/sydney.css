@@ -32,9 +32,18 @@ header {
     font-weight: 200;
 }
 
+hr {
+    width: 50%;
+    border: 3px dotted #01989F;
+    text-align:center;
+    margin: auto;
+}
+
 footer {
+    display: flex;
     background-color: #6EC4B7;
     border-style:ridge;
+    justify-content: center;
 }
 
 a:hover {
@@ -46,16 +55,18 @@ a {
     text-decoration: none;
 }
 
-
 main {
     background-color: #B8E7CA;
     border-color: #6CD1AF;
+    border-radius: 10px;
     border-style: dashed;
 }
 
 h2 {
     color:#07607B;
     text-align: center;
+    font-size: 1.75em;
+    text-decoration:underline;
 }
 
 h1, #fun-fact {
@@ -67,6 +78,13 @@ li {
     list-style: none;
 }
 
+
+.food {
+    display: flex;
+    flex-direction: column;
+    margin: 25px;
+}
+
 .food-photos {
     display: flex;
     flex-flow: row wrap;
@@ -76,9 +94,69 @@ li {
 
 .food-photos img {
     display: flex;
-    height: 200px;
-    width: 200px;
+    height: 300px;
+    max-width: 300px;
+    width: 100%;
     border: #cccccc 2px groove;
     border-radius: 10px;
     padding: 2px;
+}
+
+
+.attractions {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: flex-end;
+    /* border: 3px solid #6CD1AF; */
+    padding-bottom: 25px;
+    /* background-color: chartreuse; */
+}
+
+.attractions img {
+    display: flex;
+    height: 400px;
+    width: 400px;
+    border: #cccccc 2px groove;
+    border-radius: 10px;
+    padding: 3px;
+    margin: auto;
+}
+
+
+.attractions img:hover {
+    border: inset;
+}
+
+.attractions h2 {
+    margin-top: 50px;
+}
+
+#valley, #waimea {
+    display: flex;
+    /* background-color: blueviolet; */
+}
+
+#laniakea {
+    display: flex;
+    flex-direction: row-reverse;
+    /* background-color: blueviolet; */
+}
+
+.attraction-photo {
+    margin-top: 5px;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+.attraction-info {
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 100px;
+    font-size: 1.2em;
+    border: 2px #07607B solid;
+    border-radius: 20px;
+    padding: 20px;
+    color:#07607B
 }
