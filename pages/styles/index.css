@@ -1,16 +1,17 @@
 
-.navigation {
-    font-family: Cambria;
-    font-size: 25px;
+/* .navigation {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2rem;
+    font-style: bold;
     font-weight: 500;
     display: block;
-    /* color: #f9c5bd; */
-    color: #bd8c7d
-}
+    color: #FAF9F6;
+} */
 
 body {
     background-color:#a28089;
 }
+
 nav:hover {
     color: brown;
 }

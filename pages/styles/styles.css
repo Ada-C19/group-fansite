@@ -3,23 +3,35 @@ body {
 }
 
 h1 {
+    display: block;
     font-family: cursive;
     font-size: 4em;
+    text-align: center;
+    text-shadow: pink 5px 0 10px;
     color: #b11a21;
+    word-spacing: 20px;
+    letter-spacing: 15px;
+    margin-bottom: 0px;
 }
 
 nav {
+    font-family: Cambria;
+    letter-spacing: 2px;
     text-align: center;
-    font-size: 25px;
-    border-top: 1px dotted rgb(196, 149, 149);
-    border-bottom: 1px dotted rgb(196, 149, 149);
+    font-size: 2em;
+    font-style: bold;
+    border-top: 8px dotted rgb(196, 149, 149);
+    border-bottom: 8px dotted rgb(196, 149, 149);
+    height: 80px;
+    padding-block-start: 0px;
+    
 }
 
 nav ul li,
 footer ul li {
     display: inline-block;
     list-style: none;
-    padding: 0 30px 0;
+    padding: 0 20px 0;
     position: relative;
 }
 
