@@ -1,6 +1,6 @@
 
 .navbar {
-    background-color: rgb(249, 237, 236);
+    background-color: rgb(245, 234, 233);
     padding-top: 40px;
     background-size:contain;
     
@@ -40,17 +40,23 @@ header{
     margin-left:140px;
 }
 h1{
-    color:rgb(133, 3, 3);
+    color:rgb(147, 4, 4);
     font-size: 5em;
     border-bottom: 0;
     margin-bottom: 1%;
     font-weight: bold;
+    text-shadow:1px 1px 2px rgb(126, 1, 1), 0 0 1em rgb(157, 132, 131), 0 0 0.2em rgb(192, 153, 153);
+    border: 2px solid rgb(229, 224, 224);
+    background-color: rgba(236, 227, 227, 0.5);
+    
 }
 
 h2 {
     font-size: 2em;
     font-family: fantasy;
-    color:rgb(189, 24, 2);
+    text-shadow:1px 1px 2px rgb(203, 174, 174), 0 0 1em rgb(172, 138, 136), 0 0 0.2em rgb(156, 137, 137);
+    color:rgb(177, 24, 4);
+    border-style: inset;
 }
 
 
