@@ -1,3 +1,21 @@
+/* Rest margin, padding value for whole page
+* {
+    margin:0;
+    padding: 0;
+} */
+
+/* Team Name Card */
+div#team-name {
+    display: block;
+    white-space: nowrap;
+    min-width: fit-content;
+    width: max-content;
+    text-align: left;
+    background-image: url(/images/team-background.jpg);
+    padding: 15px;
+}
+
+/* Team Member Flexbox Setting */
 /* Three columns side by side */
 .column {
     /* float: left; */
