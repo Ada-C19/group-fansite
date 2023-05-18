@@ -30,7 +30,19 @@ img {
     display: inline-block;
 }
 
+#navlinks {
+    background-color: #f9e4e8;
+    padding: 1em;
+    text-align: center;
+    text-shadow: #341948;
+}
+
+#navlinks ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
 #navlinks li {
     display: inline;
-    padding: 2.5em;
-} 
+}
