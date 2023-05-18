@@ -1,20 +1,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
 
 .fact {
-    grid-row: span 1;
+    background-color:  rgb(250, 240, 226);
+    border: 4px dotted rgb(165, 198, 201);
+    grid-row: 1/-1;
 }
 
 .places {
     width: 80vw;
+    height: 55vh;
+    margin: 8vw;
     display: grid;
-    grid-template-columns: 33% 33% 33%;
-    grid-template-rows: 30vh 50vh;
+    grid-template-columns: 30% 30% 30%;
+    grid-template-rows: 30vh 60vh;
     grid-gap: 50px;
     text-align: center;
+    justify-content: center;
+    
 }
 
 .place-title {
-    grid-row: span 1;
+    background-color: rgb(250, 240, 226);
+    border: 4px solid rgb(165, 198, 201);
+    grid-row: 1/-1;
     text-align: center;
 }
 

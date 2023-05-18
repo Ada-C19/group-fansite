@@ -1,4 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
 #names {
+    background-color: rgb(250, 240, 226);
+    border: 5px solid rgb(165, 198, 201);
+    font-family: 'Lato', sans-serif;
     font-family: cursive;
     text-align: center;
     display: flex;
@@ -9,13 +14,29 @@
 }
 
 #team {
-    color: royalblue;
+    color: rgb(69, 90, 154);
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+}
+
+.individual {
+    margin-bottom: 20px;
+}
+
+h2 {
+    background-color: rgb(250, 240, 226);
+    color: rgb(69, 90, 154);
+}
+
+h2:hover {
+    color:blueviolet
 }
 
 img {
-    width: 400px;
+    width: 450px;
     height: 400px;
     text-align: center;
+    border: 5px solid rgb(98, 144, 196);
     border-radius: 50%;
     margin: 25px;
 }
