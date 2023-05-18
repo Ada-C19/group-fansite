@@ -10,10 +10,6 @@ body {
   border-top: 12em;
 }
 
-ul {
-    list-style-type: none;
-}
-
 img {
     border-radius: 30px;
 }
@@ -32,12 +28,6 @@ figure {
 
   h1 {
     text-align: center;
-  }
-
-
-  footer {
-    margin-top: auto;
-    padding: 6%;
   }
 
   li {
