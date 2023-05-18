@@ -24,13 +24,14 @@
 
 header {
     text-align: center;
-    background-image: url(../images/sedum.jpg);
+    background-image: url(../images/sedum.jpg)
 }
 
 h1 {
     font-family: Arial Rounded MT Bold;
     color: #6a5c94;
     font-size: 50px;
+    text-shadow: 1px 1px 1px white;
 }
 
 h2 {
@@ -66,3 +67,4 @@ footer {
 a:hover {
     color: #ab85a9;
 }
+

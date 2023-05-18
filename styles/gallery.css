@@ -48,11 +48,14 @@ footer {
     background-color: #ab85a9;
 }
 
-#gallery-header {
-    background-image: url(../images/sedum.jpg);
-}
 
 * {
     box-sizing: border-box;
+}
+
+
+/*
+#gallery-header {
+    background-image: url(../images/sedum.jpg);
 }
 
