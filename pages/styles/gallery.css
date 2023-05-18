@@ -73,7 +73,7 @@ footer {
     border: 15px;
     border:solid;
     border-radius: 15px;
-    background-color: #a5617e;
+    background-color:rgb(92, 3, 40) ;
     margin: 15px;
     padding: 10px;
 }
@@ -87,17 +87,20 @@ section img {
 }
 
 h3 {
-    color: white;
-    background-color: rgb(92, 3, 40);
     font-size: 25px;
     margin: 15px;
     padding:5px;
+    background-color: pink;
+    color: #a5617e;
+
 }
 
 p {
     font-size: 20px;
     font-weight: bold;
     line-height: 150%;
+    background-color: rgb(92, 3, 40);
+    color: pink;
 }
 
 footer img{
@@ -109,4 +112,5 @@ footer img{
     position: relative;
     height: 75px;
     width:75px;
+    border-radius:0%
 }
