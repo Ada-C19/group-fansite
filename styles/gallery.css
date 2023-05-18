@@ -4,6 +4,7 @@ figure {
     background-color:#eaced9;
     width: 25%;
     border-radius: 5px;
+    font-size: large;
 } 
 
 img {
@@ -21,7 +22,7 @@ section {
 .grid-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 20% 5% 1fr 3%;
+    grid-template-rows: 18% 5% 1fr 3%;
     justify-content: space-evenly;
     margin: 0;
 }
@@ -29,7 +30,7 @@ section {
 #footer {
     grid-column: 1 / 4;
     grid-row: 4;
-    text-align: right;
+    text-align: center;
 }
 
 #header {
@@ -46,22 +47,22 @@ section {
     grid-column: 1 / span 3;
     text-align: center;
     margin: 8px;
-    margin-top: 30px;
+    margin-top: 50px;
 }
 
 #navmenu {
     grid-column: 1 / span 3;
     grid-row: 2;
-    background-color: #eaced9;
+    background-color: #433c5e;
     margin: 0px;
     display: flex;
     flex-wrap: wrap;
     text-transform: uppercase;
-    font-weight: bold;
-    font-size: 125%;
+    font-size: 140%;
     justify-content: space-around;
     align-items: center;
     border: thin #433c5e solid;
+    letter-spacing: .1rem;
 }
 
 #title {
@@ -70,23 +71,28 @@ section {
     font-weight: lighter;
     position: absolute;
     text-transform: uppercase;
-    top: 20px;
+    top: 30px;
     right: 160px;
+    letter-spacing: .2rem;
 }
 
 a:link {
     text-decoration: none;
+    color: #fffde0;
 }
 
 a:visited {
     text-decoration: none;
+    color: #fffde0;
 }
 
 a:hover {
     text-decoration: underline;
+    color: #fffde0;
 }
 
 a:active {
     text-decoration: underline;
+    color: #fffde0;
 }
 
