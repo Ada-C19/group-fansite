@@ -1,64 +1,69 @@
-
 * {
-<<<<<<< HEAD
-    /* font-style: linear-gradient(pink, purple); */
-    background-color: transparent;
-=======
-    color: burlywood;
-    background-color: ivory;
->>>>>>> 40442deb533b306356dcb57bab6b4eb3192f085b
+  /* font-style: linear-gradient(pink, purple); */
+  background-color: transparent;
 }
 
 #title {
-    color: burlywood;
-    font-size: 40px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    padding: 50px;
-    text-align: center;
+  color: plum;
+  font-size: 40px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  padding: 50px;
+  text-align: center;
 }
 
 #aboutus{
-    text-align: center;
-
-<<<<<<< HEAD
-#about-me {
-  margin-top: -40px;
   text-align: center;
-  background: -webkit-linear-gradient( #ffffcc, #FFB6C1);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  text-shadow: -1px 1px 2px #FFB6C1,
-        1px 1px 2px #ffffcc,
-        1px -1px 0 #ffffcc,
-        -1px -1px 0 #ffffcc;
-  /* padding: 50px; */
+}
+
+#about-me {
+margin-top: -40px;
+text-align: center;
+background: -webkit-linear-gradient( #ffffcc, #FFB6C1);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+text-shadow: -1px 1px 2px #FFB6C1,
+      1px 1px 2px #ffffcc,
+      1px -1px 0 #ffffcc,
+      -1px -1px 0 #ffffcc;
+/* padding: 50px; */
 }
 
 .bear-gif {
-  margin-top: -25px;
-  margin-bottom: -35px;
-  background:  #f2e6ff;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 100px;
-  text-align: center;
+margin-top: -25px;
+margin-bottom: -35px;
+background:  #f2e6ff;
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 100px;
+text-align: center;
 }
 
 
 .smack-bee-gif {
-  margin-top: -79px;
-  margin-bottom: px;
-  background:  #f2e6ff;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 100px;
-  text-align: center;
+margin-top: -79px;
+margin-bottom: px;
+background:  #f2e6ff;
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 100px;
+text-align: center;
 }
 
 .taros-gif {
-  margin-top: -123px;
+margin-top: -123px;
+margin-bottom: px;
+background:  #f2e6ff;
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 100px;
+text-align: center;
+}
+
+.taro-gif {
+  margin-top: -65px;
   margin-bottom: px;
   background:  #f2e6ff;
   display: block;
@@ -68,139 +73,145 @@
   text-align: center;
 }
 
-.taro-gif {
-    margin-top: -65px;
-    margin-bottom: px;
-    background:  #f2e6ff;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 100px;
-    text-align: center;
-}
-
 .milk-tea-gif {
-  margin-top: -65px;
-  margin-bottom: -20px;
-  background:  #f2e6ff;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 100px;
-  text-align: center;
+margin-top: -65px;
+margin-bottom: -20px;
+background:  #f2e6ff;
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 100px;
+text-align: center;
 }
 
 .spit-tea-gif {
-  margin-bottom: -50px;
-  background:  #f2e6ff;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 100px;
-  text-align: center;
+margin-bottom: -50px;
+background:  #f2e6ff;
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 100px;
+text-align: center;
 }
 
 
 .sleep-gif {
-  margin-top: -15px;
-  margin-bottom: -50px;
-  background:  #f2e6ff;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 100px;
-  text-align: center;
+margin-top: -15px;
+margin-bottom: -50px;
+background:  #f2e6ff;
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 100px;
+text-align: center;
 }
 
 body {
-  display: flex;
-  flex-direction: column;
-  min-height: 100%;
+display: flex;
+flex-direction: column;
+min-height: 100%;
 }
 
 #outer-column {
-  border: 8px dotted #FFB6C1;
-  background:  #f2e6ff;
-  width: 720px;
-  margin: auto;
-  padding: 50px;
+border: 8px dotted #FFB6C1;
+background:  #f2e6ff;
+width: 720px;
+margin: auto;
+padding: 50px;
 }
 
-=======
+
+#title {
+  margin-block-start: -100px;
+  background: -webkit-linear-gradient( #ffffcc, #FFB6C1);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 80px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-align: center;
 }
->>>>>>> 40442deb533b306356dcb57bab6b4eb3192f085b
+
+#aboutus{
+  text-align: center;
+
+}
+
+
+  
+.footer {
+  flex: 1;
+  padding: 20px;
+  text-align: center;
+}
+
 .topnav {
-    position: relative;
-    overflow: hidden;
-    padding: 30px;
+  position: relative;
+  overflow: hidden;
+  padding: 30px;
 }
 
-  /* Style the links inside the navigation bar */
-  .topnav a {
-    float: left;
-    color: burlywood;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-  }
-  
-  /* Change the color of links on hover */
-  .topnav a:hover {
-    background-color: #ddd;
-    color: black;
-  }
-  
-  /* Add a color to the active/current link */
-  .topnav a.active {
-    background-color: burlywood;
-    color: darkgoldenrod;
-  }
-
-  .topnav-centered a {
-    float: none;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
-
-  .topnav-right {
-    float: right;
-  }
-
-  #about-me {
-    text-align: center;
-  }
-
-  .puppies-photo {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 40%;
-  }
-
-  #authors  { color: burlywood;
-            text-align: center;
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: plum;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
 }
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: plum;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: plum;
+  color: #ffffcc;
+}
+
+.topnav-centered a {
+  float: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.topnav-right {
+  float: right;
+}
+
+#about-me {
+  text-align: center;
+}
+
+.puppies-photo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+
 
 #freeform {
-    background-color: white;
-    color: burlywood;
-    border: 1cm;
+  background-color: white;
+  color: plum;
+  border: 1cm;
 }
 
 #freeform2 {
-    background-color: white;
-    color: burlywood;
-    border: 1cm;
+  background-color: white;
+  color: plum;
+  border: 1cm;
 }
 
 .reviewer-specs {
-    float: left;
-    color: burlywood;
-    text-align: center;
-    padding: 14px 16px;
-    font-size: 18px;
+  float: left;
+  color: plum;
+  text-align: center;
+  padding: 14px 16px;
+  font-size: 18px;
 }
-
