@@ -1,10 +1,11 @@
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     /* background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab); */
-    background: linear-gradient(-45deg, white, #F8CE99, #FEC8D8, #CAC198);
-	background-size: 400% 400%;
+    background: linear-gradient(-45deg, white, #F8CE99, #FEC8D8, #CAC198); */
+	background-size: 600% 600%;
 	animation: gradient 15s ease infinite;
 	height: 100vh;
+    /* background: pink; */
 }
 
 @keyframes gradient {
@@ -20,7 +21,6 @@ body {
 }
 
 #nav-bar {
-    margin: 80px;
     padding: 20px;
     text-align: center;
     list-style-type: none;
@@ -30,7 +30,7 @@ body {
     justify-content: center;
     align-items: center;
     gap: 40px;
-    border: black 3px solid;
+    /* border: black 3px solid; */
     font-size: larger;
     border-radius: 15px;
 }
@@ -43,6 +43,10 @@ body {
     font-size: x-large;
     justify-content: space-evenly;
     color: white;
+}
+
+#nav-bar a:hover {
+    color:pink;
 }
 
 header {
@@ -81,78 +85,144 @@ header img {
     border: solid 5px white;
 }
 
-main {
-    /* display: grid inline block; */
+/* main {
+    display: grid inline block;
     display: grid;
-    grid-template-columns: repeat(3,390px);  /* 3 columns */
-    grid-template-rows: repeat(2,500px); /* 3 rows  */
+    grid-template-columns: repeat(3,390px); 
+    grid-template-rows: repeat(2,500px); 
     grid-gap:60px 5px;
     justify-content: center;
     align-items: center;
-    /* background-color: #C6E0E4; */
+    background-color: #C6E0E4;
 
-}
+} */
 
-main section {
-    /* text-align: center; */
+/* main section {
+    text-align: center;
     border: #B0C6D7 2px solid;
-    /* padding: 40px white solid; */
+    padding: 40px white solid;
 	height: 480px;
 	width: 240px;
     background-color: #C6E0E4;
     justify-content: space-around;
-    /* border-style:dashed; */
+    border-style:dashed;
     border-radius: 15px;
     border: 3px dashed lightgray;
     padding: 30px;
     background-color: #EEEEEE;
     opacity: .80;
-    }
+    } */
 
 
-
-h3:hover {
-    color:pink;
-}
-
-h3 {
+.main h3 {
     text-align: center;
+    padding: 20px;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    border: black 3px solid;
+    font-size: 40px;
+    border-radius: 15px;
+    background-color: white;
+    opacity: .7;
     color: black;
-    font-size: 20px;
 }
 
-.location-section{
+.main {
+    margin-left: 100px;
+    margin-right: 130px;
+}
+
+.location-section, .accomdations-section, .transportation-section, .fun-fact-section{
     color: #5072A7;
     text-align: left;
     justify-content: center;
+    display: flex;
+    font-size: 25px;
+    margin: 50px;
+    align-items: center;
+    flex-wrap: center;
+    text-align: center;
     
 }
-.attactions-section {
+.attractions-section ul {
     color: #5072A7;
     font-size:14px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr; 
+    width: auto;
+    height: auto;
+    max-height: 600px;
+    list-style-type: none;
+    font-size: 25px;
+    align-items: center;
+    border: pink 2px solid;
+
 }
 
-.food-section {
-    list-style-type: none;
-    /* text-align: center; */
-    justify-content: center;
-    color: #5072A7;
+.attractions-section p {
+    grid-column: 1/3;
+    grid-row: 1/3;
+    /* border: black 2px solid; */
+    padding: 5px;
+    gap: 5px;
+}
 
+.attractions-section li {
+    text-align: center;
+    margin: 20px;
+}
+
+
+.attractions-section img {
+    width: 100%;
+    max-width: 350px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 20px;
+    border: black 2px solid;
+    padding: 5px;
 }
 
 .food-section ul {
-    list-style-type:disc;
-    text-align: left;
-    width: 10em;
+        color: #5072A7;
+        font-size:14px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr; 
+        width: auto;
+        height: auto;
+        max-height: 700px;
+        list-style-type: none;
+        font-size: 25px;
+        align-items: center;
+        justify-content: center;
+        border: pink 2px solid;
 }
 
 .food-section li {
-    margin: 10px;
-    font-size: 20px;
+    text-align: center;
+    margin: 20px;
+}
+
+.food-section img {
+    width: 100%;
+    max-width: 350px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 20px;
+    border: black 2px solid;
+    padding: 5px;
 }
 
 .fun-fact-section {
     color: #5072A7;
+
 }
 
 .transportation-section {
