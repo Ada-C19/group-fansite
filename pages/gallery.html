@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,118 +11,134 @@
 
 <body>
   <nav>
-  <h1> GALLERY </h1>
+    <h1> GALLERY </h1>
   </nav>
 
-    <!-- <h2> Chilaquiles </h2>
+  <!-- <h2> Chilaquiles </h2>
       <a href="https://www.maricruzavalos.com/chilaquiles-rojos/">
       <img src="images/chilaquiles.jpg"></a>
-        <p class="description-image">
-          <br>Crunchy fried corn tortilla pieces, with a chile salsa over them. </br>
-          <br>Beef, chicken, eggs, queso fresco and other ingredients are a staple in many recipes.</br>
-        </p>
+
 
     <h2> Huarache </h2>  
       <a href="https://www.maricruzavalos.com/huaraches-food-recipe/">
       <img src="images/huarache.jpeg"></a>
-      <p class="description-image">
-        <br>Dish made of a thick corn masa tortilla with an oval shape to which is added </br>
-        <br>some ingredients on top.</br>
-      </p>
+
     
     <h2> Pozole </h2>  
       <a href="https://www.food.com/recipe/authentic-mexican-pozole-196233">
       <img src="images/pozole.jpeg" width=200px></a>
-      <p class="description-image">
-        <br>Hearty, thick soup made with pork, hominy, garlic and chiles.</br>
-      </p> 
+
 
     <h2> Mole </h2> 
       <a href="https://tastesbetterfromscratch.com/mole-sauce/">
       <img src="images/mole.jpeg"></a> 
-      <p class="description-image">
-        <br>Is characterized by a complex, layered flavor derived from intricate blends of dried chiles,</br>
-        <br>spices, fruits, and seasonings. </br>
-      </p>
+
 
     <h2> Pambazos with green mole </h2> 
       <a href="https://www.salsas.com/recipe/pambazo-with-chicken-mole">
-      <img src="images/pambazo.jpg"></a> 
-      <p class="description-image">
-        <br>Filled with chorizo, potatoes, lettuce, salsa, crema, and queso.</br>
-      </p> -->
+      <img src="images/pambazo.jpg"></a> -->
 
-      <h2>Chilaquiles</h2>
 
-<p>Crunchy fried corn tortilla pieces, with a chile salsa over them.
-  Beef, chicken, eggs, queso fresco and other ingredients are a staple in many recipes.</p>
 
-<section class="carousel" aria-label="Gallery">
-  <ol class="carousel__viewport">
-    <li id="carousel__slide1"
-        tabindex="0"
-        class="carousel__slide">
-        <img id="chilaquiles" src="images/chilaquiles.jpg">
-      <div class="carousel__snapper">
-        <a href="#carousel__slide4"
-           class="carousel__prev">Go to last slide</a>
-        <a href="#carousel__slide2"
-           class="carousel__next">Go to next slide</a>
-      </div>
-    </li>
-    <li id="carousel__slide2"
-        tabindex="0"
-        class="carousel__slide">
-      <img id="huarache" src="images/huarache.jpg">
-      <div class="carousel__snapper"></div>
-      <a href="#carousel__slide1"
-         class="carousel__prev">Go to previous slide</a>
-      <a href="#carousel__slide3"
-         class="carousel__next">Go to next slide</a>
-    </li>
-    <li id="carousel__slide3"
-        tabindex="0"
-        class="carousel__slide">
-      <img id="pozole" src="images/pozole.jpg">
-      <div class="carousel__snapper"></div>
-      <a href="#carousel__slide2"
-         class="carousel__prev">Go to previous slide</a>
-      <a href="#carousel__slide4"
-         class="carousel__next">Go to next slide</a>
-    </li>
-    <li id="carousel__slide4"
-        tabindex="0"
-        class="carousel__slide">
-      <img id="mole" src="images/mole.webp">
-      <div class="carousel__snapper"></div>
-      <a href="#carousel__slide3"
-         class="carousel__prev">Go to previous slide</a>
-      <a href="#carousel__slide1"
-         class="carousel__next">Go to first slide</a>
-    </li>
-  </ol>
-  <aside class="carousel__navigation">
-    <ol class="carousel__navigation-list">
-      <li class="carousel__navigation-item">
-        <a href="#carousel__slide1"
-           class="carousel__navigation-button">Go to slide 1</a>
+
+  <section class="carousel" aria-label="Gallery">
+    <ol class="carousel__viewport">
+      <li id="carousel__slide1" tabindex="0" class="carousel__slide">
+
+        <div class="container">
+          <div class="image">
+            <img class="images" src="images/chilaquiles.jpg">
+          </div>
+          <div class="title-image">
+            <h2>Chilaquiles</h2>
+            <p class="description-image">
+              Crunchy fried corn tortilla pieces, with a chile salsa over them. Beef, chicken, eggs, queso fresco and
+              other ingredients are a staple in many recipes.
+            </p>
+          </div>
+        </div>
+
+        <div class="carousel__snapper">
+          <a href="#carousel__slide4" class="carousel__prev">Go to last slide</a>
+          <a href="#carousel__slide2" class="carousel__next">Go to next slide</a>
+        </div>
       </li>
-      <li class="carousel__navigation-item">
-        <a href="#carousel__slide2"
-           class="carousel__navigation-button">Go to slide 2</a>
+      <li id="carousel__slide2" tabindex="0" class="carousel__slide">
+
+
+        <div class="container">
+          <div class="image">
+            <img class="images" src="images/huarache.jpg">
+          </div>
+          <div class="title-image">
+            <h2>Huarache</h2>
+            <p class="description-image">
+              Dish made of a thick corn masa tortilla with an oval shape to which is added some ingredients on top.
+            </p>
+          </div>
+        </div>
+
+        <div class="carousel__snapper"></div>
+        <a href="#carousel__slide1" class="carousel__prev">Go to previous slide</a>
+        <a href="#carousel__slide3" class="carousel__next">Go to next slide</a>
       </li>
-      <li class="carousel__navigation-item">
-        <a href="#carousel__slide3"
-           class="carousel__navigation-button">Go to slide 3</a>
+      <li id="carousel__slide3" tabindex="0" class="carousel__slide">
+
+        <div class="container">
+          <div class="image">
+            <img class="images" src="images/pozole.jpg">
+          </div>
+          <div class="title-image">
+            <h2>Pozole</h2>
+            <p class="description-image">
+              Hearty, thick soup made with pork, hominy, garlic and chiles.
+            </p>
+          </div>
+        </div>
+
+
+        <div class="carousel__snapper"></div>
+        <a href="#carousel__slide2" class="carousel__prev">Go to previous slide</a>
+        <a href="#carousel__slide4" class="carousel__next">Go to next slide</a>
       </li>
-      <li class="carousel__navigation-item">
-        <a href="#carousel__slide4"
-           class="carousel__navigation-button">Go to slide 4</a>
+      <li id="carousel__slide4" tabindex="0" class="carousel__slide">
+
+
+        <div class="container">
+          <div class="image">
+            <img class="images" src="images/mole.webp">
+          </div>
+          <div class="title-image">
+            <h2>Mole</h2>
+            <p class="description-image">
+              Is characterized by a complex, layered flavor derived from intricate blends of dried chiles,spices,
+              fruits, and seasonings.
+            </p>
+          </div>
+        </div>
+
+        <div class="carousel__snapper"></div>
+        <a href="#carousel__slide3" class="carousel__prev">Go to previous slide</a>
+        <a href="#carousel__slide1" class="carousel__next">Go to first slide</a>
       </li>
     </ol>
-  </aside>
-</section>
-          </body>
-      </html>
+    <aside class="carousel__navigation">
+      <ol class="carousel__navigation-list">
+        <li class="carousel__navigation-item">
+          <a href="#carousel__slide1" class="carousel__navigation-button">Go to slide 1</a>
+        </li>
+        <li class="carousel__navigation-item">
+          <a href="#carousel__slide2" class="carousel__navigation-button">Go to slide 2</a>
+        </li>
+        <li class="carousel__navigation-item">
+          <a href="#carousel__slide3" class="carousel__navigation-button">Go to slide 3</a>
+        </li>
+        <li class="carousel__navigation-item">
+          <a href="#carousel__slide4" class="carousel__navigation-button">Go to slide 4</a>
+        </li>
+      </ol>
+    </aside>
+  </section>
+</body>
 
- 
+</html>
