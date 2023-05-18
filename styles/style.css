@@ -17,10 +17,7 @@ h2 {
 h3{
     text-align: center;
 }
-/* ul.facts-section{
-    border: 10px solid #bb3e03;
-    padding: 30px;
-  } */
+
 
 li {
     display: inline;
@@ -28,7 +25,6 @@ li {
 }
 
 div {
-    /* width: 1500px; */
     height: 100%;
     background-color: #a31621;
     font-family: marker felt;
@@ -45,7 +41,6 @@ header {
 }
 
 footer{
-    /* width: 1500px; */
     height: 200px;
     background-color: #ffcf99;
     grid-row: 3;
@@ -73,7 +68,6 @@ nav {
 #gif {
     max-width: 440px;
     width: 100%;
-    /* height: auto; */
 }
 
 #gif2 {
@@ -85,23 +79,15 @@ nav {
 
 #gif3 {
     max-width: 440px;
-    width: 100%;
+    width: 284.967;
     height: 100;
 }
-
 
 
 .container {
     grid-template-columns: repeat(9, 1fr);
     display: grid;
-    /* flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center; */
-    /* width: 1500px; */
-    /* height: 200px; */
     background-color: green;
-    /* gap: 10px; */
     height: 100%;
     grid-auto-rows: max-content;
 }

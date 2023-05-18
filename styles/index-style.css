@@ -14,10 +14,6 @@ nav {
     text-align: center;
 }
 
-/* li {
-    display:inline-block;
-    text-align: center;
-} */
 
 .short-bio {
     color:rgb(128, 0, 0);
@@ -30,14 +26,9 @@ nav {
     font-weight: bolder;
 }
 
-.home{ 
-    /* padding:50px; */
+.home{
     font-family: marker felt;
     font-weight: bolder;
-    
-    /* display: inline;
-    padding: 2em;
-    color:rgb(85, 17, 85);  */
 }
 
 footer {
@@ -48,11 +39,9 @@ footer {
     width: 100;
 }
 
-/* *{
-    border: red 2px solid;
-} */
 
 *{
 background-color:#F2CC8F;
 }
+
 
