@@ -10,8 +10,8 @@ p {
 
 img {
     width: 500px;
-    height: 350px;
-    margin-bottom: 6em;
+    height: 375px;
+    margin-bottom: 7em;
 }
 
 .bugs-bunny {
@@ -91,5 +91,5 @@ p {
 footer {
     border-style: solid;
     border-color: darkmagenta;
-    margin-bottom: 2em;
+    margin-top: 1em;
 }
