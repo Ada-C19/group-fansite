@@ -47,16 +47,20 @@ section a img {
 .deals {
     padding-top: 10px;
     padding-bottom: 10px;
-    font-stretch:ultra-expanded;
-    font-size: medium;
+    font-weight: 400;
+    font-size:large;
     font-style: oblique;
+    word-spacing: 10px;
     background-color: burlywood;
     color: white;
     text-align: center;
-    letter-spacing: .1em;
+    border-style: double;
     border-radius: 8px;
-    border-bottom: .5rem ridge sienna;
+    border-bottom: 1rem sienna;
+    border-spacing: 10px;
+    border-width: thick;
 }
-nav ul{
-    gap: 0px;
+
+#homepage-main {
+    padding: 0px 0px;
 }

@@ -11,7 +11,8 @@ h1 {
     font-family: cursive;
     font-size: 4em;
     text-align: center;
-    text-shadow: pink 5px 0 10px;
+    /* text-shadow: pink 2px 5px 20px; */
+    text-shadow: rgb(183,110,121) 2px 5px 10px;
     color: #b11a21;
     word-spacing: 20px;
     letter-spacing: 15px;
@@ -31,7 +32,8 @@ nav {
     height: 5rem;
     padding-block-start: 0px;
     vertical-align: middle;
-    background-color: rgb(249, 246, 238);
+    /* background-color: rgb(249, 246, 238); */
+    background-color: rgb(255,245,238);
 }
 
 nav ul, footer ul {
@@ -49,7 +51,8 @@ nav ul, footer ul {
 
 nav ul li a, footer ul li a {
     text-decoration: none;
-    color: rgb(184,144,148);
+    color: rgb(138,108,111);
+    /* color: rgb(184,144,148); */
     /* color: rgb(92, 3, 40); */
 }
 
