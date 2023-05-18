@@ -18,7 +18,7 @@ h1 {
 }
 
 h1:hover {
-    color: #f0cf48;
+    color: coral;
 }
 
 nav > ul {
@@ -80,7 +80,7 @@ main > ul > li {
     transition: 1s ease;
 } */
 
-.container {
+.gallery-container {
     position: relative;
     width: 100%;
 }
@@ -99,7 +99,7 @@ main > ul > li {
     border-radius: 20px;
 }
 
-.container:hover .overlay {
+.gallery-container:hover .overlay {
     opacity: 0.9;
 }
 
@@ -120,9 +120,9 @@ a {
     text-align: center;
 }
 
-footer {
+/* footer {
     margin: 10px 0;
     padding: 0 0 0 20px;
     color: #eb5a68;
     font-family: Arial, Helvetica, sans-serif;
-}
+} */
