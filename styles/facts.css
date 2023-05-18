@@ -1,26 +1,78 @@
 main{
     border-style: solid;
-    border-color: purple;
+    border-color: pink;
+    background-color: paleturquoise;
+
 }
 
-ol li {
+.container{
+    display: grid;
+    grid-template: 1fr 1fr 1fr 1fr / 1fr 1fr 1fr 1fr;
+}
+
+.image{ background-image: url(/Users/genesis/ada/projects/group-fansite/images/bunnies.jpg);
+        height: 150px;
+
+}
+
+header{
+    color: hotpink;
+    background-color:white;
+    text-align: center;
+
+}
+
+.text{ padding: 3rem;
+        font-size: 70px;
+        -webkit-text-stroke: 3px hotpink;
+        color: aliceblue;
+
+}
+
+.navigation a { 
+                color: hotpink;
+}
+
+h2{
+    color: palevioletred;
+    font-size: xx-large;
+}
+
+h3{
+    height: 70%;
+    text-align: center;
+    grid-column: 1/2;
     list-style-type: none;
-    padding-left: 2rem;
+    padding: 2rem;
     background-image: url(../images/bunny-rabbit-silhouette-farm-animal-free-svg-file-SvgHeart.Com.png);
-    background-position: 0 0;
+    background-position: 0 1;
     background-size: 1.6rem 1.6rem;
     background-repeat: no-repeat;
+    background-color: blanchedalmond;
     font-style: italic;
     font-weight: bold;
-    color: purple;
-    font-size: large;
+    color: hotpink;
+    font-size:large;
+    border-style: solid; 
+    box-sizing: border-box;
   }
 
-ol p{
+p{
+    border-style: solid; 
+    box-sizing: border-box;
+    grid-column: 2/5;
+    max-height: 70%;
+    /* max-width: 70%; */
+    text-align: center; 
+    border-style: dotted;
+    padding: 2rem;
+    border-color: pink;
+    background-color: aliceblue;
+    /* justify-content: space-evenly; */
     font-style: normal;
     font-weight: 100;
-    color: RGB(140, 3, 252);
-}
+    color: hotpink;
+   }
 
 #title-facts{
     text-align: center;
