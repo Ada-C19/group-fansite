@@ -14,11 +14,45 @@ body {
 
 .slogan {
     text-align: center;
-    align-content: center;
+    
+}
+
+#mission {
+    font-style: italic;
+    max-width: 800px;
+}
+
+#slogan-heading {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-bottom: 10px;
 }
 
 section a img {
+    display: flex;
     height: 150x;
     width: 200px;
     border-radius: 20%;
+}
+
+#coming-soon {
+    display:inline-block;
+    font-style: bold;
+    font-weight: 600;
+    color: tan;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: larger;
+}
+
+.deals {
+    font-stretch:ultra-expanded;
+    font-size: medium;
+    font-style: oblique;
+    background-color: burlywood;
+    color: white;
+    text-align: center;
+    letter-spacing: .1em;
+    border-radius: 8px;
+    border-bottom: 1rem ridge sienna;
+    border
 }
