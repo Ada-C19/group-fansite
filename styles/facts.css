@@ -1,0 +1,13 @@
+.nav {
+    color: darkslategrey;
+    text-align: left;
+    background-color: lightblue;
+    display: inline-block;
+    border-style: dotted;
+    border-color: slateblue;
+    border-width: medium;
+}
+
+h3 {
+    color: peru;
+}
