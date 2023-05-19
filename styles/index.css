@@ -56,7 +56,7 @@ div#team-name {
 }
 
 .title {
-    color: grey;
+    color: rgb(112, 210, 175);
 }
 
 .button {
@@ -64,14 +64,14 @@ div#team-name {
     outline: 0;
     display: inline-block;
     padding: 8px;
-    color: white;
-    background-color: #000;
+    color: rgb(255, 144, 211);
+    background-color: #e8e6db;
     text-align: center;
     cursor: pointer;
     width: 100%;
 }
 
 .button:hover {
-    background-color: #555;
+    background-color: #c4dcd5;
 }
 
