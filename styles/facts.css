@@ -5,6 +5,7 @@ h1 {
 }
 
 h2 {
+    color: #4a956c;
     font-family: "Apple Chancery", cursive;
     font-size: 25px
 }
@@ -15,10 +16,12 @@ p {
 
 .fun-link {
     text-align: left;
-    color: #4a956c
+    color: dodgerblue;
 }
 
 .fun-link:hover{
     color: #FDB3A4;
     background-color: white;
 }
+
+
