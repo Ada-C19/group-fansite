@@ -12,7 +12,9 @@ h2 {
     font-size: 50px;
 }
 
-body > header > h1, body > footer > h4 {
+
+
+.footer-container h4 {
     color: rgb(163, 64, 107);
 }
 
@@ -24,7 +26,6 @@ body > header > h1, body > footer > h4 {
     color: red;
 }
 
-/* ###################### */
 
 
 body {
@@ -32,4 +33,9 @@ body {
     flex-direction: column;
     justify-content: space-between;
     height: 100vh;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
 }
