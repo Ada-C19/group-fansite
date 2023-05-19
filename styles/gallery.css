@@ -1,0 +1,112 @@
+/* header */
+.navlinks:hover {
+    background-color: #fcd7dd;
+    transform: scale(1.1);
+}
+
+li a:link,
+li a:visited {
+    background-color: #FFC0CB;
+    color: black;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+#all-navlinks {
+    padding: 0px;
+}
+
+#all-navlinks li {
+    display: inline;
+    margin: 1px;
+}
+
+/* main  */
+
+body {
+    margin: 0px;
+}
+
+h2 {
+    font-family: Helvetica, sans-serif;
+    text-align: center;
+    padding-bottom: 0px;
+    margin-bottom: 0px
+}
+
+li {
+    list-style: none;
+}
+
+.pictures {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    grid-template-rows: 2fr 2fr;
+    justify-content: center;
+    align-content: center;
+    grid-auto-flow: column;
+    width: 300px;
+    margin: 0 auto;
+}
+
+main img {
+    object-fit: contain;
+    width: 90%;
+    height: 90%;
+}
+
+main img:hover {
+    transform: scale(1.5);
+}
+
+.sections {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#Jisoo {
+
+    border-style: solid;
+    border-color: rgb(240, 230, 230);
+    border-width: 3px;
+    width: 300px;
+    height: 300px;
+    background-color: black;
+}
+
+#Jennie {
+
+    border-style: solid;
+    border-color: rgb(240, 230, 230);
+    border-width: 3px;
+    width: 300px;
+    height: 300px;
+    background-color: #FFC0CB;
+    color: black
+}
+
+#Lisa {
+
+    border-style: solid;
+    border-color: rgb(240, 230, 230);
+    border-width: 3px;
+    width: 300px;
+    height: 300px;
+    background-color: black;
+}
+
+#Rosé {
+
+    border-style: solid;
+    border-color: rgb(240, 230, 230);
+    border-width: 3px;
+    width: 300px;
+    height: 300px;
+    background-color: #FFC0CB;
+    color: black
+}
