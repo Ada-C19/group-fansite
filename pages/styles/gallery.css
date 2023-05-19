@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+.locations {
+    text-align: center;
+}
+
+img {
+    height: 300px;
+    width: 500px;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Lato', sans-serif;
+}
+
+main {
+    background-color: rgb(250, 240, 226);
+    border: 5px solid rgb(165, 198, 201);
+    width: 800px;
+    margin: auto;
+    padding: 15px 5px;
+    text-align: center;
+}

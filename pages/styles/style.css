@@ -1,0 +1,47 @@
+.nav-links {
+    display: flex;
+    justify-content: space-evenly;
+}
+body {
+    background-image: url(https://mindtheg.com/media/catalog/product/cache/3/thumbnail/1280x/17f82f742ffe127f42dca9de82fb58b1/s/e/sea_waves_neutral_2000x2500_wp30057.jpg);
+}
+
+h1 {
+    text-align: center;
+    font-family: cursive;
+    font-size: 4rem;
+    color:rgb(17, 42, 97);
+}
+
+h2 {
+    text-align: center;
+    font-family: cursive;
+}
+
+footer {
+    text-align: right;
+}
+
+footer:hover {
+    color:rgb(85, 234, 239);
+}
+
+nav {
+    border-bottom: 5px solid transparent;
+    border-color: rgb(250, 248, 248);
+    font-family: monospace;
+    font-size: 1.5rem;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+nav > ul > li {
+    /* padding: 10px 20px; */
+    margin: 25px;
+    color: navy;
+}
+
+ul {
+    list-style-type: none;
+}
+
