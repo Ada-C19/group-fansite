@@ -1,6 +1,16 @@
+h1 {
+    font-size: 100px;
+    border: 1px solid black;
+    width: 1000px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-align: left;
+}
+
 
 h2 {
     color: rgb(42, 162, 124);
+    font-size: 50px;
 }
 
 body > header > h1, body > footer > h4 {
@@ -8,10 +18,59 @@ body > header > h1, body > footer > h4 {
 }
 
 * {
-    color: darkolivegreen;
+    color: slateblue;
 }
 
 #abv-mystery:hover {
     color: red;
 }
 
+/* ###################### */
+
+/* .grid-container {
+    margin: auto;
+    width: 50vw;
+    height: 50vh; 
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 3fr;
+} */
+
+.header-container {
+    margin: auto;
+    width: 100vw;
+    height: 35vh; 
+    display: grid | inline-grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 50px 50px 50x 50px;
+}
+
+
+/* .links-container {
+    margin: auto;
+    width: 50vw;
+    height: 20vh; 
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 50px;
+    /* grid-row-start:  */
+} */
+
+/* need to make overall container first then specify the other containers as rows
+main overall container/skeleton should have 3 rows 
+starting from the bottom: 1 (link container), 4 (body container), 2 (header container) */
+
+/* body { 
+    position: relative
+  } */
+  
+  .links-container { 
+    position: absolute;
+    bottom: 50px;
+    left: 0;
+    right: 0;
+    display: flex;
+    margin: 0 auto;
+    width: 100%;
+    justify-content: center;
+  }
