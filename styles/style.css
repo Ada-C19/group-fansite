@@ -58,6 +58,11 @@ nav {
     grid-auto-rows: max-content;
 }
 
-/* body {
+
+body {
     cursor: url("../assets/burger_cursor.png"), auto;
-} */
+}
+
+a {
+    cursor: url("../assets/hotdog_cursor.png"), auto;
+}
