@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Source+Sans+Pro&display=swap');
+* {
+    font-family: 'Lato', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    background-color: lavenderblush;
+}
+
+nav a {
+    font-family: 'Indie Flower';
+    color: rgb(248, 173, 233);
+}
+
+footer {
+    text-align: center;
+}

@@ -1,0 +1,45 @@
+h1 {
+    font-size: 100px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-align: center;
+    margin: 20px;
+}
+
+
+h2 {
+    color: rgb(42, 162, 124);
+    font-size: 50px;
+}
+
+
+
+.footer-container h4 {
+    color: rgb(163, 64, 107);
+}
+
+* {
+    color: slateblue;
+}
+
+#abv-mystery:hover {
+    color: red;
+}
+
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.links-container{
+    font-size: 30px;
+}
