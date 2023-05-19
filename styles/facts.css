@@ -7,7 +7,7 @@ h1 {
 h2 {
     color: #4a956c;
     font-family: "Apple Chancery", cursive;
-    font-size: 25px
+    font-size: 30px
 }
 
 p {
@@ -26,6 +26,13 @@ p {
 .fun-link:hover{
     color: #FDB3A4;
     background-color: white;
+}
+
+blockquote {
+    color: grey;
+    font-family: arial;
+    font-size: 20px;
+    font-style: italic;
 }
 
 
