@@ -1,0 +1,48 @@
+body {
+    font-family: Didot, serif;
+    background-color: #f6f5f1;
+}
+
+
+h1 {
+    font-weight: bold;
+    font-size: 36px;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+
+h2 {
+    text-decoration: underline;
+}
+
+
+.site-menu {
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px
+}
+
+
+.site-menu button {
+    background-color: transparent;
+    border: 0;
+    padding: 5px;
+    font-family: "Nunito Sans", sans serif;
+    font-weight: bolder;
+    border-radius: 2px;
+}
+
+
+button:hover {
+    background-color: rgba(169, 106, 106, 0.891);
+    color: white;
+    transition: 0.7s;
+}
+
+
+.copyright {
+    margin-top: auto;
+    border-top: 1px solid black;
+}
