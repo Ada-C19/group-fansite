@@ -9,6 +9,7 @@ header a {
 
 a:hover {
     background-color: #fcd7dd;
+    transform: scale(1.1);
 }
 
 html {
