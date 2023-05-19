@@ -1,0 +1,130 @@
+* {
+    text-align: center;
+    background-color: white;
+}
+
+p {
+    font-size: larger;
+}
+
+.grid-container {
+    padding: 3em;
+    /* background-color: gray; */
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 30px;
+    row-gap: 30px;
+}
+
+.flex-container1 {
+    padding: 5em;
+    background-color: rgb(242, 232, 207);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+}
+
+
+.flex-container1 h2, .flex-container1 p {
+    background-color: rgb(242, 232, 207);
+}
+
+.flex-container2 h2, .flex-container2 p {
+    background-color: rgb(188, 71, 73);
+    color:rgb(242, 232, 207);
+}
+
+.flex-container2 {
+    background-color: rgb(188, 71, 73);
+    padding: 5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+}
+
+.flex-container3 {
+    background-color: rgb(56, 102, 65);
+    padding: 5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    
+}
+
+.flex-container3 h2, .flex-container3 p {
+    background-color: rgb(56, 102, 65);
+    color: rgb(242, 232, 207)
+}
+
+.flex-container4 {
+    background-color: rgb(242, 232, 207);
+    padding: 5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+}
+
+.flex-container4 h2, .flex-container4 p {
+    background-color: rgb(242, 232, 207);
+}
+
+
+h1 {
+    letter-spacing: 10px;
+    padding: 10px;
+    background-color: rgb(188, 71, 73);
+    color: white;
+    font-size: 70px;
+    border: 60px solid rgb(188, 71, 73); 
+    margin-block-end: 0px;
+    margin-block-start: 0px;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
+nav {
+    padding: 20px;
+    background-color: rgb(56, 102, 65);
+    color: white;
+    font-size: 10px;
+}
+
+
+ul { 
+	margin: 0; 
+	padding: 5px; 
+	list-style-type: none; 
+	text-align: center; 
+	background-color: rgb(56, 102, 65); 
+	} 
+ 
+li {  
+	display: inline; 
+    font-size: 20px;
+	} 
+ 
+nav ul li a { 
+	text-decoration: none; 
+	padding: .2em 1em; 
+	color: #fff; 
+	background-color: rgb(56, 102, 65); 
+	} 
+ 
+nav ul li a:hover { 
+	color: #000; 
+	background-color: #fff; 
+	} 
