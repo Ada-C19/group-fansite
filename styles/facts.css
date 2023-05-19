@@ -1,0 +1,51 @@
+html {
+    background: url('image.png') no-repeat center fixed;     
+    background-size: cover;
+}
+
+.container {
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+h1 {
+    text-align: center;
+    background-color: aquamarine;
+    margin: 0;
+    padding: 25px;
+}
+
+h2 {
+    font-family: "Apple Chancery", cursive;
+    font-size: 25px
+}
+
+p {
+    font-family: "Calibri", sans-serif;
+}
+
+.fun-link {
+    text-align: left;
+    color: #4a956c
+}
+
+.fun-link:hover{
+    color: #FDB3A4;
+    background-color: white;
+}
+
+img {
+    /* display: block; */
+    /* width: 100%;
+    height: auto; */
+    /* margin-left: auto; */
+    /* margin-right: auto; */
+    /* margin-top: 100px; */
+    /* border-radius: 50px; */
+    -webkit-box-shadow: 10px 10px 5px #ccc;
+    box-shadow: 10px 10px 5px #ccc;
+}
+
+footer {
+    text-align: center;
+}
