@@ -8,8 +8,6 @@ header, footer {
     width: 100%;
     justify-content: flex-start;
     align-items: center;
-    flex-wrap: wrap;
-    flex-flow: row wrap;
 }
 
 footer {
