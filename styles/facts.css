@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Felt+Marker&display=swap');
+
+
+#fact-body {
+  margin: 0;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  background-image: url("../assets/AwesomeFieriPic.png");
+  background-repeat: repeat;
+}
+.fact-container {
+  width: 60vw;
+  height: 100vh;
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 30px;
+  margin-top: 10rem;
+  margin-left: 35rem;
+}
+
+.fact-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.fact-item img {
+  max-width: 100%; 
+  max-height: 100%; 
+  object-fit: contain;
+}
+
+.fact-item img:first-child{
+  width: 300px; 
+  height: 200px; 
+}
+
+.fact-item:nth-child(n+2) img {
+  width: 300px; 
+  height: 200px;
+  object-fit: cover;
+}
+
+#facts-h1 {
+  font-family: 'Marker Felt', cursive;
+  font-size: 4rem;
+  text-underline-position: under;
+  color: red;
+  background-color: white;
+  position: fixed;
+  padding: 1rem;
+}
+
+.link {
+  font-family: 'Marker Felt', cursive;
+  display: inline;
+  padding: .4rem;
+  font-size:1.9rem;
+  margin-left: .5rem;
+
+  background-color: yellow;
+  border: none;
+  cursor: pointer;
+  position: fixed;
+  top: 0;
+}
+
+.link:nth-child(1) {
+  left: 5rem;
+}
+
+.link:nth-child(2) {
+  left: 20rem;
+}
+
+  .link:hover {
+    background-color: #FF0000; 
+  }
+
+body em {
+  margin-top: 9rem;
+  padding: 10px;
+  font-size: 2.2rem;
+  color: red;
+  text-decoration: underline;
+  font-weight: bold;
+  position: fixed;
+  background-color: white;
+  padding-right: 6.4rem;
+}
+
+.fact-item p {
+  margin-top: 0.5rem;
+  border: 3px solid #bb3e03;
+  padding: 3px;
+}
+  
+
+  #facts-footer {
+    padding: 1em;
+    grid-row: 10;
+    grid-column: 1;
+    width: 350%;
+    background-color: #bb3e03;
+    padding: 10px;
+    color: white;
+    opacity: .85;
+  }
+
+#facts-footer p { 
+    margin: auto; 
+  } 
+
+  #nav-buttons{
+    position: fixed;
+  }
+
+#nav-buttons li{
+  margin-right: 30px;
+}
+
+p {
+  font-style: bold;
+}
+
+.fact-item a{
+  color: blue;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.fact-item a:hover{
+  color: red;
+}
+
+.fact-item a:vitised{
+  color: green;
+}
