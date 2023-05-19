@@ -2,8 +2,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
 
 /* General Styles */
-body {
+
+* {
   font-family: 'Inter', sans-serif;
+}
+
+body {
   background-color: rgb(10, 10, 10);
   margin: 0;
   padding: 0;
@@ -82,7 +86,7 @@ header nav ul {
   text-decoration: none;
   color: white;
   text-transform: uppercase;
-  font-weight: normal;
+  font-weight: 600;
 }
 
 @media screen and (max-width: 768px) {

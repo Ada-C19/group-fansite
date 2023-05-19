@@ -1,0 +1,47 @@
+input, textarea {
+    padding: .75rem 1rem;
+    margin: 8px 0;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: none;
+    border-bottom: 1px solid #ccc;
+    border-radius: 5px;
+    width: calc(100% - 1rem);
+    font-size: 1rem;
+}
+
+form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+}
+
+.input-group:last-of-type {
+    grid-column: span 2;
+}
+
+button {
+    width: fit-content;
+    padding: .75rem 3rem;
+    box-shadow: none;
+    letter-spacing: 5px;
+    border: solid 3px transparent;
+    border-image: linear-gradient(90deg, rgba(233, 30, 35, 1) 0%,  rgba(2, 178, 231, 1) 50%, rgba(250, 188, 22, 1) 100%);
+    border-image-slice: 1;
+    background: linear-gradient(90deg, rgba(233, 30, 35, 1) 0%,  rgba(2, 178, 231, 1) 50%, rgba(250, 188, 22, 1) 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1rem;
+    margin: 0 auto;
+    grid-column: span 2;
+    transition: all ease-in-out .3s;
+}
+
+
+button:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
