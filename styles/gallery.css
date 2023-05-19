@@ -34,7 +34,8 @@ h2 {
     font-family: Helvetica, sans-serif;
     text-align: center;
     padding-bottom: 0px;
-    margin-bottom: 0px
+    margin-bottom: 0px;
+    line-height: .4;
 }
 
 li {
