@@ -1,0 +1,31 @@
+.website-banner {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+#nav-bar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    text-shadow: rgb(98, 0, 0) 1px 0 10px;
+    background-color: lightsalmon;
+  }
+
+li {
+float: left;
+font-family: Arial;
+}
+  
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+li a:hover {
+    background-color: lightcoral;
+}
