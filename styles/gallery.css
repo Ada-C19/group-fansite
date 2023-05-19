@@ -1,0 +1,47 @@
+body {
+  background-color: #ffefb39b;
+}
+
+
+
+#page-message {
+  font-style: italic;
+  text-align: center;
+  border-top: 12em;
+}
+
+img {
+    border-radius: 30px;
+}
+
+nav {
+  text-align: center;
+  font-family: Cormorant Garamond;
+}
+
+figure {
+    text-align: center;
+    font-family: Cormorant Garamond;
+    margin: 0.5em;
+    padding: 1em;
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+  li {
+    display:inline-table;
+    width:30%;
+  }
+
+  .coffee-img {
+    width: 350px;
+    height: 350px;
+  }
+
+  figcaption {
+    padding: 0 0%;
+    text-align: center;
+  }
+

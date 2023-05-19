@@ -1,0 +1,68 @@
+
+h3 {
+    font-size:2.5ch;
+}
+
+h5 {
+    line-height: 1.5rem;
+    border-radius: 10px;
+    font-weight: normal;
+    font-size:2ch;
+}
+
+.center-img {
+    text-align: center;
+    background-color:#FFEEB3;
+    margin: 100px 23% 100px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.content h5:first-child {
+    background-color: #FFEEB3;
+    margin: 50px 60% 50px 5%;
+    padding: 10px;
+}
+
+.content h5:nth-child(2) {
+    background-color: #FFEEB3;
+    margin: 50px 5% 50px 60%;
+    padding: 10px;
+}
+
+.content h5:nth-child(3) {
+    background-color: #FFEEB3;
+    margin: 50px 60% 50px 5%;
+    padding: 10px;
+}
+.content h5:nth-child(4) {
+    background-color: #FFEEB3;
+    margin: 50px 25% 50px;
+    padding: 10px;
+}
+
+main {
+    background-image: url("/images/espresso-background.jpg");
+    background-size: 100%;
+}
+
+/* Photo by <a href="https://unsplash.com/@nate_dumlao?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Nathan Dumlao</a> on <a href="https://unsplash.com/s/photos/cafe?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a> */
+
+.btn {
+    -webkit-border-radius: 14;
+    -moz-border-radius: 14;
+    border-radius: 14px;
+    text-shadow: 1px 1px 3px #666666;
+    color: #FFEEB3;
+    font-size: 16px;
+    background: #9E6F21;
+    padding: 10px 20px 10px 20px;
+    border: solid #1f628d 0px;
+    text-decoration: none;
+  }
+
+.btn:hover {
+    background: #B8E7E1;
+    text-decoration: none;
+    color: #FFEEB3;
+  }
