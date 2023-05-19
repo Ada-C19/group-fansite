@@ -1,0 +1,31 @@
+header, footer {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    overflow: hidden;
+    background-color:#4ABDAC; 
+    height: 350%;
+    width: 100%;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+footer {
+    height: 100%;
+}
+
+.content-container {
+    margin: 3em;
+}
+
+.footer-banner a, .top-banner a  {
+    margin: 3em;
+}
+
+.top-banner a:hover{
+    background-color:#f79833dc;
+}
+
+.footer-banner a:hover{
+    background-color:#f79833dc;
+}

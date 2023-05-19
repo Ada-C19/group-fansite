@@ -1,0 +1,26 @@
+details {
+    color:#DFDCE3;
+    cursor: pointer;
+    margin-right: 50%;
+
+}
+
+details p {
+    background-color:#DFDCE3;
+    padding: 2em;
+    color:black;
+}
+
+iframe {
+    width: 100%;
+}
+
+.accordion-title {
+    background-color:  #f79833dc;
+    border-radius: 5px;
+    padding: 1rem;
+
+}
+.accordion-body {
+    color:black
+}
