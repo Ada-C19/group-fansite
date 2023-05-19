@@ -1,18 +1,22 @@
 * {
   color: burlywood;
-  background-color: ivory;
+  /* background-color: ivory; */
 }
-/* .backgroung-image {
-background-position: top center;
-background-blend-mode: overlay;
-background-image: url(https://drinkthriveremedies.com/wp-content/uploads/2021/05/bubble-tea.jpg) !important;
-} */
 
 body {
   display: flex;
   flex-direction: column;
   min-height: 100%;
   font-family: 'Raleway', sans-serif;
+}
+
+button {
+  display: inline-block;
+  transition: transform 0.7s ease-in-out;
+}
+
+button:hover {
+  transform: rotate(360deg);
 }
 
 html {
@@ -30,6 +34,12 @@ h3 {
   padding-bottom: 2em;
   font-size: 150%;
   line-height: 1.5;
+}
+
+h4 {
+  margin-left: 2.5em;
+  font-size: xx-large;
+  padding-top: 1.5em;
 }
 
 ul {
@@ -133,9 +143,9 @@ ul li {
 }
 
 .image{
-    float: left;
-    /* padding: 5px; */
-    width: 300px;
+  float: left;
+  /* padding: 5px; */
+  width: 300px;
 }
 
 .mt-auto py-1 bg-light fixed-bottom {
@@ -180,6 +190,11 @@ ul li {
   text-align: center;
 }
 
+.topnav-centered {
+  display: flex;
+  justify-content: center;
+}
+
 #title {
   color: burlywood;
   font-size: 40px;
@@ -205,6 +220,32 @@ ul li {
   padding: 2px 16px;
 }
 
+#backgroung-image {
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  /* background-blend-mode: overlay; */
+  mix-blend-mode: multiply;
+  background-image: url("https://sugaryums.com/wp-content/uploads/2022/03/Oolong-Milk-Tea-Process-SugarYums-2.jpg") !important;
+}
+
+#boba-types {
+  margin-top: 1em 1.5em;
+  padding-bottom: 8em;
+}
+
+#first {
+  padding-bottom: 1em;
+}
+
+#last {
+  padding-bottom: 1.5em;
+}
+
+#second-ul-title {
+  margin-top: -120px;
+}
+
 #background-gif {
   grid-column: 1 / span 2;
   text-align: center;
@@ -217,24 +258,10 @@ ul li {
   padding-right: 10px;
 }
 
-button:hover {
-  transform: rotate(360deg);
-}
-
 #home {
   width: 80px;
   height: 60px;
   position: absolute;
   transform: translate(-50%, -50%);
   border-radius: 30px;
-  }
-
-  .topnav-centered {
-    display: flex;
-    justify-content: center;
-  }
-  
-  button {
-    display: inline-block;
-    transition: transform 0.7s ease-in-out;
-  }
+}
