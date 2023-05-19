@@ -1,7 +1,8 @@
 img {
     width: 30%;
     height: auto;
-    border-radius: 50%;
+    border-radius: 10%;
+    padding: 5px;
 }
 
 .container {
@@ -18,5 +19,14 @@ head a {
 }
 
 a {
-    color: white
+    color: tomato;
+}
+
+body {
+    margin: 30px;
+}
+
+.header-links {
+    color: lightgoldenrodyellow;
+    font-size: 20px;
 }
