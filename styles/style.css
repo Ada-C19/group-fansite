@@ -39,6 +39,10 @@ img {
     padding: 50px; 
 }
 
+.top-banner-container {
+    display: flex;
+}
+
 /* .footer-banner {
     background-color: #4ABDAC;
     overflow: hidden;
