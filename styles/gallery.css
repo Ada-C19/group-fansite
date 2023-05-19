@@ -11,22 +11,12 @@ h1 {
     padding: 25px;
 }
 
-nav {
-    width: 100%;
-    background-color: #FBE7C6;
-    margin: 0;
-    padding: #FBE7C6;
-    padding: 25px
-}
-
-
 ul {
     text-align: center;
 }
 
 li {
     display: inline;
-    margin: 1em;
 }
 
 main div {
@@ -59,10 +49,6 @@ footer {
     bottom: 0;
     width: 100%;
     background-color: #FBE7C6;
-}
-
-.footer__text h4 {
-    color: #A0E7E5;
 }
 
 section {
