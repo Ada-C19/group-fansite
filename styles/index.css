@@ -7,16 +7,32 @@
     height: 80vh;
     grid-template-columns: 1fr 4fr;
     grid-template-rows: 4fr 1fr;
+    padding: 2rem;
 }
 main {
-    border: dashed black;
+    border: solid black;
 }
 nav {
-    border: dashed black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:  center;
+    text-align: center;
+    padding: 2rem;
+    border: dashed greenyellow;
 }
 
+nav a {
+    padding: 2rem;
+}
+nav a:hover {
+    color:pink;
+    transition: margin-right 2s ease-in-out;
+}
+
+
 footer {
-    border: dashed black;
+    border: 2px dotted blueviolet;
     grid-column: 1 / span 2;
 }
 
@@ -34,7 +50,7 @@ footer {
 }
 
 a {
-    border: black dashed;
+    border: blue solid;
 }
 
 .page-header {
@@ -44,11 +60,4 @@ a {
     font-family: 'Pacifico', cursive;
     padding: 50px;
     
-}
-
-.menu-navigation li {
-    color: greenyellow;
-}
-.menu-navigation a {
-    color: darkslateblue;
 }
