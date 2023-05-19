@@ -35,6 +35,13 @@ li a:hover {
     padding-right: 20%;
 }
 
+#page-title {
+    color: lightcoral;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    padding-top: 100px;
+}
+
 footer {
     bottom: 0;
     padding-top: 25px;
