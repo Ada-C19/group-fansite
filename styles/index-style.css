@@ -1,7 +1,12 @@
 * {
   color: burlywood;
-  /* background-color: ivory; */
+  background-color: ivory;
 }
+/* .backgroung-image {
+background-position: top center;
+background-blend-mode: overlay;
+background-image: url(https://drinkthriveremedies.com/wp-content/uploads/2021/05/bubble-tea.jpg) !important;
+} */
 
 body {
   display: flex;
@@ -64,7 +69,7 @@ ul li {
 .topnav a.active {
   background-color: burlywood;
   color: darkgoldenrod;
-}
+} 
 
 .topnav-centered a {
   float: none;
@@ -200,23 +205,36 @@ ul li {
   padding: 2px 16px;
 }
 
-#boba-types {
-  margin-top: 1em 1.5em;
-}
-
-#first {
-  padding-bottom: 1em;
-}
-
-#last {
-  padding-bottom: 1.5em;
-}
-
-#backgroung-image {
-  background-position: center;
-  background-size: cover;
-  width: 100%;
-  /* background-blend-mode: overlay; */
+#background-gif {
+  grid-column: 1 / span 2;
+  text-align: center;
   mix-blend-mode: multiply;
-  background-image: url("https://sugaryums.com/wp-content/uploads/2022/03/Oolong-Milk-Tea-Process-SugarYums-2.jpg") !important;
+  margin: 0px auto;
 }
+
+#description {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+button:hover {
+  transform: rotate(360deg);
+}
+
+#home {
+  width: 80px;
+  height: 60px;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  border-radius: 30px;
+  }
+
+  .topnav-centered {
+    display: flex;
+    justify-content: center;
+  }
+  
+  button {
+    display: inline-block;
+    transition: transform 0.7s ease-in-out;
+  }
