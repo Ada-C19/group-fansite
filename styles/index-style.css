@@ -1,17 +1,13 @@
 * {
   color: burlywood;
-  background-color: ivory;
-}
-.backgroung-image {
-background-position: top center;
-background-blend-mode: overlay;
-background-image: url(https://drinkthriveremedies.com/wp-content/uploads/2021/05/bubble-tea.jpg) !important;
+  /* background-color: ivory; */
 }
 
 body {
   display: flex;
   flex-direction: column;
   min-height: 100%;
+  font-family: 'Raleway', sans-serif;
 }
 
 html {
@@ -19,12 +15,26 @@ html {
 }
 
 h2 {
-  margin-left: 3.2em;;
+  margin-left: 2em;
+  font-size: xx-large;
+  padding-top: 1.5em;
+}
+
+h3 {
+  margin: 2em 2.5em 2em 2.5em;
+  padding-bottom: 2em;
+  font-size: 150%;
+  line-height: 1.5;
 }
 
 ul {
   margin: 2em 2.5em 2em 2.5em;
   display: block;
+}
+
+ul li {
+  font-size: larger;
+  line-height: 1.5;
 }
 
 .topnav {
@@ -128,32 +138,17 @@ ul {
   flex: 1;
   padding: 20px;
 }
-  .container {
-    align-items: center; 
-    float: left;
-  }
-  .image{
-      float: left;
-      padding: 5px;
-      width: 300px;
-  }
-  
 
-  html {
-    height: 100%;
-  }
-  
-  body {
-    display: flex;
-    flex-direction: column;
-    min-height: 100%;
-  }
-  
-  .footer {
-    flex: 1;
-    padding: 20px;
-    text-align: center;
-  }
+.container {
+  align-items: center; 
+  float: left;
+}
+
+.image{
+  float: left;
+  padding: 5px;
+  width: 300px;
+}
   
 .book-covers li {
   /* padding-right: 10px; */
@@ -174,12 +169,19 @@ ul {
   height: 400px;
 }
 
+.footer {
+  flex: 1;
+  padding: 20px;
+  text-align: center;
+}
+
 #title {
   color: burlywood;
   font-size: 40px;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-family: 'Raleway', sans-serif;
   padding: 50px;
   text-align: center;
+  font-size: 300%;
 }
 
 #popular {
@@ -196,4 +198,25 @@ ul {
 /* Add some padding inside the card container */
 #popular  {
   padding: 2px 16px;
+}
+
+#boba-types {
+  margin-top: 1em 1.5em;
+}
+
+#first {
+  padding-bottom: 1em;
+}
+
+#last {
+  padding-bottom: 1.5em;
+}
+
+#backgroung-image {
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  /* background-blend-mode: overlay; */
+  mix-blend-mode: multiply;
+  background-image: url("https://sugaryums.com/wp-content/uploads/2022/03/Oolong-Milk-Tea-Process-SugarYums-2.jpg") !important;
 }
