@@ -1,5 +1,6 @@
 body {
     background-color: rgb(102, 192, 171);
+    margin: 2cm
     } 
     
     h1 {
@@ -7,6 +8,8 @@ body {
     text-align: center;
     font-size: xx-large;
     }
+
+    nav
     
     ul {
         list-style-type: none;
@@ -34,7 +37,7 @@ body {
     footer {
         font-family: American Typewriter;
         font-size: 12px;
-        text-align: left;
+        text-align: center;
     }
 
     #picture {
