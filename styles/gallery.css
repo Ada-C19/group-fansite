@@ -34,7 +34,8 @@ h1 {
     display: flex;
     padding: 1rem;
     justify-content: space-between;
-    width: 75%   
+    width: 75%;
+    font-size: 30px;
 }
 
 .header-container {
