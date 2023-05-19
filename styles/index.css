@@ -1,0 +1,31 @@
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    color:#f4a7ba;
+    text-align: center;
+}
+body {
+    background-color: rgb(240, 230, 230);
+}
+p {
+    text-indent: 2em;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+img {
+    height: 500px;
+    width: auto;
+    border-style: inset;
+    box-shadow: 3px 3px 3px 3px #FFC0CB
+}
+
+.content {
+    color: black;
+    max-width: min-content;
+    text-align: justify;
+}
+
+/* flexbox container */
+.wrapper {
+    display: flex;
+    justify-content: center;
+}

@@ -1,0 +1,129 @@
+body {
+    margin: 0px;
+} 
+
+
+footer {
+    background-color: black;
+    padding: 4em;
+    margin-top: 10px;
+    font-size: small;
+    height: 50px;
+    color: #FFC0CB;
+    text-align: center;   
+}
+
+h1 {
+    text-align: center;
+    border-style: solid;
+    border-color: #FFC0CB;
+    border-width: 4.5px;
+    padding: 30px;
+    width: 300px;
+    height: 100px;
+    box-sizing: border-box;
+    margin: 0 auto;
+    
+}
+
+h2 {
+    text-align: center;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    line-height: .4;
+}
+
+
+header {
+    text-align: center;
+    background-color: black;
+    padding: 2px;
+    width: 100%;
+    margin-bottom: 1em;
+}
+
+html {
+    color: #FFC0CB;
+    font-family: Helvetica, sans-serif;
+}
+
+li {
+    list-style-type: none;
+    margin: 1em;
+    padding: 0px;
+
+}
+
+
+ul {
+    padding: 0px;
+}
+
+#navlinks {
+    padding: 0px;
+
+}
+
+#navlinks li {
+    display: inline;
+    margin: 1px;
+}
+
+#jisoo {
+
+    border-style: solid;
+    border-color:rgb(240, 230, 230);
+    border-width: 3px;
+    width: 300px;
+    height: 300px;
+    background-color: black;
+
+}
+
+#jennie {
+
+    border-style: solid;
+    border-color:rgb(240, 230, 230);
+    border-width: 3px;
+    width: 300px;
+    height: 300px;
+    background-color: #FFC0CB;
+    color: black
+}
+
+#lisa {
+
+    border-style: solid;
+    border-color:rgb(240, 230, 230);
+    border-width: 3px;
+    width: 300px;
+    height: 300px;
+    background-color: black;   
+}
+
+#rose {
+
+    border-style: solid;
+    border-color:rgb(240, 230, 230);
+    border-width: 3px;
+    width: 300px;
+    height: 300px;
+    background-color: #FFC0CB;
+    color: black
+}
+.align {
+    display: flex;
+    justify-content: center;
+}
+
+.members {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    grid-template-rows: 2fr 2fr;
+    justify-content: center;
+    align-content: center;
+    grid-auto-flow: column;
+    width: 300px;
+    margin: 0 auto;
+
+}
