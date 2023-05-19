@@ -26,65 +26,6 @@ body > header > h1, body > footer > h4 {
 
 /* ###################### */
 
-/* .grid-container {
-    margin: auto;
-    width: 50vw;
-    height: 50vh; 
-    display: grid;
-    grid-template-rows: 1fr 1fr;
-    grid-template-columns: 1fr 3fr;
-} */
-
-.header-container {
-    /* margin: auto;
-    width: 100vw;
-    height: 35vh; 
-    display: grid;
-    grid-template-rows: 1fr;
-    grid-template-columns: 50px 50px 50x 50px; */
-}
-
-
-/* .links-container {
-    margin: auto;
-    width: 50vw;
-    height: 20vh; 
-    display: grid;
-    grid-template-rows: 1fr;
-    grid-template-columns: 50px;
-} */
-
-/* need to make overall container first then specify the other containers as rows
-main overall container/skeleton should have 3 rows 
-starting from the bottom: 1 (link container), 4 (body container), 2 (header container) */
-
-/* body { 
-    position: relative
-  }
-  
-  .links-container { 
-    position: absolute;
-    bottom: 50px;
-    left: 0;
-    right: 0;
-    display: flex;
-    margin: 0 auto;
-    width: 100%;
-    justify-content: center;
-  } */
-
-
-/* .footer-container {
-    position: absolute;
-    bottom: 50px;
-    left: 0;
-    right: 0;
-    display: flex;
-    margin: 0 auto;
-    width: 100%;
-    justify-content: center;
-} */
-
 
 body {
     display: flex;
