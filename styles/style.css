@@ -30,6 +30,11 @@ li a:hover {
     background-color: lightcoral;
 }
 
+#container {
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
 footer {
     bottom: 0;
     padding-top: 25px;

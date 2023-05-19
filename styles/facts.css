@@ -1,13 +1,3 @@
-html {
-    background: url('image.png') no-repeat center fixed;     
-    background-size: cover;
-}
-
-.container {
-    padding-left: 20%;
-    padding-right: 20%;
-}
-
 h1 {
     text-align: center;
     background-color: aquamarine;
