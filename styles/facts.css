@@ -24,10 +24,11 @@ footer {
     display: flex;
     justify-content: space-around;
     padding-left: 0px;
+    list-style-type: none;
 
 }
 
-article {
+.fact {
     width: 30%;
     height: auto;
     background-color: #76bdb5;
@@ -37,5 +38,8 @@ article {
     align-items: center;
     /* display: inline-block; */
     display: flex;
+}
 
+.fact-text::first-letter {
+    font-size: 2em;
 }
