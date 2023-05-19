@@ -1,0 +1,20 @@
+* {
+    background-color: lightblue;
+    margin: 10px;
+}
+
+.nav {
+    color: darkslategrey;
+    text-align: left;
+    background-color: lightblue;
+    display: flex;
+    display: inline-block;
+    border-style: dotted;
+    border-color: plum;
+}
+
+p {
+    color: darkolivegreen;
+}
+
+
