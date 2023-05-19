@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Felt+Marker&display=swap');
+
 .container {
     display: flex;
     width: 100%;
@@ -7,7 +9,9 @@
     justify-content: space-around;
     align-items: center;
     grid-gap: 30px;
-    padding: 75px;
+    padding-top: 75px;
+    padding-bottom: 75px;
+    background-image: url("../assets/AwesomeFieriPic.png");
 }
 
 .gallery-post {
@@ -34,4 +38,16 @@ img {
 
 #extended-2 {
     height: 650px;
+}
+ 
+nav {
+    height: 40px;
+}
+
+nav li {
+    font-size: 30px;
+}
+
+nav a {
+    padding-top: 300px;
 }
