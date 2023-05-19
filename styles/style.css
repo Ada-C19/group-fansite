@@ -1,0 +1,23 @@
+.page-title {
+    color: thistle;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+
+h4 {
+    color: cornflowerblue;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+nav {
+    background-color: rgba(139, 237, 139, 0.67);
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+    margin-right: 50px;
+}
+

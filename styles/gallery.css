@@ -1,0 +1,42 @@
+div {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 80% 20%;
+}
+
+
+
+section {
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    row-gap: 50px;
+    grid-row: 1 / 2;
+}
+
+footer {
+    grid-row: 2 / 3;
+}
+
+img {
+    width: 40%;
+    height: 300px;
+}
+/* Wave 2 focus */
+img {
+    border: 5px black solid 
+}
+
+body {
+    background: rgb(255, 222, 227);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148, 187, 233, 1) 100%);
+}
+
+nav {
+    background-color: rgba(0,0,0,0);
+}
+
+.page-title {
+    color: rgb(237, 244, 250);
+}
