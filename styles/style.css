@@ -7,13 +7,22 @@ a {
     background-color: #4ABDAC;
     color: #DFDCE3;
     border: 7px solid #4ABDAC;
-    border-radius: 100px;
 }
 
 body {
     background-color: #DFDCE3;
     font-family: Arial, Helvetica, sans-serif;
     margin: 3em  ;
+    display: grid;
+    grid-row: 1/ span 3;
+}
+
+.top-banner {
+    display:grid;
+    grid-row: 1;
+    background-color: #4ABDAC;
+
+
 }
 
 h1 { 
@@ -47,11 +56,14 @@ img {
     text-align: center;
 } */
 
-.top-banner {
+/* .top-banner {
     background-color: #4ABDAC;
     overflow: hidden;
     position: fixed;
+    top: 0;
     left: 0;
+    right: 0;
+    right: 0;
     bottom: top;
     height: 15%;
     width: 100%;
@@ -62,4 +74,4 @@ img {
     float: center;
     display: block;
     text-align: center;
-}
+} */
