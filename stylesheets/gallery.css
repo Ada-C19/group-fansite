@@ -1,0 +1,32 @@
+img {
+    width: 30%;
+    height: auto;
+    border-radius: 10%;
+    padding: 5px;
+}
+
+.container {
+    color: yellow;
+    text-align: left;
+}
+
+a:hover {
+    color: pink;
+}
+
+head a {
+    font-size: 20pt;
+}
+
+a {
+    color: tomato;
+}
+
+body {
+    margin: 30px;
+}
+
+.header-links {
+    color: lightgoldenrodyellow;
+    font-size: 20px;
+}

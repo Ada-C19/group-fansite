@@ -1,0 +1,40 @@
+body {
+    font-family: 'Courier New';
+    background-color: darkolivegreen;
+    text-align: center
+}
+
+header ul{
+    list-style-type: none;
+}
+
+h1, h2, h3, footer {
+    text-decoration: underline;
+    color: darkgreen;
+    background-color: gold;
+    border: 2px solid ivory;
+    border-radius: 25px;
+}
+
+div {
+    font-family: consolas;
+    border: 2px solid #73AD21;
+    border-radius: 25px
+}
+
+p {
+    line-height: 150%;
+    color: darkslategrey;
+    background-color: white;
+    font-family: consolas;
+    border: 2px solid #73AD21;
+    border-radius: 25px;
+    margin: 0;
+    padding: 10px 0;
+}
+
+li {
+    line-height: 150%;
+    color: darkslategrey;
+    background-color: white;
+}
