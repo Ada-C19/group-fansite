@@ -1,0 +1,38 @@
+h1 {
+    text-align: center;
+    margin: 0;
+    padding: 25px;
+}
+
+h2 {
+    color: #4a956c;
+    font-family: "Apple Chancery", cursive;
+    font-size: 30px
+}
+
+p {
+    font-family: "Calibri", sans-serif;
+}
+
+.cited-sources p {
+    font-size: 12px;
+}
+
+.fun-link {
+    text-align: left;
+    color: dodgerblue;
+}
+
+.fun-link:hover{
+    color: #FDB3A4;
+    background-color: white;
+}
+
+blockquote {
+    color: rgb(167, 165, 165);
+    font-family: arial;
+    font-size: 20px;
+    font-style: italic;
+}
+
+

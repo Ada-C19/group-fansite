@@ -1,0 +1,52 @@
+.website-banner {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+#nav-bar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    text-shadow: rgb(98, 0, 0) 1px 0 10px;
+    background-color: lightsalmon;
+  }
+
+li {
+float: left;
+font-family: Arial;
+}
+  
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+li a:hover {
+    background-color: lightcoral;
+}
+
+#container {
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+#page-title {
+    color: lightcoral;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    padding-top: 100px;
+}
+
+footer {
+    bottom: 0;
+    padding-top: 25px;
+    text-align: center;
+    font-size: 15px;
+    font-family: arial;
+    color: teal    
+}
