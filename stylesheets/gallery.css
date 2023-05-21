@@ -1,0 +1,115 @@
+/* @font-face {
+    font-family: 'OmegaRuby';
+    src: url('/fonts/OmegaRuby-PlEB.ttf') format('truetype');
+    font-weight: normal;
+    size-adjust: 300%;
+} */
+
+
+img {
+    width : 500px;
+    height: 500px;    
+}
+
+/* div {
+    justify-content: space-around;
+    align-items: center;
+}  */
+
+html {
+    background-color: #ebebeb;
+}
+
+
+
+ul {
+    list-style-type: none;
+    margin: 20px;
+    padding: 20px;
+    font-size: larger;
+}
+
+
+
+/* h1 {
+    clip-path: ellipse();
+    border: #0392cf;
+    text-align: center;
+    background-color: #7bc043;
+    font-family: 'PocketMonk', sans-serif
+} */
+
+.adiemon-titles {
+    font-size: 40px;
+    font-family: 'OmegaRuby', sans-serif
+}
+
+/* a:hover{
+    color: #ffffba;
+} */
+
+#visited {
+    color: #f37736;
+    font-family: 'OmegaRuby';
+}
+
+a {
+    font-family: 'OmegaRuby';
+}
+
+
+.circles img {
+    clip-path: circle();
+    height: 500px;
+    width: 500px;
+}
+
+.circles img:hover {
+    scale: 1.2;
+    /* filter: hue-rotate(90deg) */
+    filter: hue-rotate(90deg);
+    
+}
+
+
+
+.grid-item {
+    display: grid;
+    justify-content: center;
+}
+
+
+
+.adiemon-titles {
+    font-family: 'PokemonGb';
+    
+    
+}
+
+#htmlite-image {
+    background-image: linear-gradient(90deg, #ffb3ba, #ffdfba, #ffffba, #baffc9, #bae1ff);
+    border: groove 20px #ee4035;
+    border-radius: 50%;
+
+}
+
+#pythonion-image {
+    background-image: linear-gradient(90deg, #ffb3ba, #ffdfba, #ffffba, #baffc9, #bae1ff);
+    background-color: #ffffba;
+    border: groove 20px #fdf498;
+    border-radius: 50%;
+}
+
+#reactikitty-image {
+    background-image: linear-gradient(90deg, #ffb3ba, #ffdfba, #ffffba, #baffc9, #bae1ff);
+    background-color: #bae1ff;
+    border-radius: 50%;
+    border: groove 20px #0392cf
+}
+
+
+#blurb {
+    padding-top: 100px;
+    font-family: 'PokemonGb';
+
+}
