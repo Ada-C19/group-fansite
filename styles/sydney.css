@@ -116,8 +116,8 @@ li {
     display: flex;
     height: 400px;
     width: 400px;
-    border: #cccccc 2px groove;
-    border-radius: 10px;
+    /* border: #cccccc 2px groove; */
+    border-radius: 24px;
     padding: 3px;
     margin: auto;
 }
@@ -153,10 +153,19 @@ li {
     display: flex;
     flex-direction: column;
     width: 100%;
-    margin: 100px;
+    /* margin: 100px; */
     font-size: 1.2em;
     border: 2px #07607B solid;
     border-radius: 20px;
     padding: 20px;
     color:#07607B
+}
+
+.attraction-info a:hover {
+    color:#01989F;
+}
+
+.attraction-info a {
+    color: #0f718f;
+    text-decoration: none;
 }

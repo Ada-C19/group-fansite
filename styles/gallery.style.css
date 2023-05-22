@@ -10,6 +10,10 @@
     background-color: beige;
     }
 
+a {
+    background-color: beige;
+}
+
 .gallery {
     margin: 10px;
     display: flex;
