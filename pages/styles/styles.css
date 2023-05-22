@@ -87,9 +87,7 @@ footer ul {
     padding-top: 5px;
 }
 
-@namespace svg url(http://www.w3.org/2000/svg);
-
-a svg:hover .social-media-icons {
+a img:hover .social-media-icons {
     fill: rgb(55, 5, 26);
     cursor: pointer;
 }
