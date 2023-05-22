@@ -77,7 +77,7 @@ header {
 
 .picture-container .polaroid:after
 {
-    content: attr(polaroid-caption);
+    content: attr(data-caption);
     position: absolute;
     bottom: 0px;
     left: 0px;
