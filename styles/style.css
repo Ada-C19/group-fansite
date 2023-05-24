@@ -10,6 +10,34 @@ body, .container {
     background-color: #3a3a3a;
 }
 
+
+/* header {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: left;
+    font-family: 'Rubik', sans-serif;
+    font-size: 20px;
+    height: 50px;
+    border-top: 2px solid cadetblue;
+    border-left: 2px solid cadetblue;
+    border-top-left-radius: 10px;
+}
+
+
+header > nav {
+    width: 60%;
+    min-width: 50vw;
+    margin-left: 75px;
+}
+
+header > nav > ul {
+    text-align: center;
+    list-style-type: none;
+}  */
+
+
+
 .fancyfont {
     justify-content: center;
     margin: auto;
@@ -18,6 +46,10 @@ body, .container {
     font-size: 50px;
     color: #ff1493;
     text-align: center;
+}
+
+#current-page {
+    color: #f0ce489a;
 }
 
 footer {
@@ -29,4 +61,5 @@ footer {
     padding: 15px;
     color: #f0cf48;
     border-top: 2px solid #5f9ea0;
+    font-family: 'Rubik', sans-serif;
 }

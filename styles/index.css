@@ -20,7 +20,7 @@ header {
 header img {
     position: absolute;
     top: -50px;
-    right: 200px;
+    right: 15%;
     width: 350px;
     height: auto;
     z-index: 0;
@@ -29,6 +29,7 @@ header img {
 
 header > nav {
     width: 60%;
+    min-width: 50vw;
     margin-left: 75px;
 }
 
@@ -37,10 +38,11 @@ header > nav > ul {
     list-style-type: none;
 }
 
+/* 
 #current-nav {
     color: #f0ce4862;
-    /* font-weight: bolder; */
-}
+    /* font-weight: bolder; 
+} */
 
 header nav ul li {
     display: inline-block;
@@ -53,9 +55,41 @@ header > nav > ul > li > a {
 }
 
 /* stroke */
+nav.stroke ul li a[href]:hover:after {
+    width: 100%;
+}
+nav ul li a[href],
+nav ul li a[href]:after,
+nav ul li a[href]:before {
+    transition: all .5s;
+}
+nav ul li a[href]:hover {
+    color: #f0ce489a;
+}
+    
+nav.stroke ul li a[href] {
+    position: relative;
+}
+    
+nav.stroke ul li a[href]:after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 0%;
+    content: '.';
+    color: transparent;
+    background: #f0cf48;
+    height: 1px;
+} 
+
+
+/* 
 nav.stroke ul li a:hover:after {
 width: 100%;
 }
+
 
 nav ul li a,
 nav ul li a:after,
@@ -82,14 +116,16 @@ content: '.';
 color: transparent;
 background: #f0cf48;
 height: 1px;
-}
+} */
+
+
 
 main {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     margin-top: 20px;
-    height: 75vh;
+    /* height: 75vh; */
     z-index: 20;
 }
 
@@ -109,6 +145,7 @@ main .content {
 
 .text {
     color: cadetblue;
+    max-width: 50%;
 }
 
 .subtitle {
