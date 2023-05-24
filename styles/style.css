@@ -11,35 +11,8 @@ body, .container {
 }
 
 
-/* header {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: left;
-    font-family: 'Rubik', sans-serif;
-    font-size: 20px;
-    height: 50px;
-    border-top: 2px solid cadetblue;
-    border-left: 2px solid cadetblue;
-    border-top-left-radius: 10px;
-}
-
-
-header > nav {
-    width: 60%;
-    min-width: 50vw;
-    margin-left: 75px;
-}
-
-header > nav > ul {
-    text-align: center;
-    list-style-type: none;
-}  */
-
-
-
 .fancyfont {
-    justify-content: center;
+    /* justify-content: center; */
     margin: auto;
     width: 100%;
     font-family: 'Permanent Marker', cursive;
@@ -51,6 +24,93 @@ header > nav > ul {
 #current-page {
     color: #f0ce489a;
 }
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    /* justify-content: left; */
+    justify-content: center;
+    align-items: center;
+    font-family: 'Rubik', sans-serif;
+    font-size: 20px;
+    /* height: 50px; */
+    height: auto;
+    border-top: 2px solid cadetblue;
+    /* border-left: 2px solid cadetblue; */
+    /* border-top-left-radius: 10px; */
+}
+
+header h1 {
+    /* position: absolute; */
+    position: relative;
+    /* top: -50px; */
+    top: -35px;
+    /* right: 15%; */
+    width: 350px;
+    /* width: 14%; */
+    height: auto;
+    /* z-index: 0; */
+    background-color: #3a3a3a;
+}
+
+#fancyfont {
+    margin: auto;
+    /* width: 100%; */
+    font-family: 'Permanent Marker', cursive;
+    font-size: 35px;
+    color: #ff1493;
+    text-align: center;
+}
+
+header > nav {
+    width: 60%;
+    min-width: 50vw;
+    /* max-width: 50vw; */
+    height:fit-content;
+    /* margin-left: 75px; */
+    text-align: center;
+}
+
+header nav ul li {
+    display: inline-block;
+}
+
+header > nav > ul > li > a {
+    text-decoration: none;
+    color: #f0cf48;
+    padding: 2px 40px;
+}
+
+/* stroke */
+nav.stroke ul li a[href]:hover:after {
+    width: 100%;
+}
+nav ul li a[href],
+nav ul li a[href]:after,
+nav ul li a[href]:before {
+    transition: all .5s;
+}
+nav ul li a[href]:hover {
+    color: #f0ce489a;
+}
+    
+nav.stroke ul li a[href] {
+    position: relative;
+}
+    
+nav.stroke ul li a[href]:after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 0%;
+    content: '.';
+    color: transparent;
+    background: #f0cf48;
+    height: 1px;
+} 
 
 footer {
     position: relative;
