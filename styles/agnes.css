@@ -157,12 +157,11 @@ header img {
 
 .attractions-section img {
     width: 100%;
-    max-width: 18rem;
-    height: 14rem;
+    max-width: 20rem;
+    height: 16rem;
     object-fit: cover;
     border-radius: 20px;
     border: black 2px solid;
-    padding: 0.5rem;
 }
 
 .food-section ul {
@@ -190,8 +189,8 @@ header img {
 
 .food-section img {
     width: 100%;
-    max-width: 18rem;
-    height: 14rem;
+    max-width: 20rem;
+    height: 16rem;
     object-fit: cover;
     border-radius: 20px;
     border: black 2px solid;
