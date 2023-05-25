@@ -10,6 +10,16 @@
     background-color: beige;
     }
 
+#nav-bar a {
+    background-color: beige;
+}
+
+h3 {
+    font-size: 2rem;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
 .gallery {
     margin: 10px;
     display: flex;
