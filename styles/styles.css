@@ -1,0 +1,20 @@
+body {
+    background-color: #fffde0;
+    font-family: georgia;
+    color: #433c5e;
+}
+
+nav ul li a:link,
+nav ul li a:visited {
+    color: #645c9f;
+}
+
+nav ul li a:hover,
+nav ul li a:active {
+    color: #fff;
+}
+
+nav ul li a.visit {
+    background-color: #645c9f;
+    color: #fff;
+}

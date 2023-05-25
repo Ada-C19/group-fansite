@@ -1,0 +1,48 @@
+h1 {
+    font-size: 2em;
+    color: #341948;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+    
+h2 {
+    font-size: 1.5em;
+    color: #645c9f;
+    text-align: center;
+}
+    
+footer {
+    text-align: center;
+}
+
+main p {
+    text-align: center;
+} 
+
+main {
+    text-align: center;
+}
+
+img {
+    width: 30%;
+    height: auto;
+    display: inline-block;
+}
+
+#navlinks {
+    background-color: #f9e4e8;
+    padding: 1em;
+    text-align: center;
+    text-shadow: #341948;
+}
+
+#navlinks ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+#navlinks li {
+    display: inline;
+}

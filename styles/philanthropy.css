@@ -1,0 +1,219 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Global styles */
+body {
+  font-family: Georgia;
+  font-size: 18px;
+  line-height: 1.5;
+  background-color: #fffde0;
+}
+
+h1,
+h2 {
+  color: #341948;
+}
+
+p {
+  color: #645c9f;
+}
+
+a {
+  color: #645c9f;
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+/* Flexbox container */
+.flex-container {
+  display: flex;
+  min-height: 100vh;
+  margin-left: 200px;
+  margin-top: 10px;
+}
+
+/* Navigation */
+.navigation {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between; 
+  background-color: #f9e4e8;
+  padding: 1em;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 200px;
+  z-index: 999;
+}
+
+.navigation a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-color: #fffde0;
+  color: #341948;
+  text-decoration: none;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  position: relative;
+  overflow: hidden;
+  margin: 10px 0; 
+  border: 25px solid black;
+}
+
+.navigation a::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 250px;
+  height: 250px;
+  background-color: #000;
+  border-radius: 50%;
+  z-index: -1;
+}
+
+.navigation a span {
+  position: relative;
+  z-index: 2;
+  color: #341948;
+}
+
+.navigation a:hover {
+  background-color: #ffd700;
+  color: black;
+}
+
+.navigation a:hover span {
+  color: #fff;
+}
+#home:hover::after {
+  content: "Page";
+  color: black;
+}
+#facts:hover::after {
+  content: "Page";
+  color: black;
+}
+    
+#discography:hover::after {
+  content: "Page";
+  color: black;
+}
+
+#gallery:hover::after {
+  content: "Page";
+  color: black;
+
+}
+
+
+.flex-item {
+  flex: 1;
+  padding: 1em;
+  position: relative;
+}
+
+.header {
+  background-color: #f9e4e8;
+  text-align: center;
+}
+
+.main {
+  background-color: #fffde0;
+  overflow-y: auto;
+}
+
+.footer {
+  text-align: center;
+  background-color: #f9e4e8;
+  padding: 1em;
+}
+
+/* Philanthropy container */
+.philanthropy-container {
+  margin-top: 2em;
+  margin-bottom: 2em;
+  max-width: 50%;
+}
+
+/* Accordion */
+.accordion {
+  list-style-type: none;
+  max-width: 50%; 
+  margin: 0;
+}
+
+.accordion li {
+  margin-top: 3em;
+  margin-bottom: 3em;
+  text-align: center;
+}
+
+.accordion-content {
+  margin-top: 2em;
+  text-align: center;
+}
+
+summary {
+  cursor: pointer;
+  background-color: #645c9f;
+  color: #fff;
+  padding: 0.5em 1em;
+  border-radius: 5px;
+}
+
+.details {
+  background-color: #f9e4e8;
+  padding: 0.5em 1em;
+  border-radius: 5px;
+}
+
+/* Image container */
+.image-container {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 44%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.image-container img {
+  width: 75%;
+  height: 75%;
+  opacity: 1;
+}
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%) scale(0.4);
+  z-index: 1;
+}
+/* Text alignment */
+.main p {
+  text-align: left;
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  background-color: #f9e4e8;
+  padding: 1em;
+}
