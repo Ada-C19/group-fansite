@@ -3,6 +3,10 @@
   src: url("../fonts/font/Web Fonts/organettocnd_thin_macroman/organetto-cndthin-webfont.woff") 
 }
 
+header {
+  text-align: center;
+}
+
 body {
     background-image: url("../images/Dolly2_Feature.jpg");
     background-color: black;
@@ -52,6 +56,7 @@ color: #f1f1f1;
     color: #ebc1d2;
     padding: 50 px;
     margin: 20px;
+    letter-spacing: 0.1 em;
 }
 
 .highlight a:link,
