@@ -1,23 +1,43 @@
+* {
+    font-family: Georgia, Times, serif;
+}
+
 #nav-bar{
     height:50px;
     width: 100%;
     display: flex;
-    border: black solid 5px;
+    /* border: black solid 5px; */
     flex-direction: row;
     justify-content: center;
-    gap: 20px;
+    gap: 30px;
     align-items: center;
-    background-color: beige;
+    background-color: #d8c596;
     }
 
 #nav-bar a {
-    background-color: beige;
+    background-color: #d8c596;
+    color: white;
+    gap: 10px;
+    font-size: 1.5rem;
+}
+
+#nav-bar a:hover {
+    color: pink;
 }
 
 h3 {
-    font-size: 2rem;
+    font-size: 1.5rem;
     color: black;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: beige;
+    border: 2px solid cornsilk;
+    padding: 1rem;
+    width: 200px;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-left: 5.8rem;
+    margin-right: 5.8rem;
 }
 
 .gallery {

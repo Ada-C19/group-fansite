@@ -66,7 +66,14 @@ h2 {
     color:#07607B;
     text-align: center;
     font-size: 1.75em;
-    text-decoration:underline;
+    /* text-decoration:underline; */
+    background-color: #6CD1AF;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    padding: 14px;
+    border-radius: 10px;
 }
 
 h1, #fun-fact {
@@ -82,7 +89,7 @@ li {
 .food {
     display: flex;
     flex-direction: column;
-    margin: 25px;
+    padding: 10px;
 }
 
 .food-photos {
@@ -116,7 +123,7 @@ li {
     display: flex;
     height: 400px;
     width: 400px;
-    /* border: #cccccc 2px groove; */
+    border: #cccccc 2px groove;
     border-radius: 24px;
     padding: 3px;
     margin: auto;
