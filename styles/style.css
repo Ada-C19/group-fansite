@@ -1,4 +1,4 @@
-* {
+body {
     font-family: Tahoma;
     background-color: #d1e8ef;
 }
@@ -16,17 +16,18 @@ h1 {
 
 .clickable-box {
     display: flex;
-    flex-direction: row;
+    flex-flow: row wrap;
     align-items: center;
     justify-content: center;
     gap: 100px;
-
+    color: #4f4cb0;
+    font-size: 1.5rem;
+    margin-top: 20px;
 }
 
 .clickable-box img {
     width: 200px;
     height: 200px;
-    background-color: #e9eff9;
     justify-content: space-evenly;
     border-radius: 100px;
     border: 2px lightcyan solid;
@@ -70,7 +71,6 @@ h1 {
     padding: 5px;
     display: flex;
     flex-direction: column;
-    background-color: #97e7ca;
     height: 500px;
     font-size: x-large;
     justify-content: space-evenly;
@@ -78,10 +78,6 @@ h1 {
     list-style: none;
     gap: 100px;
     margin-top: 120px;
-}
-
-li {
-    background-color: #97e7ca;
 }
 
 #world-pic {
@@ -111,14 +107,9 @@ footer {
 a {
     text-decoration: none;
     color: black;
-    background-color: #97e7ca;
-
-}
-
-.avatar a {
-    background-color: #d1e8ef;
 }
 
 a:hover{
     color: pink;
 }
+
