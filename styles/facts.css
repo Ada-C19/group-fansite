@@ -14,3 +14,7 @@ header > nav {
     font-size: 1.1vw;
     text-align: center;
 }
+
+nav > ul > li > a:hover {
+    color: #eb5a68;
+}
