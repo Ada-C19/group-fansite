@@ -6,7 +6,6 @@
     color: deeppink;
 } */
 
-
 header > nav {
     position: relative;
     bottom: 35px;
@@ -15,6 +14,47 @@ header > nav {
     text-align: center;
 }
 
+
 nav > ul > li > a:hover {
     color: #eb5a68;
 }
+
+main { 
+    margin: 0 auto;
+}
+
+.scroll-container {
+    margin: 0px 100px;
+    font-family: 'Rubik', sans-serif;
+
+}
+
+h3 {
+    color: #60c7c9bb;
+    font-size: 1.5vw;
+    letter-spacing: 2px;
+    padding-left: 100px;
+}
+
+p, a {
+    color: rgba(248, 248, 255, 0.683);
+    line-height: 30px;
+    text-align: center;
+    font-size: 1.1vw;
+}
+
+p {
+    margin: 0 auto;
+    width: 45vw;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 100px;
+
+}
+
+ul > li {
+    line-height: 2rem;
+}
+
