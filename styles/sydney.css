@@ -32,13 +32,6 @@ header {
     font-weight: 200;
 }
 
-hr {
-    width: 50%;
-    border: 3px dotted #01989F;
-    text-align:center;
-    margin: auto;
-}
-
 footer {
     display: flex;
     background-color: #6EC4B7;
@@ -60,6 +53,10 @@ main {
     border-color: #6CD1AF;
     border-radius: 10px;
     border-style: dashed;
+}
+
+h1 {
+    font-size: 3rem;
 }
 
 h2 {
