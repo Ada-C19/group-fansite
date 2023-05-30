@@ -1,16 +1,14 @@
-h3 {
-    width: fit-content;
-    background-color: rgba(156, 199, 213,.6);
-    color: darkblue;
-    content: center;
+.container {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 100px 75px 1fr 60px;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    height: 100vh;
 }
 
-.content a {
-    color: black;
-}
-
-.content a:hover {
-    color: darkblue;
+.header {
+    background-color: slateblue;
 }
 
 .nav a {
@@ -21,29 +19,46 @@ h3 {
     color: lightblue;
 }
 
-.container {
-    /* width: 60vw;
-    height: 100vh; */
-    height: 100vh;
-    display: grid;
-    /* used arbitrary units of measurement to mimic wireframe */
-    grid-template: 15% auto 10% / 150px 3fr;
-}
-
-.header {
-    background-color: slateblue;
-    grid-column: auto / span 2;
-}
-
 .nav {
     background-color: navy;
-    grid-row: span 1 / span 2;
 }
 
 .content {
     background-color: rgba(156, 199, 213,.6);
-
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: .05fr 1fr;
+    grid-column-gap: 20px;
+    grid-row-gap: 0px;
+    text-align: center;
 }
+
+.content a {
+    color: black;
+}
+
+.content a:hover {
+    color: darkblue;
+}
+
+h2 {
+    background-color: rgba(156, 199, 213, 0);
+    color: antiquewhite;
+}
+
+h3 {
+    width: auto;
+    background-color: rgba(156, 199, 213,.6);
+    color: darkblue;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.div1 { grid-area: 1 / 1 / 2 / 3; }
+.div2 { grid-area: 2 / 1 / 3 / 2; }
+.div3 { grid-area: 2 / 2 / 3 / 3; }
 
 .footer {
     background-color: #0072b2;
