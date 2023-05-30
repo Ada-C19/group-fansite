@@ -5,23 +5,29 @@
 
 #mission {
     font-style: italic;
-    max-width: 800px;
 }
 
 #slogan-heading {
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     margin-bottom: 10px;
+    text-align: center;
 }
 
 section a img {
     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
     height: 150x;
     width: 200px;
     border-radius: 20%;
 }
 
-#coming-soon {
-    display:inline-block;
+/* #coming-soon #order_form{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center; 
     font-style: bold;
     font-weight: 600;
     color: tan;
@@ -29,7 +35,7 @@ section a img {
     text-align: center;
     font-size: larger;
     margin: 0px 0px;
-}
+} */
 
 .deals {
     padding-top: 10px;
@@ -50,4 +56,24 @@ section a img {
 
 #homepage-main {
     padding: 0px 0px;
+}
+
+.interaction-images {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    /* text-align: center; */
+    flex-direction: row;
+    /* align-items: center; */
+    justify-content: center;
+    padding: 20px; 
+    margin: 20px;
+
+    font-style: bold;
+    font-weight: 600;
+    color: tan;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    /* text-align: center; */
+    font-size: larger;
+    /* margin: 0px 0px;
+    padding: 15px; */
 }
