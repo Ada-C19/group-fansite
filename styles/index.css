@@ -22,6 +22,10 @@ header img {
     background-color: #3a3a3a;
 }
 
+header > nav {
+    position: relative;
+    right: 80px;
+}
 
 header > nav > ul {
     text-align: center;

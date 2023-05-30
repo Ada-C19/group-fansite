@@ -33,6 +33,7 @@ div {
 
 header > nav {
     position: relative;
+    right: 40px;
     bottom: 35px;
     min-width: 50vw;
     font-size: 1.1vw;

@@ -20,6 +20,7 @@ h1:hover {
 
 nav {
     position: relative;
+    right: 10px;
     bottom: 35px;
     min-width: 50vw;
     font-size: 1.1vw;
