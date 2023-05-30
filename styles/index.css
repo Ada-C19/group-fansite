@@ -1,0 +1,24 @@
+body {
+    display: grid;
+    grid-template-rows: auto auto auto;
+}
+
+main {
+    padding-bottom:auto;
+}
+
+html {
+    background-color: thistle;
+}
+
+img {
+    border: 5px solid;
+    border-radius: 40px;
+}
+
+.footer {
+    display: flex;
+    justify-content: flex-end; 
+    flex-direction: column;
+    grid-row: 3/4;
+}
