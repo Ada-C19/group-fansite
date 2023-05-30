@@ -3,17 +3,6 @@ body {
     background-color: #d1e8ef;
 }
 
-h1 {
-    color: #4f4cb0;
-    text-align: center;
-    background-color: #d8c596;
-    padding: 25px;
-    font-size: 3em;
-    margin: 0;
-    gap: 10px;
-    letter-spacing: 5px;
-}
-
 .clickable-box {
     display: flex;
     flex-flow: row wrap;
