@@ -1,10 +1,58 @@
-/* #fancy_font {
-    padding: 0 400px;
-    margin: 50px 0 50px 0;
+body {
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+}
+
+.container {
+display: grid;
+grid-template-columns: 0.4fr 0.3fr 0.3fr;
+grid-column-gap: 10px;
+grid-row-gap: 15px;
+}
+
+.grid {
+background-color: #444;
+color: #fff;
+padding: 25px;
+font-size: 3rem;
+}
+
+div {
+    padding-top: 5px;
+    padding-right: 15px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+  }
+
+.header {
+grid-column: 1 / 4;
+grid-row: 1 / 2;
+color: #9f9c9c;
+text-transform: uppercase;
+border-bottom: 2px solid #b0e0ea;
+padding: 20px 0;
+display: flex;
+align-items: center;
+flex-direction: column;
+justify-content: center;
+font-size: 20px;
+border-top: 2px solid cadetblue;
+margin-bottom: 10px;
+font-family: 'Rubik', sans-serif;
+}
+
+#fancyfont {
+    margin: auto;
+    position: relative;
+    bottom: 35px;
+    width: auto;
+    padding: 0 30px;
     font-family: 'Permanent Marker', cursive;
-    font-size: 50px;
-    color: deeppink;
-} */
+    font-size: 45px;
+    color: #ff1493;
+    text-align: center;
+    background-color: #3a3a3a;
+}
 
 header > nav {
     position: relative;
@@ -15,46 +63,74 @@ header > nav {
 }
 
 
+ul {
+    list-style-type: none;
+    padding-left: 100px;
+}
+
+header > nav > ul > li {
+    display: inline-block;
+}
+
 nav > ul > li > a:hover {
     color: #eb5a68;
 }
 
-main { 
-    margin: 0 auto;
-}
-
-.scroll-container {
-    margin: 0px 100px;
-    font-family: 'Rubik', sans-serif;
-
-}
-
-h3 {
-    color: #60c7c9bb;
-    font-size: 1.5vw;
-    letter-spacing: 2px;
-    padding-left: 100px;
+div > ul > li > a:hover {
+color: #eb5a68;
 }
 
 p, a {
     color: rgba(248, 248, 255, 0.683);
     line-height: 30px;
-    text-align: center;
+    text-align: left;
     font-size: 1.1vw;
 }
 
-p {
-    margin: 0 auto;
-    width: 45vw;
+.facts{
+grid-column: 1 / 2;
+grid-row-start: 2 / 3;
+background-color: #d5c9e2;
+min-height: 300px;
 }
 
-ul {
-    list-style-type: none;
-    padding-left: 100px;
-
+.tacospots {
+grid-column: 1 / 2;
+grid-row: 3 / 5;
+min-height: 400px;
+background-color: #a0c263;
 }
 
-ul > li {
-    line-height: 2rem;
+ul.atlantaspots {
+    display: inline-block;
+  text-align: left;
 }
+
+#bigger {
+    font-size: 25px;
+    color: #ff1493;
+    line-height: 1.5;
+}
+
+.wordtaco {
+grid-column: 2 / 4;
+grid-row: 2 / 4;
+min-height: 500px;
+background-color: #f5c531;
+}
+
+.tacoamerica {
+grid-column: 2 / 4;
+grid-row: 4 / 5;
+min-height: 200px;
+background-color: #898989;
+}
+
+
+.footer {
+grid-column: 1 / 4;
+grid-row: 6 / 7;
+}  
+
+
 
