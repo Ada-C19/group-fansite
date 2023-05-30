@@ -49,6 +49,9 @@ div > ul > li > a:hover {
 color: #eb5a68;
 }
 
+nav > ul > li > a:hover {
+    color: #eb5a68;
+    }
 p, a {
     color: rgba(248, 248, 255, 0.683);
     line-height: 30px;
