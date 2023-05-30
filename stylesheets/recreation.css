@@ -1,0 +1,50 @@
+h3 {
+    width: fit-content;
+    background-color: rgba(156, 199, 213,.6);
+    color: darkblue;
+    content: center;
+}
+
+.content a {
+    color: black;
+}
+
+.content a:hover {
+    color: darkblue;
+}
+
+.nav a {
+    color: white;
+}
+
+.nav a:hover {
+    color: lightblue;
+}
+
+.container {
+    /* width: 60vw;
+    height: 100vh; */
+    height: 100vh;
+    display: grid;
+    /* used arbitrary units of measurement to mimic wireframe */
+    grid-template: 15% auto 10% / 150px 3fr;
+}
+
+.header {
+    background-color: slateblue;
+    grid-column: auto / span 2;
+}
+
+.nav {
+    background-color: navy;
+    grid-row: span 1 / span 2;
+}
+
+.content {
+    background-color: rgba(156, 199, 213,.6);
+
+}
+
+.footer {
+    background-color: #0072b2;
+}
