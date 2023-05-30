@@ -1,0 +1,21 @@
+.container {
+    /* width: 60vw;
+    height: 100vh; */
+    display: grid;
+    /* used arbitrary units of measurement to mimic wireframe */
+    grid-template: 15% auto 20% / 150px 3fr;
+}
+
+.header {
+    background-color: slateblue;
+    grid-column: auto / span 2;
+}
+
+.nav {
+    background-color: navy;
+    grid-row: span 1 / span 2;
+}
+
+.footer {
+    background-color: #0072b2;
+}
