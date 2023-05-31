@@ -53,17 +53,16 @@ footer ul {
 nav ul li a {
     text-decoration: none;
     color: rgb(138, 108, 111);
+    padding: 15px 20px;
     /* color: rgb(184,144,148); */
     /* color: rgb(92, 3, 40); */
 }
 
-nav ul li:hover {
+nav ul li a:hover {
+    color: whitesmoke;
+    background-color: #bf5962;
+    text-decoration: none;
     cursor: pointer;
-}
-
-nav a:hover {
-    /* color: rgb(195, 5, 56); */
-    color: tan;
 }
 
 footer {
