@@ -1,0 +1,106 @@
+/* .container > header > nav, .container > main > section, .container > footer */
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    font-family: 'Rubik', sans-serif;
+    font-size: 20px;
+    height: 50px;
+    border-top: 2px solid cadetblue;
+    border-left: 2px solid cadetblue;
+    border-top-left-radius: 10px;
+}
+
+header img {
+    position: absolute;
+    top: -50px;
+    right: 15%;
+    width: 350px;
+    height: auto;
+    z-index: 0;
+    background-color: #3a3a3a;
+}
+
+header > nav {
+    position: relative;
+    right: 80px;
+}
+
+header > nav > ul {
+    text-align: center;
+    list-style-type: none;
+}
+
+header nav ul li {
+    display: inline-block;
+}
+
+header > nav > ul > li > a {
+    text-decoration: none;
+    color: #f0cf48;
+    padding: 2px 40px;
+}
+
+/* stroke */
+nav.stroke ul li a[href]:hover:after {
+    width: 100%;
+}
+nav ul li a[href],
+nav ul li a[href]:after,
+nav ul li a[href]:before {
+    transition: all .5s;
+}
+nav ul li a[href]:hover {
+    color: #f0ce489a;
+}
+    
+nav.stroke ul li a[href] {
+    position: relative;
+}
+    
+nav.stroke ul li a[href]:after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 0%;
+    content: '.';
+    color: transparent;
+    background: #f0cf48;
+    height: 1px;
+} 
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 20px;
+    /* height: 75vh; */
+    z-index: 20;
+}
+
+main > section.content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    padding: 10px 40px;
+    width: 100%;
+}
+
+.text {
+    max-width: 50%;
+    margin-top: 10%;
+    text-align: center;
+    font-family: 'Permanent Marker', cursive;
+    color: cadetblue;
+    font-size: 50px;
+
+}
+
+.subheader {
+    font-family: 'Rubik', sans-serif;
+    font-size: 50px;
+}

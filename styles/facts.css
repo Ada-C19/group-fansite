@@ -1,0 +1,114 @@
+body {
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 0.4fr 0.3fr 0.3fr;
+    grid-column-gap: 10px;
+    grid-row-gap: 15px;
+}
+
+.grid {
+    background-color: #444;
+    color: #fff;
+    padding: 25px;
+    font-size: 3rem;
+}
+
+div {
+    padding-top: 5px;
+    padding-right: 15px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    border-radius: 25px;
+}
+
+.header {
+    grid-column: 1 / 4;
+    grid-row: 1 / 2;
+}
+
+
+header > nav {
+    position: relative;
+    right: 40px;
+    bottom: 35px;
+    min-width: 50vw;
+    font-size: 1.1vw;
+    text-align: center;
+}
+
+
+ul {
+    list-style-type: none;
+    padding-left: 100px;
+}
+
+div > ul > li > a:hover {
+color: #eb5a68;
+}
+
+nav > ul > li > a:hover {
+    color: #eb5a68;
+    }
+p, a {
+    color: rgba(248, 248, 255, 0.683);
+    line-height: 30px;
+    text-align: left;
+    font-size: 1.1vw;
+}
+
+.facts{
+    grid-column: 1 / 2;
+    grid-row-start: 2 / 3;
+    background-color: #d5c9e2;
+    min-height: 300px;
+}
+
+.tacospots {
+    grid-column: 1 / 2;
+    grid-row: 3 / 5;
+    min-height: 400px;
+    background-color: #566b30;
+}
+
+ul.atlantaspots {
+    display: inline-block;
+    text-align: left;
+    padding: 0;
+}
+
+#bigger {
+    font-size: 20px;
+    color: #ff1493;
+    line-height: 1.5;
+}
+
+.wordtaco {
+    grid-column: 2 / 4;
+    grid-row: 2 / 4;
+    min-height: 500px;
+    background-color: #f5c531;
+}
+
+.tacoamerica {
+    grid-column: 2 / 4;
+    grid-row: 4 / 5;
+    min-height: 200px;
+    background-color: #898989;
+}
+
+
+.footer {
+    grid-column: 1 / 4;
+    grid-row: 6 / 7;
+}  
+
+h3 {
+    color: #60c7c9bb;
+    font-size: 1.5vw;
+    letter-spacing: 2px;
+}
+
