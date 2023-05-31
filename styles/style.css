@@ -1,0 +1,114 @@
+body {
+    font-family: Tahoma;
+    background-color: #d1e8ef;
+}
+
+.clickable-box {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    color: #4f4cb0;
+    font-size: 1.5rem;
+    margin-top: 20px;
+}
+
+.clickable-box img {
+    width: 200px;
+    height: 200px;
+    justify-content: space-evenly;
+    border-radius: 100px;
+    border: 2px lightcyan solid;
+    /* gap: 100px; */
+}
+
+.avatar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    font-style: italic;
+}
+
+.nav-bar {
+    display: flex;
+    float:left;
+    height: 780px;
+    width: 200px;
+    background-color: #97e7ca;
+    flex-direction: column;
+    border: black 2px solid;
+    font-size: x-large;
+    margin-top: 10px;
+    margin-left: 10px;
+    border-radius: 10px;
+    /* justify-content:space-evenly; */
+    /* object-fit: contain; */
+    /* margin-bottom: auto;
+    margin-top: auto;
+    margin: 0 auto; */
+    /* position: relative; */
+    /* align-items: flex center; */
+    /* grid-row: auto/2; */
+}
+
+.nav-bar ul {
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    font-size: x-large;
+    justify-content: space-evenly;
+    text-align: center;
+    list-style: none;
+    gap: 100px;
+    margin-top: 120px;
+}
+
+#world-pic {
+    height: 500px;
+    width: 1000px;
+    /* display: flex; */
+    justify-content: center;
+    align-content: center;
+    margin-left: 90px;
+    border-radius: 50px;
+}
+
+section img {
+    float: center;
+    width: 50%;
+    height: 50%;
+    margin: 10px;
+}
+
+footer {
+    display: flex;
+    background-color: beige;
+    border-style:ridge;
+    justify-content: center;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color: pink;
+}
+
+h1 {
+    color: #4F4CB0;
+    text-align: center;
+    background-color: #D8C596;
+    padding: 25px;
+    font-size: 3em;
+    margin: 0;
+    gap: 10px;
+    letter-spacing: 5px;
+}
