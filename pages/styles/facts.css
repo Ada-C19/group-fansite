@@ -1,0 +1,43 @@
+main {
+    font-size: large;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: auto;
+    gap: 50px;
+    justify-content: center;
+    line-height: 35px;
+}
+
+.flex-container h4 {
+    text-align: center;
+}
+
+#flex-item-1 {
+    flex: 25;
+    background-color: #292119;
+    color: white;
+}
+
+#flex-item-2 {
+    flex: 65;
+    background-color: wheat;
+}
+
+.flex-item li::marker {
+    color: red;
+}
+
+.flex-item {
+    border: 2px double #b11a21;
+    border-radius: 5px;
+}
+
+p {
+    text-align: justify;
+    text-justify: inter-word;
+    font-size: large;
+}
