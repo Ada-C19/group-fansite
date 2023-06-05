@@ -1,0 +1,75 @@
+* {
+    border: 1px solid black;
+    font-family: 'Roboto', sans-serif;
+    /* margin: 0 auto; */
+    text-align: center;
+}
+
+
+
+h1 {
+    font-size: 30px;
+    /* text-align: center; */
+    background-color: lightskyblue;
+    color: white;
+}
+
+nav {
+    text-align: center;
+    background-color: aqua;
+}
+
+nav ul {
+    /* display: inline-block;  this should go to li*/
+    list-style: none;
+    background-color: bisque;
+}
+
+
+nav ul li {
+    display: inline-block;
+    font-size: 25px;
+    width: 25%;
+    background-color: pink;
+    margin: auto;
+}
+
+footer {
+    background-color: lavender;
+    font-size: 16px;
+}
+
+
+.fun-facts-container {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    justify-content: space-evenly;
+    background-color: aliceblue;
+}
+
+
+.fun-facts-container li {
+    max-width: 18%;
+    background-color: lightgoldenrodyellow;
+}
+.fun-facts-container li p {
+    text-align: left;
+    line-height: 120%;
+
+}
+
+.fun-facts-container li img {
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    object-position: 10% 1%;
+}
+
+h4 {
+    font-size: 20px;
+}
+
+p {
+    font-size: 16px;
+}

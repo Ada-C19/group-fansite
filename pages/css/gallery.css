@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+    color: rgb(239, 120, 41);
+}
+
+nav {
+    text-align: center;
+    background-color: rgba(39, 28, 10, 0.906);
+}
+
+body {
+    background-color:  rgb(69, 45, 20);
+    
+}
+
+.gallery-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+/* 
+    figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+} */
+
+    figure img {
+    width: 100%;
+    max-width: 300px;
+    height: 300px;
+}
+
+footer {
+    background-color: rgba(39, 28, 10, 0.906);
+    font-size: 25px;
+}
+
+
+
