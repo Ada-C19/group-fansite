@@ -1,0 +1,70 @@
+/* Add some fun and cool CSS styles here */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #2893a1;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin: 0 10px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    transition: color 0.3s;
+  }
+  
+  nav a:hover {
+    color: #ff4081;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 36px;
+    color: #333;
+  }
+  
+  p {
+    text-align: center;
+    font-size: 24px;
+    color: #666;
+  }
+  
+  .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 50px;
+  }
+  
+  .gallery img {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    margin: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s;
+  }
+  
+  .gallery img:hover {
+    transform: scale(1.1);
+  }
+  
