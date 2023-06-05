@@ -3,21 +3,12 @@ h1 {
     color: #0000ff;
 }
 
-figure {
-    margin-bottom: 20px;
-}
-
-figure img {
-    width: 10%;
-    height: 25%;
-}
-
-figcaption {
+    figcaption {
     font-style: italic;
 }
 
-/* Override generic style for footer */
-footer {
+  /* Override generic style for footer */
+    footer {
     background-color: #ddd;
     color: #555;
 }
