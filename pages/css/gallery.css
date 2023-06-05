@@ -1,6 +1,16 @@
 * {
     box-sizing: border-box;
-    color: purple;
+    color: rgb(239, 120, 41);
+}
+
+nav {
+    text-align: center;
+    background-color: rgba(39, 28, 10, 0.906);
+}
+
+body {
+    background-color:  rgb(69, 45, 20);
+    
 }
 
 .gallery-container {
@@ -24,3 +34,11 @@
     max-width: 300px;
     height: 300px;
 }
+
+footer {
+    background-color: rgba(39, 28, 10, 0.906);
+    font-size: 25px;
+}
+
+
+
