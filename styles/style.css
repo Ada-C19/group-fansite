@@ -1,0 +1,116 @@
+.item1 { grid-area: header; }
+.item3 { grid-area: main; }
+.item5 { 
+  grid-area: footer; 
+  background-color: rgba(113, 135, 246, 0.577);
+}
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'header header header header header header'
+    'main main main main main main'
+    'footer footer footer footer footer footer';
+  gap: 10px;
+  background-color: #2196F3;
+  background-image: url(/images/puppaws.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 0cm -3cm ;
+  /* padding: 10px; */
+}
+
+body{
+  margin: 0;
+}
+
+.grid-container > div {
+  background-color: rgba(113, 135, 246, 0.577);
+  text-align: center;
+  padding: 20px 40px;
+  font-size: 30px;
+}
+
+header {
+  font-size: 89px;
+  text-align: right;
+}
+
+* {
+  font-family: 'Indie Flower', cursive;
+}
+
+.photo { 
+  border-radius: 50%;
+  width: 200px;
+}
+.sizephoto {
+  width: 300px;
+}
+
+.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+.picture-container
+{
+    position:bottom ;
+    /* background-color: lightgrey; */
+    height: 500px;
+}
+
+.picture-container .polaroid:hover{
+  color: #111; 
+  background: rgb(251, 255, 216); 
+  box-shadow: 0 0 100px rgb(245, 254, 201); 
+}
+
+.picture-container .polaroid
+{
+    position: absolute;
+    border: 1px solid darkgrey;
+    background-color: white;
+    padding: 15px 15px 60px 15px;
+    box-shadow: 5px 10px 10px rgb(51, 51, 51);
+}
+
+.picture-container .polaroid:after
+{
+    content: attr(data-caption);
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: calc(100% - 20px);
+    padding: 10px;
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Indie Flower', cursive;
+}
+
+.picture-container .image1
+{
+    left: 70px;
+    top: 130px;
+    transform: rotate(-20deg);
+    -ms-transform: rotate(-20deg);
+    -webkit-transform: rotate(-20deg);
+}
+
+.picture-container .image2
+{
+    left: 590px;
+    top: 150px;
+    transform: rotate(20deg);
+    -ms-transform: rotate(20deg);
+    -webkit-transform: rotate(20deg);
+}
+
+.picture-container .image3
+{
+    left: 320px;
+    top: 55px;
+    transform: rotate(5deg);
+    -ms-transform: rotate(5deg);
+    -webkit-transform: rotate(5deg);
+}
