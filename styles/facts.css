@@ -1,0 +1,37 @@
+*{
+    background-color: rgb(101, 161, 214);
+}
+
+
+h1{
+    font-family:OCR A Std, monospace;
+    color: rgb(185, 211, 255)
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  
+.Facts-Intro{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+.Bullted-Facts{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+a:visited{
+    color: rgb(45, 95, 189) 
+}
+
+a:hover{
+    color:rgb(138, 227, 243)
+}
