@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@200&display=swap');
+@font-face {
+    font-family: Norwester;
+    src: url(../assets/norwester.woff);
+}
+
+:root{
+    --green0: #2e4530;
+    --green1: #4e6647;
+    --brown0: #ba8559;
+    --brown1: #7e5736;
+    --taupe0: #bfb7b7;
+}
+
+a:link{
+    color: #4e6647;
+}
+a:hover{
+    color:#bfb7b7;
+}
+a:visited{
+    color: #ba8559;
+}
+
+a{
+    font-family: "Barlow", sans-serif;
+    padding: 20px;
+    font-size: large;
+}
+
+body{
+    background: var(--brown0);
+    margin: 0px;
+    padding: 0px;
+}

@@ -1,0 +1,103 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+body{
+    background-color: #fff;
+    margin: 0px;
+}
+h1{
+    font-family: Norwester, sans-serif;
+    color: var(--brown1);
+    font-size: 3rem;
+    margin-top: 1.5em;
+    margin-right: 0.5em;
+    margin-left: .2em;
+    
+}
+.side-bar{
+    display: flex;
+    width: 25%;
+    list-style: none;
+}
+
+ul{
+    list-style: none;
+    position: absolute;
+    font-weight: bold;
+    font-size: 1.1rem;
+    padding: 0px;
+}
+li{
+    font-family: "Barlow", sans-serif;
+    padding: 10px;
+}
+
+.side-bar a{
+    padding: 0;
+}
+
+.img-box h3{
+    font-family: 'Archivo Black', sans-serif;
+    color: white;
+    position: absolute;
+    bottom: 0px;
+    left: 30px;
+    opacity: 0;
+    transition: bottom 0.5s, opacity 0.5s ;
+}
+
+.gallery{
+    width: 75%;
+    height: 100vh;
+    background: var(--taupe0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-left: 1px solid var(--brown1);
+
+}
+.img-box{
+    width: 150px;
+    height: 80vh;
+    margin: 10px;
+    border-radius: 60px;
+    background-image: url(../assets/ellis-dieperink-DZQV8a063dM-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    transition: width 900ms;
+    box-shadow: 10px 10px 10px gray;
+}
+
+.img-box:nth-child(2){
+    background: url(../assets/dave-herring-4tiTrEKRmnM-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.img-box:nth-child(3){
+    background: url(../assets/jason-hawke-Zdl_ocTX07E-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.img-box:nth-child(4){
+    background: url(../assets/daniel-radford-P24q-XuuOvs-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.img-box:nth-child(5){
+    background: url(../assets/lorimcm-5rodOJCglvI-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.img-box:hover{
+    width: 70vw;
+    cursor: pointer;
+
+}
+.img-box:hover h3{
+    opacity: 1;
+    bottom: 25px;
+}
